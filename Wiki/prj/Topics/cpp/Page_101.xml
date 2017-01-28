@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">fopen</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">fopen</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.0; background-color:#fefefe; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:18pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#990000;" translate="true">Функция fopen</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">#include &lt;stdio.h&gt;</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">FILE *fopen(const char *</text><text styleclass="Normal" style="font-family:Courier; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">fname</text><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">, const char *</text><text styleclass="Normal" style="font-family:Courier; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">mode</text><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">);</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Функция</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fopen()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">открывает файл, имя которого задается параметром</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">fname</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">, и возвращает указатель на поток, связанный с этим файлом. Типы операций, которые разрешено выполнять с файлом, определяются параметром</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mode</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">. Возможные значения параметра</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mode</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">приведены в таблице 13.1. Строка символов, которая будет играть роль имени реального файла, должна определять его имя, допустимое в данной операционной системе. Эта строка может включать спецификацию пути, если среда поддерживает такую возможность.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">В версии C99 к параметрам</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">fname</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">и</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mode</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">применен квалификатор</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">restrict</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Если функция</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fopen()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">успешно открыла заданный файл, она возвращает указатель</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">FILE</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">. Если файл открыть не удается, возвращается нулевой указатель.</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Таблица 13.1. Допустимые значения параметра</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mode</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">функции</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fopen()</text></para>
+    <para styleclass="Normal" style="text-align:center; margin-left:80px; line-height:1.0; page-break-after:auto; tabstops:none;"><table rowcount="13" colcount="2" style="width:100%; cell-padding:1px; cell-spacing:2px; page-break-inside:auto; border-width:1px; border-spacing:2px; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:#fefefe; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Режим</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; font-weight:bold; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Назначение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;r&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает текстовый файл для чтения</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;w&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Создает текстовый файл для записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;а&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Дописывает в текстовый файл</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;rb&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает двоичный файл для чтения</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;wb&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Создает двоичный файл для записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;ab&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Дописывает в двоичный файл</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;r+&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает текстовый файл для чтения и записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;w+&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Создает текстовый файл для чтения и записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;а+&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает текстовый файл для чтения и записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;rb+&quot; или &quot;r+b&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает двоичный файл для чтения и записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;wb+&quot; или &quot;w+b&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Создает двоичный файл для чтения и записи</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&quot;ab+&quot; или &quot;а+b&quot;</text></para>
+        </td>
+        <td style="vertical-align:middle;">
+          <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Открывает двоичный файл для чтения и записи</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Как видно из таблицы, файл можно открывать либо в текстовом, либо в двоичном режиме. В текстовом режиме выполняются преобразования некоторых символов. Например, символы новой строки преобразуются в комбинацию кодов возврата каретки (ASCII 13) и конца строки (ASCII 10). В двоичном режиме подобные преобразования не выполняются.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">В следующем фрагменте программы иллюстрируется корректный способ открытия файла.</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">FILE *fp;</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">if ((fp = fopen(&quot;test&quot;, &quot;w&quot;))==NULL) {</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true"> &#160;printf(&quot;He удается открыть файл.\n&quot;);</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true"> &#160;exit(1);</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">}</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Благодаря такому методу перед записью в файл выявляется любая ошибка, возникающая при его открытии, например, использование защищенного от записи или заполненного диска.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Если с помощью функции</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fopen()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">открывается файл для вывода (записи), то любой уже существующий файл с заданным именем удаляется, а вместо него создается новый. Если файл с таким именем не существует, он будет создан. Чтобы открыть файл для выполнения операций чтения, нужно, чтобы этот файл уже существовал. В противном случае функция возвратит значение ошибки. Чтобы добавить данные в конец файла, необходимо использовать режим</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">&quot;а&quot;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">. Если окажется, что указанный файл не существует, он будет создан.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Осуществляя доступ к файлу, который открыт для чтения и записи, не следует сразу за операцией ввода выполнять операцию вывода, не прибегнув прежде к промежуточному вызову одной из следующих функций:</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fflush()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">,</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fseek()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">,</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">fsetpos()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">или</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">rewind()</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">. Нельзя также сразу за операцией вывода выполнять операцию ввода, не прибегнув прежде к промежуточному вызову одной из перечисленных выше функций. Исключением является момент достижения конца файла во время операции ввода, т.e. в конце файла вывод может непосредственно следовать за вводом.</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Максимальное количество файлов, которые могут быть открыты одновременно, ограничивается значением</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">FOPEN_MAX</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">, определенным в заголовке</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; text-decoration:none; vertical-align:baseline; color:#007a00;" translate="true">&lt;stdio.h&gt;</text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">.</text></para>
+    <para styleclass="Normal" style="margin-top:11px; margin-left:79px; line-height:1.0; background-color:#fefefe; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:14pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#990000;" translate="true">Пример</text></para>
+    <para style="text-align:justify; text-indent:38px; margin-top:6px; margin-left:79px; background-color:#fefefe;"><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">Следующий фрагмент открывает файл с названием TEST для чтения-записи в двоичном режиме.</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">FILE *fp;</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">if((fp=fopen(&quot;test&quot;, &quot;rb+&quot;))==NULL) {</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true"> &#160;printf(&quot;He удается открыть файл.\n&quot;);</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true"> &#160;exit(1);</text></para>
+    <para styleclass="Normal" style="margin-left:98px; line-height:1.0; background-color:#fefefe; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#461b7e;" translate="true">}</text></para>
+    <para><line style="height:1px; color:#999999;" /></para>
+    <para styleclass="Normal" style="margin-top:10px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,1306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SQL</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SQL</text></para>
+    </header>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Введите здесь текст темы.</text></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="Code Example" style="text-indent:0px; margin-right:0px; margin-left:13px; tabstops:none;"><table rowcount="76" colcount="5" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ABORT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ABSOLUTE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ACTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ACTIVE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ADD</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AFTER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ALL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ALLOCATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ALTER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ANALYZE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AND</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ANY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ARE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ASC</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ASCENDING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ASSERTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AUTHORIZATION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AUTO</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AUTO_INCREMENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AUTOINC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">AVG</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BACKUP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BEFORE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BEGIN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BETWEEN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BIGINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BINARY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BIT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BLOB</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BOOLEAN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BOTH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BREAK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BROWSE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BULK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">BYTES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CACHE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CALL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CASCADE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CASCADED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CASE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CAST</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CATALOG</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHANGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHAR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHARACTER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHARACTER_LENGTH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHECK</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CHECKPOINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CLOSE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CLUSTER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CLUSTERED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COALESCE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COLLATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COLUMN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COLUMNS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COMMENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COMMIT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COMMITTED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COMPUTE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COMPUTED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONDITIONAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONFIRM</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONNECT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONNECTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONSTRAINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONSTRAINTS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONTAINING</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONTAINS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONTAINSTABLE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONTINUE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONTROLROW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CONVERT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COPY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">COUNT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CREATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CROSS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CSTRING</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CUBE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURRENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURRENT_DATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURRENT_TIME</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURRENT_TIMESTAMP</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURRENT_USER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">CURSOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DATABASE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DATABASES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DATE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DATETIME</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DAY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DBCC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DEALLOCATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DEBUG</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DEC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DECIMAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DECLARE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DEFAULT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DELETE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DENY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DESC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DESCENDING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DESCRIBE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DISCONNECT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DISK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DISTINCT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DISTRIBUTED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DIV</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DO</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DOMAIN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DOUBLE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DROP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DUMMY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">DUMP</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ELSE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ELSEIF</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ENCLOSED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">END</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ERRLVL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ERROREXIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ESCAPE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ESCAPED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXCEPT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXCEPTION</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXEC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXECUTE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXISTS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXPLAIN</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXTEND</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXTERNAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXTRACT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FALSE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FETCH</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FIELD</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FIELDS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FILE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FILLFACTOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FILTER</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FLOAT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FLOPPY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FORCE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FOREIGN</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FOUND</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FREETEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FREETEXTTABLE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FROM</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FULL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">FUNCTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GENERATOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GET</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GLOBAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GO</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GOTO</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GRANT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GROUP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">HAVING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">HOLDLOCK</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">HOUR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">IDENTITY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">IF</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">IN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INACTIVE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INDEX</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INDICATOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INFILE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INNER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INOUT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INPUT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INSENSITIVE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INSERT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INTEGER</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INTERSECT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INTERVAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">INTO</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">IS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ISOLATION</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">JOIN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">KEY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">KILL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LANGUAGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LAST</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LEADING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LEFT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LENGTH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LEVEL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LIKE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LIMIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LINENO</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LINES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LISTEN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOAD</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOCAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOCK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOGFILE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LONG</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOWER</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MANUAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MATCH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MAX</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MERGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MESSAGE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MIN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MINUTE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MIRROREXIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MODULE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MONEY</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MONTH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MOVE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NAMES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NATIONAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NATURAL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NCHAR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NEW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NO</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NOCHECK</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NONCLUSTERED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NONE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NOT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NULL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NULLIF</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">NUMERIC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OF</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OFF</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OFFSET</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OFFSETS</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ON</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ONCE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ONLY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OPEN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OPTION</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ORDER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OUTER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OUTPUT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OVER</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OVERFLOW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">OVERLAPS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PAD</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PAGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PAGES</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PARAMETER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PARTIAL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PASSWORD</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PERCENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PERM</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PERMANENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PIPE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PLAN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">POSITION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PRECISION</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PREPARE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PRIMARY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PRINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PRIOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PRIVILEGES</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PROC</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PROCEDURE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PROCESSEXIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PROTECTED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PUBLIC</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">PURGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RAISERROR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">READ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">READTEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REAL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REFERENCES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REGEXP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RELATIVE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RENAME</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REPEAT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REPLACE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REPLICATION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REQUIRE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RESERV</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RESERVING</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RESET</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RESTORE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RESTRICT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RETAIN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RETURN</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RETURNS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">REVOKE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RIGHT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ROLLBACK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ROLLUP</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ROWCOUNT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">RULE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SAVE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SAVEPOINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SCHEMA</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SECOND</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SECTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SEGMENT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SELECT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SENSITIVE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SEPARATOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SEQUENCE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SESSION_USER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SET</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SETUSER</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SHADOW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SHARED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SHOW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SHUTDOWN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SINGULAR</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SIZE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SMALLINT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SNAPSHOT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SOME</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SORT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SPACE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SQL</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SQLCODE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SQLERROR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">STABILITY</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">STARTING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">STARTS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">STATISTICS</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SUBSTRING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SUM</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SUSPEND</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TABLE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TABLES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TAPE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TEMP</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TEMPORARY</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TEXTSIZE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">THEN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TIME</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TIMESTAMP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TO</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TOP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRAILING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRAN</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRANSACTION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRANSLATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRIGGER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRIM</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRUE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">TRUNCATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UNCOMMITTED</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UNION</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UNIQUE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UNTIL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UPDATE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UPDATETEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">UPPER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">USAGE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">USE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">USER</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">USING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VALUE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VALUES</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VARCHAR</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VARIABLE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VARYING</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VERBOSE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VIEW</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">VOLUME</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WAIT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WAITFOR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WHEN</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WHERE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WHILE</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WITH</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WORK</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WRITE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">WRITETEXT</text></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">XOR</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:177px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">YEAR</text></para>
+        </td>
+        <td style="vertical-align:middle; width:169px;">
+          <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ZONE</text></para>
+        </td>
+        <td style="vertical-align:middle; width:168px;">
+          <para styleclass="Code Example"></para>
+        </td>
+        <td style="vertical-align:middle; width:197px;">
+          <para styleclass="Code Example"></para>
+        </td>
+        <td style="vertical-align:middle; width:205px;">
+          <para styleclass="Code Example"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

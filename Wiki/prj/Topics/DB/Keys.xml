@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Ключи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Ключи</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Первичный ключ</text><text styleclass="Normal" translate="true"> – это один или несколько атрибутов, однозначно определяющих каждый экземпляр сущности. Если первичный ключ состоит из нескольких атрибутов, то он называется составным. Первичный ключ не должен &#160;изменяться &#160;и &#160;принимать &#160;неопределенное &#160;значение (NULL).</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Внешний ключ</text><text styleclass="Normal" translate="true"> – это первичный ключ другой сущности, который мигрирует (копируется) в сущность и служит для </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Relation" styleclass="Normal" translate="true">связи</link><text styleclass="Normal" translate="true"> сущностей.</text></para>
+  </body>
+</topic>

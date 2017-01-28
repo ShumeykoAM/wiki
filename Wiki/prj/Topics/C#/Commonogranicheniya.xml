@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Ограничения присущие обобщениям</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Ограничения присущие обобщениям</text></para>
+    </header>
+    <para style="line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Свойства, операторы, индексаторы и события не могут быть обобщенными. Но эти элементы могут использоваться в обобщенном классе, причем с параметрами обобщенного типа этого класса.</text></para>
+    <para style="margin-top:13px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">• К обобщенному методу нельзя применять модификатор extern.</text></para>
+    <para style="line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">• Типы указателей нельзя использовать в аргументах типа.</text></para>
+    <para style="line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">• Если обобщенный класс содержит поле типа static, то в объекте каждого конструируемого типа должна быть своя копия этого поля. Это означает, что во всех экземплярах объектов одного конструируемого типа совместно используется одно и то же поле типа static. Но в экземплярах объектов другого конструируемого типа совместно используется другая копия этого поля. Следовательно, поле типа static не может совместно использоваться объектами всех конструируемых типов.</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+  </body>
+</topic>

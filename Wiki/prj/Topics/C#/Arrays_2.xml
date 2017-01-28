@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Массивы_2</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Массивы</text></para>
+    </header>
+    <para style="line-height:1.60;"><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Все массивы являются </text><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">ссылочными</text><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> типами, поэтому можно создавать только ссылки на массивы, и оперировать или так же как и ссылками на классы.</text></para>
+    <para style="margin-top:13px; line-height:1.60;"><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Массивы хранят однотипные элементы.</text></para>
+    <para style="margin-top:13px; margin-bottom:13px; line-height:1.60;"><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Массивы контролируют выход за границы массива, при выходе за границы генерируется исключение.</text></para>
+  </body>
+</topic>

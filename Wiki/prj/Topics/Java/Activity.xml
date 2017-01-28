@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Деятельность</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Деятельность</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Деятельность - это лкно приложения, как правило полноэкранная форма.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Деятельность может использовать дополнительные всплывающие окна.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Визуальное наполнение окна определяется иерархией представлений (контролов), каждое представление управляет заданным прямоугольным пространством в пределах окна. Родительские представления содержат и организовывают схему размещения дочерних представлений.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Все деятельности реализуются как подкласс базового класса </text><text styleclass="Code Example" style="color:#0000ff;" translate="true">Activity</text><text styleclass="Normal" style="color:#0000ff;" translate="true">&#32;</text><text styleclass="Normal" style="color:#000000;" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#000000;" translate="true">В ОС Андроид существует стек деятельностей, активной может быть только одна деятельность, каждая деятельность работает независимо.</text></para>
+  </body>
+</topic>

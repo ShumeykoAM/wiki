@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Создание jar</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Создание jar</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Необходимо создать артефакт и при его build будет сгенерирован JAR.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">1. Project Structure, вкладка Artifacts. Нажимаем [+], в выпавшем меню выбираем JAR.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">2. В панели слева - содержимое JAR-файла, в панели справа - содержимое проекта. Перетаскиваем справа налево все, что хотим включить в JAR.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">3. Указываем имя для файла и директорию назначения над панелями</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">3. Нажимаем на  кнопку create manifest под левой панелью, создаем manifest.mf. При этом IDE спросит Main class и classpath для указания в манифесте.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">4. Не забудем поставить галочку &quot;Build on make&quot; над панелями</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">5. Теперь в меню Build есть команда сборки артефакта</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">А что указывать в пункте 3. CLASSPATH?</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Это зависимые библиотеки, используемые в программе.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Если их нет можно оставить данное поле пустым?</text></para>
+  </body>
+</topic>

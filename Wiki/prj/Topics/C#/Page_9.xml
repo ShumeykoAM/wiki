@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Инструкции управления</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Инструкции управления</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">if else</text></para>
+    <para style="margin-top:6px; margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">switch case break default</text></para>
+    <para style="margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">for break continue</text></para>
+    <para style="margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">while do break continue</text></para>
+    <para style="margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">foreach break continue</text></para>
+    <para style="margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">return</text></para>
+    <para style="margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">goto</text></para>
+  </body>
+</topic>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Ключевые слова C++</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Ключевые слова C++</text></para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.0; background-color:#99ccff; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_145" styleclass="Normal" style="font-family:Verdana; font-size:8pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">page_145.html</link></para>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:93px;"><table rowcount="16" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td colspan="5" style="width:518px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Ключевые слова C++</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">and &#160; &#160; &#160; &#160; (&amp;&amp;)</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">continue</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">goto</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">public</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">try</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">and_eq &#160; &#160;(&amp;=) &#160;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">default</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">if</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_63" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">register</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_11" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">typedef</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">asm &#160; &#160;(__asm) &#160;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">delete</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_123" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">inline</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_93" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">reinterpret_cast</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_265" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">typeid</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_64" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">auto</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">do</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_5" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">int</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">return</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">typename</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">bitand &#160; &#160; &#160; &#160;(&amp;)</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_6" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">double</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_45" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">long</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_45" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">short</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_243" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">union</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">bitor &#160; &#160; &#160; &#160; &#160;( | )</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_92" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">dynamic_cast</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_145" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mutable</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_45" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">signed</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_45" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">unsigned</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_3" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">bool</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">else</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">namespace</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">sizeof</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">using</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">break</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_10" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">enum</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">new</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_60" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">static</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">virtual</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">case</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">explicit</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">not &#160; &#160; &#160; &#160; &#160; &#160; &#160; (!)</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_92" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">static_cast</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_7" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">void</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">catch</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">export</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">not_eq &#160; &#160; &#160; (!=)</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_238" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">struct</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_56" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">volatile</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_4" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">char</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_59" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">extern</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_134" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">operator</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">switch</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_4" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">wchar_t</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">class</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">false</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">or &#160; &#160; &#160; &#160; &#160; &#160; &#160;( || )</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_133" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">template</link></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">while</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">compl &#160; &#160; &#160; (~)</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_6" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">float</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">or_eq &#160; &#160; &#160; &#160; (|=)</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">this</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">xor &#160; &#160; &#160; &#160; &#160; (^)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_55" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">const</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">for</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">private</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">throw</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">xor_eq &#160; (^=)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_94" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">const_cast</link></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">friend</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">protected</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">true</text></para>
+        </td>
+        <td style="width:95px;">
+        </td>
+      </tr>
+    </table></para>
+    <para style="text-align:center; margin-left:92px;"><text style="font-family:Verdana; font-size:8pt; color:#000000;" translate="true">&#32;</text></para>
+    <para style="text-align:center; margin-left:92px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">Ключевые слова C++ вне стандарта</text></para>
+    <para style="text-align:center; margin-left:92px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">Не во всех компиляторах</text></para>
+    <para style="margin-left:93px;"><table rowcount="1" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">__unaligned</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">gcnew</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_165" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">property</link></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> __try</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">__finally</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:93px;"><table rowcount="1" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> __except</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> __declspec</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:93px;"><table rowcount="1" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:93px;"><table rowcount="1" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:102px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:104px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:113px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:95px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <list id="17" type="ul" listtype="bullet" formatstring="&#183;" format-charset="RUSSIAN_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:-13px; margin-top:14px; margin-left:57px; line-height:1.0; page-break-after:auto; tabstops:none; font-family:Symbol; font-size:8pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:-13px; margin-top:14px; margin-left:57px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></li>
+    </list>
+    <para><line style="height:2px;" /></para>
+    <para style="margin-top:6px; margin-bottom:6px;"><text style="font-family:Verdana; font-size:8pt; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

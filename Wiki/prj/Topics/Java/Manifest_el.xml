@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">&lt;manifest&gt;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">&lt;manifest&gt;</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Элемент &lt;manifest&gt; является корневым элементом файла Android-Manifest.xml. Поумолчанию мастер создания проекта Android в Eclipse создает элемент с четырьмя атрибутами: </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; </text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" translate="true">package=&quot;com.programmingandroid.helloandroid&quot; </text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" translate="true">android:versionCode=&quot;1&quot; </text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" translate="true">android:versionName=&quot;l.0&quot;&gt;</text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:47px; tabstops:none;"><text styleclass="Normal" translate="true">. . .</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">&lt;/manifest&gt;, </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">где: </text></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">xmlns:android - определяет пространство имен Android. Это значение всегда неизменно для всех приложений;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">package - определяет имя пакета приложения, которое вы определили при </text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">создании приложения; </text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">android:versionCode - указывает внутренний номер версии;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">android:versionName - указывает номер пользовательской версии. Этот атрибут может быть установлен как строка или как ссылка на строковый ресурс. </text></li>
+    </list>
+  </body>
+</topic>

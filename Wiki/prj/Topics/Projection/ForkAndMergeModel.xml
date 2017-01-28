@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Shumeiko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Расщепление и слияние моделей в PB_Modeler</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Расщепление и слияние моделей в PB_Modeler</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Слияние и расщепление моделей необходимо для </text><text styleclass="Normal" style="font-weight:bold;" translate="true">коллективной</text><text styleclass="Normal" translate="true"> работы над моделью. Руководитель проекта может создать декомпозицию верхнего уровня и провести расщепление модели на отдельные модели. Аналитики работают над отдельными моделями, а затем сливают отдельные модели в единую модель. Отдельная ветвь модели может быть отщеплена для использования в качестве независимой модели.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Типы данных</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="margin-top:32px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Heading1" style="font-family:Cambria; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#365f91;" translate="true">Встроенные типы</text></para>
+    </header>
+    <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Язык С# строго типизированный, соответствие типов выполняется на этапе компиляции. Есть одно исключение это тип данных </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">dynamic</text><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+    <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">В C# есть две категории типов данных: типы значений и ссылочные типы. Тип значения содержит само значение, а тип ссылочный тип содержит ссылку на значение.</text></para>
+    <para><image src="TypesDataImg.png" scale="100.00%" styleclass="Image Caption"></image><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Ниже в таблице представлены 13 встроенных, простых типов, которые являются типами </text><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">значений</text><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> .</text></para>
+    <para style="margin-left:1px;"><table rowcount="22" colcount="15" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:73px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Тип</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:44px; height:62px;">
+          <para style="text-align:center; margin-right:8px; margin-left:8px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Размер в байтах</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Минимум</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Максимум</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Библиотечный тип</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Литералы</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="15" style="vertical-align:middle; width:782px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">Целочисленные типы</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">byte</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">255</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Byte</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">12</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">sbyte</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-128</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">127</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">SByte</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-45</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">short</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">2</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">32</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">768</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">32</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">767</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Int16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-15345</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">ushort</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">2</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">65</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">535</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">UInt16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1024</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">4</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">2</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">147</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">483</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">648</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">2</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">147</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">483</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">647</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Int32</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-5020 &#160;0xF3</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">uint</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">4</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">4</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">294</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">967</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">295</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">UInt32</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">300U 0xF3U</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">long</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-9</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">223</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">372</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">036</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">854</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">775</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">808</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">9</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">223</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">372</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">036</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">854</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">775</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">807</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Int64</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-123L</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">ulong</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:212px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:198px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">18</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">446</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">744</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">073</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">709</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#d3d3d3;" translate="true">551</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">615</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">UInt64</text></para>
+        </td>
+        <td style="vertical-align:middle; width:123px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">123UL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="15" style="vertical-align:middle; width:782px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">Типы с плавающей точкой</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:73px; height:38px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Тип</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:44px; height:38px;">
+          <para style="text-align:center; margin-right:8px; margin-left:8px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Р-р</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:78px; height:38px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Точность</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:142px; height:38px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Минимум</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:126px; height:38px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Максимум</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:140px; height:38px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Библиотечный тип</text></para>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">float</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">4</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:78px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">7</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:142px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±5.0</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2a2a2a;" translate="true"> x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#2a2a2a;" translate="true">-45</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:126px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2a2a2a;" translate="true"> 3.4 x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#2a2a2a;" translate="true">+38</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:140px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Single</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:180px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">3.5F &#160; 2.31E-5F</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">double</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:78px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">15-16</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:142px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±5.0 x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#2a2a2a;" translate="true">-</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">324</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:126px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±1.7 x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">+308</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:140px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Double</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:180px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">5.7D &#160; 0.17E3D</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="15" style="vertical-align:middle; width:782px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">Десятичный тип данных для финансовых расчетов</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; width:79px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">decimal</text></para>
+        </td>
+        <td style="vertical-align:middle; width:38px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">16</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:78px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">28-29</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:142px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±1.0 x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">-28</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:126px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">±7.9 x 10</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">+28</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:140px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Decimal</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:180px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">14.65M 3.56E-4M</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="15" style="vertical-align:middle; width:782px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">Символ</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:73px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Тип</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:44px; height:62px;">
+          <para style="text-align:center; margin-right:8px; margin-left:8px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Размер в байтах</text></para>
+        </td>
+        <td style="vertical-align:middle; width:60px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Минимум</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:66px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Максимум</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:113px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Библиотечный тип</text></para>
+        </td>
+        <td colspan="6" style="vertical-align:middle; width:425px; height:62px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Литералы (Так же поддерживаются управляющие последовательности, см ниже)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">char</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:60px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:66px;">
+          <para style="text-align:right;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">65535</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:113px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Char</text></para>
+        </td>
+        <td colspan="6" style="vertical-align:middle; width:425px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#a31515;" translate="true">&apos;X&apos;</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-symbol </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#a31515;" translate="true">&apos;\x0058&apos;</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-hexdec </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#a31515;" translate="true">&apos;\u0058&apos;</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-unicode</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="15" style="vertical-align:middle; width:782px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">Логический тип данных</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:73px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">Bool</text></para>
+        </td>
+        <td colspan="2" style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td style="width:60px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">false</text></para>
+        </td>
+        <td colspan="2" style="width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">true</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:142px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0080c8;" translate="true">System</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#2b91af;" translate="true">Boolean</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:397px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">False </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">true</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Литералы без суффиксов имею тип по умолчанию для целочисленных – </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">int </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">для с плавающей точкой </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">double</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">;</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Значение по умолчанию 0, 0.0, </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#a31515;" translate="true">&apos;\0&apos;</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">, </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#283aea;" translate="true">false</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> для целочисленных, с плавающей точкой, символов, логических соответственно;</text></para>
+    <para styleclass="Normal" style="margin-top:32px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Cambria; font-size:18pt; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#365f91;" translate="true">Управляющие последовательности</text></para>
+    <para style="margin-left:1px;"><table rowcount="11" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\a</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Звуковой сигнал (звонок) &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\b</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Возврат на одну позицию &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\f</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Перевод страницы (переход на новую страницу)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\n</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Новая строка (перевод строки) &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\r</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Возврат каретки &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\t</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Горизонтальная табуляция &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\v</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Вертикальная табуляция &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\0</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Пустой символ &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\&apos;</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Одинарная кавычка &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\&quot;</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Двойная кавычка &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:36px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">\\</text></para>
+        </td>
+        <td style="width:340px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Обратная косая черта &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

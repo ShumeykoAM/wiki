@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Структура UP</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Структура UP</text></para>
+    </header>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">На рисунке ниже представлена структура UP.</text></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="A_normal"><image src="Struct_UP.png" scale="68.15%" width="691" height="245" styleclass="Image Caption"></image></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Ниже изображен, относительный объем работы, выполняемый в каждом из 5 рабочих потоков, при прохождении по фазам проекта.</text></para>
+    <para styleclass="A_normal"><image src="effort.png" scale="73.95%" width="687" height="436" styleclass="Image Caption"></image></para>
+    <para styleclass="A_normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="A_normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="A_normal"><caption translate="true"><![CDATA[Начальная фаза (Inception)]]></caption></toggle></para>
+    <para styleclass="A_normal"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="A_normal" style="font-family:Symbol; font-size:16pt; color:#000000;">
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Формируются видение и границы проекта.</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Создается экономическое обоснование (business case).</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Определяются основные требования, ограничения и ключевая функциональность продукта.</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Создается базовая версия модели прецедентов.</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Оцениваются риски.</text></li>
+          </list>
+          <para styleclass="A_normal"><text styleclass="A_normal" translate="true">При завершении начальной фазы оценивается достижение этапа жизненного цикла цели (англ. Lifecycle Objective Milestone), которое предполагает соглашение заинтересованных сторон о продолжении проекта.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="A_normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="A_normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="A_normal"><caption translate="true"><![CDATA[Уточнение (Elaboration)]]></caption></toggle></para>
+    <para styleclass="A_normal"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="A_normal"><text styleclass="A_normal" translate="true">В фазе «Уточнение» производится анализ предметной области и построение исполняемой архитектуры. Это включает в себя:</text></para>
+          <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="A_normal" style="font-family:Symbol; font-size:16pt; color:#000000;">
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Документирование требований (включая детальное описание для большинства прецедентов).</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Спроектированную, реализованную и оттестированную исполняемую архитектуру.</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Обновленное экономическое обоснование и более точные оценки сроков и стоимости.</text></li>
+            <li styleclass="A_normal"><text styleclass="A_normal" translate="true">Сниженные основные риски.</text></li>
+          </list>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="A_normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="A_normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="A_normal"><caption translate="true"><![CDATA[Построение (Construction)]]></caption></toggle></para>
+    <para styleclass="A_normal"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="A_normal"><text styleclass="A_normal" translate="true">В фазе «Построение» происходит реализация большей части функциональности продукта. Фаза Построение завершается первым внешним релизом системы и вехой начальной функциональной готовности (Initial Operational Capability).</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="A_normal" style="text-indent:-18px; margin-left:18px;"><image src="hmtoggle_plus0.gif" scale="100.00%" styleclass="A_normal"></image><tab /><toggle type="dropdown" print-expanded="true" help-expanded="false" defaultstyle="true" translate="true" src-collapsed="hmtoggle_plus0.gif" src-expanded="hmtoggle_plus1.gif" styleclass="A_normal"><caption translate="true"><![CDATA[Внедрение (Transition)]]></caption></toggle></para>
+    <para styleclass="A_normal"><table styleclass="Default" rowcount="1" colcount="1">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="A_normal"><text styleclass="A_normal" translate="true">В фазе «Внедрение» создается финальная версия продукта и передается от разработчика к заказчику. Это включает в себя программу бета-тестирования, обучение пользователей, а также определение качества продукта. В случае, если качество не соответствует ожиданиям пользователей или критериям, установленным в фазе Начало, фаза Внедрение повторяется снова. Выполнение всех целей означает достижение вехи готового продукта (Product Release) и завершение полного цикла разработки.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

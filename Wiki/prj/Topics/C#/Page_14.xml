@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">foreach break continue</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">foreach break continue</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Цикл foreach предназначен для опроса элементов коллекции. Коллекция — это группа объектов. В С# определено несколько типов коллекций, среди которых можно выделить массив.</text></para>
+  </body>
+</topic>

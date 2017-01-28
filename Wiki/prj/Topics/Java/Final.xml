@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">final</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">final</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Final_const" styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">Константные поля класса</link></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Final_const" styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">Локальные константы</link></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Final_arguments" styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">Константные аргументы</link></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Final_method" styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">Неизменные методы</link></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Final_class" styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:;" translate="true">Неизменный класс</link></para>
+  </body>
+</topic>

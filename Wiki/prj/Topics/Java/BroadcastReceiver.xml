@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Приемник широковещательных намерений</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Приемник широковещательных намерений</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Приемник широковещательных намерений - компонент для получения внешних событий и реакции на них.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Инициализировать события могут другие приложения и службы.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Приложение может ответить (отреагировать) на любые объявления, которые оно считает важными.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Приемники широковещательных намерений не имеют пользовательского интерфейса. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

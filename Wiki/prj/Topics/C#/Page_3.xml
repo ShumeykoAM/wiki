@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Операторы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Операторы</text></para>
+    </header>
+    <para style="margin-left:36px;"><table rowcount="75" colcount="8" style="width:1009px; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:37px;">
+          <para style="text-align:center; margin-right:8px; margin-left:8px;"><text styleclass="Normal" style="font-family:Calibri; font-size:6pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Приоритет</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; height:37px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Категория</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; height:37px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Операции</text></para>
+        </td>
+        <td colspan="5" style="vertical-align:middle; width:718px; height:37px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Порядок/описание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="15" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">0</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Основные &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">группировка</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">()</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">можно сгруппировать операторы для повышения приоритета. 3*(1+2) = 9</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x.y &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x-&gt;y &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">f(x) &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a[x] &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">инкремент</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x++ &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">увеличивает целую или плавающюю переменную на единицу. При участии в больших выражениях вычисляется после. </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">double</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">d</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 23.54; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">double</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">rez</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = </text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">d</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ + 10.3; Результат: d = 24.54, rez = </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">33.84</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">декремент</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x-- &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">уменьшает целую или плавающюю переменную на единицу. При участии в больших выражениях вычисляется после. </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">i</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 5; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">r</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = </text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">i</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- * 2; Результат i = 4, r = </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">10</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">new &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">typeof(T) &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">checked(expr) </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">unchecked(expr)</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">default(T) &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">delegate &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">sizeof(T) &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="11" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Унарные &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">отрицание</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">!x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логический оператор НЕ, возвращает истину, когда его операнд ложный.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый НЕ &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате выставляет бит в единицу, если соответствующий бит операнда – ноль &#160;~10 = 01</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">инкремент</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++x &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">увеличивает целую или плавающюю переменную на единицу. При участии в больших выражениях вычисляется перед. </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">double</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">d</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 23.54; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">double</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">rez</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 10.3 + ++</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">d</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">; Результат: d = 22.54, rez = </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">34.84</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">декремент</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">--x &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">уменьшает целую или плавающюю переменную на единицу. При участии в больших выражениях вычисляется перед.</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true"> int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">i</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 5; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">r</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> = 2 * --</text><text styleclass="Normal" style="font-family:Consolas; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#808080;" translate="true">i</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">; Результат i = 4, r = </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">8</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">(T)x &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*x &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">await &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="4" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Мультипликатив &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">умножение</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x * y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">умножение как в алгебре</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">деление</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x / y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">деление как в алгебре, при этом при делении целых чисел дробная часть отбрасывается: 10/3 &#160;= 3</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">остаток от деления</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x % y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает остаток от деления (как целочисленного так и с плавающей точкой):</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160;</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">10.5%5.0 = 0.5</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Аддитивные &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">сложение</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x + y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">сложение как в арифметике</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">вычитание</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x - y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">вычитание как в арифметике</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Битовый сдвиг &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый сдив в лево</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &lt;&lt; y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате целое число со сдвинутыми битами левого операнда влево на y бит</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">001010&lt;&lt;2 = 101000</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый сдвиг вправо &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &gt;&gt; y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате целое число со сдвинутыми битами левого операнда вправо &#160;на y бит</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">001010&gt;&gt;2 = 000010</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="7" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Отношен и провер типов</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">меньше</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &lt; y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если левый операнд меньше правого операнда</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">больше</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &gt; y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если левый операнд больше правого операнда</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">меньше либо равно</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &lt;= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если левый операнд меньше либо равен правому операнду</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">больше либо равно</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &gt;= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если левый операнд больше либо равен правому операнду</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">is &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">as &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">6</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Равенство &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">равно</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x == y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если операнды равны</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">не равно &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x != y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если операнды не равны</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">7</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Битовый, логич И &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый, логический И</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &amp; y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="3" style="width:350px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим И, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое И возвращает истину если оба операнда истинны. (</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">при этом всегда вычисляются оба операнда</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td colspan="2" style="width:369px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым И если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате выставляет бит в единицу, если соответствующие биты обоих операндов – единицы</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010&amp;1100 = 1000</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Битов, лог искл ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый, логический ИСКЛЮЧАЮЩЕЕ ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x ^ y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="2" style="width:336px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим исключающим ИЛИ, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое ИЛИ возвращает истину если один операнд истинный, а второй операнд ложный.</text></para>
+        </td>
+        <td colspan="3" style="width:382px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым ИСКЛЮЧАЮЩИМ ИЛИ если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате выставляет бит в единицу, если соответствующие бит одного из операндов – единица, а второго - ноль</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010|1100 = 0110</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">9</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Битовый , логич ИЛИ &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый, логический ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x | y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="width:334px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим ИЛИ, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое ИЛИ возвращает истину если один из операндов истинный. (</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">при этом всегда вычисляются оба операнда</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td colspan="4" style="width:384px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым ИЛИ если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в результате выставляет бит в единицу, если соответствующие бит одного из операндов - единица</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010|1100 = 1110</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Логический И &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">укороченное логическое И</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &amp;&amp; y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если оба операнда истинны. </text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">(при этом вычисляется первый операнд, и если он ИСТИНА, то вычисляется ВТОРОЙ операнд</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Логический ИЛИ &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">укороченный логический ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x || y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">возвращает истину если один из операндов истинный. </text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">(при этом вычисляется первый операнд, и если он ЛОЖ, то вычисляется ВТОРОЙ операнд</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">12</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Недопуск знач NULL &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x ?? y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">13</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Условная &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">если x то y иначе z &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#f2dbdb;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x ? y : z &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Результатом будет y если x истинно, иначе результатом будет z</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="13" style="vertical-align:middle; width:36px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">14</text></para>
+        </td>
+        <td style="vertical-align:middle; width:151px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Присв и лямбда &#160;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px; background-color:#d9d9d9;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивание</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x = y &#160; &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду значение правого операнда. &#160;х = у = z = 100; Здесь присвоено значение сразу нескольким переменным.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">прибавить</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x += y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду сумму левого операнда и правого операнда</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">отнять</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x -= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду разность левого операнда и правого операнда</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">умножить</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x *= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду произведение левого операнда и правого операнда</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">разделить</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x /= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду частное левого операнда на правый операнд</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">остаток от дел</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x %= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">присваивает левому операнду остаток от деления &#160;левого операнда на правый операнд</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовое, логическое И</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &amp;= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="4" style="width:357px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим И, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое И, возвращает истину если оба операнда истинны. (</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">при этом второй операнд вычисляется всегда</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">). результат помещается в левый операнд.</text></para>
+        </td>
+        <td style="width:362px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым И если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в левом операнде выставляет бит в единицу, если соответствующие биты обоих операндов – единицы</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010&amp;1100 = 1000</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовое, логическое ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x |= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="4" style="width:357px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим ИЛИ, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое ИЛИ, возвращает истину если один из операндов истинный. (</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">при этом второй операнд вычисляется всегда</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">) результат помещается в левый операнд.</text></para>
+        </td>
+        <td style="width:362px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым ИЛИ если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в левом операнде выставляет бит в единицу, если соответствующие бит одного из операндов - единица</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010|1100 = 1110</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовое, логическое искл ИЛИ</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x ^= y &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="4" style="width:357px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается логическим исключающим ИЛИ, когда ожидаемый результат – есть булево значение</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">логическое ИЛИ возвращает истину если один операнд истинный, а второй операнд ложный.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">результат помещается в левый операнд.</text></para>
+        </td>
+        <td style="width:362px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">считается побитовым ИСКЛЮЧАЮЩИМ ИЛИ если его операнды имеют целый тип.</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в левом операнде выставляет бит в единицу, если соответствующие бит одного из операндов – единица, а второго - ноль</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">1010|1100 = 0110</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый сдвиг влево</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &lt;&lt;= y &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в левый операнд помещает целое число со сдвинутыми битами левого операнда влево на </text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">y</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> бит</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">001010&lt;&lt;2 = 101000</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">побитовый сдвиг вправо</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">x &gt;&gt;= y &#160; &#160; &#160; </text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">в левый операнд помещает целое число со сдвинутыми битами левого операнда вправо &#160;на </text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">y</text><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> бит</text></para>
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">001010&gt;&gt;2 = 000010</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:151px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">лямбда выражение</text></para>
+        </td>
+        <td style="vertical-align:middle; width:104px; background-color:#eaf1dd;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160;=&gt; &#160; &#160; &#160; &#160; &#160;</text></para>
+        </td>
+        <td colspan="5" style="width:718px;">
+          <para><text styleclass="Normal" style="font-family:Calibri; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-bottom:13px; margin-left:35px;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+  </body>
+</topic>

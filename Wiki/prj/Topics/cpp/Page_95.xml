@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">при компиляции много ошибок</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">при компиляции много ошибок</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">#define WIN32_LEAN_AND_MEAN</text><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true"> - причина ошибок компиляции</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">#define WIN32_LEAN_AND_MEAN означает, что будут отброшены большинство редко используемых функций, макросов и типов Windows за счет этого возрастает скорость компиляции.</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true"> &#160; &#160;например библиотека </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#a31515; background-color:#ffffff;" translate="true">gdiplus.h </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">работать не будет если оставить</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#a31515; background-color:#ffffff;" translate="true">&#32;</text><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">#define WIN32_LEAN_AND_MEAN</text><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">&#32;</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">#define WIN32_LEAN_AND_MEAN</text><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true"> автоматически добавляется в код при созданиии проекта</text></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">&#32;</text></para>
+    <para><line style="height:2px;" /></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

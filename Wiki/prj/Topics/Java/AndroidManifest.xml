@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">AndroidManifest.xml</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">AndroidManifest.xml</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Каждое приложение должно содержать файл манифеста AndroidManifest.xml</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Файл манифеста выполняет следующие функции:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none; font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">объявляет имя Java-пакета данного приложения. Имя пакета служит уникальным идентификатором для приложения; </text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">описывает компоненты приложения — деятельности, службы, приемники широковещательных намерений и контент провайдеры, из которых приложение состоит. Он вызывает классы, которые реализуют каждый из компонентов, и объявляет их намерения. Эти объявления позволяют системе Android знать, чем компоненты являются и при каких условиях они могут быть запущены; </text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">объявляет, какие разрешения должно иметь приложение для обращения к защищенным частям API и взаимодействия с другими приложениями;</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">объявляет разрешения, которые сторонние приложения обязаны иметь, чтобы взаимодействовать с компонентами данного приложения; </text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">объявляет минимальный уровень API Android, которого приложения требует; </text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">перечисляет библиотеки, с которыми приложение должно быть связано.</text></li>
+    </list>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">описание активностей (явлений, </text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">Activity)</text><text styleclass="Normal" translate="true">,</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" translate="true">контент провайдеров (поставщиков содержимого, </text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">Content Provider</text><text styleclass="Normal" translate="true">),</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" translate="true">служб </text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">(Service)</text><text styleclass="Normal" translate="true">,</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" translate="true">приемников широковещательных намерений (</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">Broadcast Receiver),</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">описаны права доступа для приложения,</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">права для других приложений, которые будут пользоваться службами данного,</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:17px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">и др.</text></li>
+    </list>
+  </body>
+</topic>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">DataGridView</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">DataGridView</text></para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Для подключения БД к программе &#160;выбираем Data source как на картинке, Server Name можно скопировать текст из поля &quot;Имя сервера&quot; из прогаммы SQL Server Menagment studio.</text></para>
+    <para styleclass="Normal" style="line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">В списке Select or enter a database name появится имя нашей БД его и выбираем</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><image src="Grid.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

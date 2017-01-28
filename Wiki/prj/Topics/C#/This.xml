@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">this</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">this</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Ключевое слово </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">this</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> возвращает внутри класса ссылку на свой собственный объект. </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">this</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> - это ссылка на себя.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Оператор присваивания и составные операторы присваивания</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Оператор присваивания и составные операторы присваивания</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Оператор =</text></para>
+    <para style="margin-top:6px; margin-left:35px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> a=b=c=5; //a=5; b=5; c=5;</text></para>
+    <para style="margin-left:80px;"><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Составные операторы;</text></para>
+    <para style="margin-left:53px;"><table rowcount="5" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">опер</text></para>
+        </td>
+        <td style="width:234px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">пример эквивалент</text></para>
+        </td>
+        <td style="width:19px; background-color:#7f7f7f;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">опер</text></para>
+        </td>
+        <td style="width:250px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">пример эквивалент</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+=</text></para>
+        </td>
+        <td style="width:234px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a+=5; &#160;</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a=a+5;</text></para>
+        </td>
+        <td style="width:19px; background-color:#7f7f7f;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*=</text></para>
+        </td>
+        <td style="width:250px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a*=5; &#160; a=a*5;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-=</text></para>
+        </td>
+        <td style="width:234px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a-=5; &#160;</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a=a-5;</text></para>
+        </td>
+        <td style="width:19px; background-color:#7f7f7f;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/=</text></para>
+        </td>
+        <td style="width:250px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a/=5; &#160; a=a/5;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">%=</text></para>
+        </td>
+        <td style="width:234px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a%</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">=</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">5; &#160;</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a=a%5;</text></para>
+        </td>
+        <td style="width:19px; background-color:#7f7f7f;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|=</text></para>
+        </td>
+        <td style="width:250px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a|=b; &#160; a=a|b;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;=</text></para>
+        </td>
+        <td style="width:234px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&amp;</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">=</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">b; &#160;</text><text styleclass="Normal" style="font-family:Verdana; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a=a&amp;b;</text></para>
+        </td>
+        <td style="width:19px; background-color:#7f7f7f;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:44px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^=</text></para>
+        </td>
+        <td style="width:250px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a^=b; &#160; &#160;a=a^b;</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:80px;"><text styleclass="Normal" style="font-family:Consolas; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Операторы &amp; | ^ побитовые &#160; &#160; + - * / % арифметические</text></para>
+  </body>
+</topic>

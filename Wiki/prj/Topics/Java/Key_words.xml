@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Ключевые слова</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Ключевые слова</text></para>
+    </header>
+    <para style="margin-left:35px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">Ключевые слова</text></para>
+    <para style="margin-top:14px; margin-bottom:14px; margin-left:71px;"><table rowcount="8" colcount="7" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Abstract" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#000000;" translate="true">abstract</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Classes" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#000000;" translate="true">class</link></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Inheritance" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#000000;" translate="true">ext</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">e</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Interface_inheritance_interface" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">nds</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Interface" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">implements</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">null</text></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Strictfp" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">strictfp</link></para>
+        </td>
+        <td style="width:109px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">true</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Assert" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">assert</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">const</text></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">false</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Struct_java_src" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">import</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Struct_java_src" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">package</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Inheritance" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">s</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">u</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Base_class_init" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">p</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">er</text></para>
+        </td>
+        <td style="width:109px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Except" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">try</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">boolean</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Goto" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">c</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">o</text><link displaytype="text" defaultstyle="true" type="topiclink" href="For_continue_break" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">n</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">t</text><link displaytype="text" defaultstyle="true" type="topiclink" href="While_continue_break" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">i</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">nue</text></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Final" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">final</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Instanseof" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">instanceof</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Modifers_access" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">private</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Switch" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">switch</link></para>
+        </td>
+        <td style="width:109px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">void</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Goto" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">b</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">r</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Switch" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">e</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">a</text><link displaytype="text" defaultstyle="true" type="topiclink" href="For_continue_break" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">k</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="While_continue_break" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#0000ff;" translate="true">ref</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Switch" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">def</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">a</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Default_methods" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">ult</link></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Finally_and_return" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">finally</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">int</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Modifers_access" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">prot</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">e</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Abstract" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">cted</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Synchronized" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">synchronized</link></para>
+        </td>
+        <td style="width:109px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Volatile" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">volatile</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">byte</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">do</text></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">float</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Interface" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">interface</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Modifers_access" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">public</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">thi</text><link displaytype="text" defaultstyle="true" type="topiclink" href="This_new" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">s</link></para>
+        </td>
+        <td style="width:109px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">while</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Switch" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">case</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">double</link></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="For_continue_break" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">for</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">long</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">return</text></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Except" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">throw</link></para>
+        </td>
+        <td style="width:109px;">
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Except" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">catch</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">else</text></para>
+        </td>
+        <td style="width:97px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Goto" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">goto</link></para>
+        </td>
+        <td style="width:132px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Native" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">native</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">short</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Specific_exception" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">throws</link></para>
+        </td>
+        <td style="width:109px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Finalize" styleclass="Normal" style="font-size:16pt;" translate="true">finalize</link></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:108px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">char</link></para>
+        </td>
+        <td style="width:108px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">enum</text></para>
+        </td>
+        <td style="width:97px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">if</text></para>
+        </td>
+        <td style="width:132px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">ne</text><link displaytype="text" defaultstyle="true" type="topiclink" href="This_new" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">w</link></para>
+        </td>
+        <td style="width:120px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Static" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">s</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">t</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Static_polymorphism" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">a</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">t</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Static_import" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">i</link><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">c </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Class_init" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#0000ff;" translate="true">ref</link></para>
+        </td>
+        <td style="width:155px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Serializable" styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">transient</link></para>
+        </td>
+        <td style="width:109px;">
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.20; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Ключевые слова </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#0000ff;" translate="true">const</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true"> и </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#0000ff;" translate="true">goto </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">зарезервированы, но не используются.</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Контекстные слова</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Finalize" styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">finalize</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; - вместо деструктора</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Struct_java_src" styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">main</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;- точка входа</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Type_info" styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Class</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;- информация о типе, рефлексия</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Arr_sort" styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">sort</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160; &#160;- сортировка</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Arrays_class_for_array" styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">binarySearch</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true"> &#160;- быстрый поиск в массиве</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="MyltyThread" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true">Thread</link><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; - Многопоточность</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">Директивы компилятора начинаются с @</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Override" styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">@Override</link><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160; &#160;- Указывает что мы именно переопределяем а не перегружаем метод базового класса</text></para>
+    <para styleclass="Normal" style="margin-left:35px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#ff8040;" translate="true">@SuppressWarnings</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; vertical-align:baseline; color:#ff8040;" translate="true"> &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; vertical-align:baseline; color:#000000;" translate="true">- Отключить предупреждение</text></para>
+  </body>
+</topic>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Службы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Службы</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Служба не имеет визуального интерфейса пользователя и выполняется в фоновом режиме.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Приложения могут запускать, останавливать и подключаться к службам, подключившись можно обращаться к ее функциям.</text></para>
+  </body>
+</topic>

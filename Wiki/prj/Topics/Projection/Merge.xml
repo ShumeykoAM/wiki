@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Слияние и разветвление стрелок</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Слияние и разветвление стрелок</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">На рисунке ниже представлены возможные варианты использования слияния и разветвления стрелок.</text></para>
+    <para styleclass="Normal"><image src="MergeForkArrows.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

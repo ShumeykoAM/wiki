@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Связи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Связи</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Связи</text><text styleclass="Normal" translate="true"> между объектами реального мира отражаются в виде связей (отношений, ассоциаций) между сущностями. </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Отношение</text><text styleclass="Normal" translate="true"> – это </text><text styleclass="Normal" style="font-weight:bold;" translate="true">ассоциация</text><text styleclass="Normal" translate="true"> или &quot;</text><text styleclass="Normal" style="font-weight:bold;" translate="true">связь</text><text styleclass="Normal" translate="true">&quot; между двумя сущностями.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Именуются отношения глагольной конструкцией и должны образовывать осмысленную фразу описывающую бизнес-правило отношения.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Отношения двунаправлены, поэтому должны иметь имена в каждом направлении.</text></para>
+    <para styleclass="Normal"><image src="relative1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Отношение обладает следующими свойствами: </text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:16pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">степень, &#160;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">направленность, </text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">тип, &#160;</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">мощность, </text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">обязательность.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

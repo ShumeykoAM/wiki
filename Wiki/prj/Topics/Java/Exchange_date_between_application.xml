@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Обмен данными между приложениями</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Обмен данными между приложениями</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Контент-провайдер делает определенный набор данных, используемых приложением, доступным для других приложений. Данные могут быть сохранены в файловой системе, в базе данных SQLite или любым другим способом. Контент-провайдеры для безопасного доступа к данным используют механизм разрешений. Это означает, что вы можете конфигурировать собственные контент-провайдеры, чтобы разрешить доступ к своим данным из других приложений и использовать контент-провайдеры других приложений для обращения к их хранилищам данных. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ОС андроид предоставляет простой способ обмена данными между приложениями и\или сервисами при помощи класса</text><text styleclass="Normal" style="background-color:#ffffff;" translate="true">&#32;</text><text style="font-family:Consolas; font-size:12pt; color:#000000; background-color:#ffffff;" translate="true">ContentProvider</text><text styleclass="Normal" translate="true">, он специально заточен для работы с БД.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Необходимо:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Реализовать абстрактные методы ContentProvider в наследнике, в этих методах осуществить доступ к данным (я думаю и исполнение команд можно сделать но для этого предназначены Intent).</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Зарегистрировать свой ContentProvider с уникальным Uri в манифесте, что бы ОС знала о его существовании.</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">В любом другом, или этом же приложении создать объект класса </text><text style="font-family:Consolas; font-size:12pt; color:#000000;" translate="true">ContentResolver</text><text styleclass="Normal" translate="true"> и, используя его методы, передавать или запрашивать данные.</text></li>
+    </list>
+    <para styleclass="Normal"><image src="ContentProvider.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

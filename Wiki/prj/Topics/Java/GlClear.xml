@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">glClear</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">glClear</text></para>
+    </header>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">void WINAPI glClear( GLbitfield mask );</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Очищает указанный буфер или указанную комбинацию буферов (Б1 | Б2 | ...)</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Параметром может быть комбинация</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;GL10.GL_COLOR_BUFFER_BIT &#160; - пиксельный буфер</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;GL10.GL_DEPTH_BUFFER_BIT &#160; - буфер глубины</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;GL10.GL_ACCUM_BUFFER_BIT &#160; -</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;GL10.GL_STENCIL_BUFFER_BIT -</text></para>
+  </body>
+</topic>

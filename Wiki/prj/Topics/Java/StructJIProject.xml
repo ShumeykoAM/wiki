@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Струтура проекта JI</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Струтура проекта JI</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><text styleclass="Normal" translate="true">IntelliJ Idea создает следующую иерархию файлов и папок при создании проекта для андроид, она схожа с иерархией Eclipse.</text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:23px; tabstops:none;"><image src="StructJIProject.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

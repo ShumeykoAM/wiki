@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Перегрузка операторов</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Перегрузка операторов</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"></para>
+    <para style="margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-top:13px; margin-left:79px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#4f81bd;" translate="true">Таблица 1 Операторы которые можно объявить.</text></para>
+    <para style="margin-left:80px;"><table rowcount="6" colcount="7" style="width:1002px; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">- &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">* &#160; &#160; (</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/ &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">% &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^ &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp; &#160; &#160; (</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,b)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">| &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~ &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">! &#160; &#160; (</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">= &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt; &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt; &#160; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:19px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+= &#160; &#160;(b)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-= &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*= &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/= &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">%= &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^= &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;= &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|= &#160; &#160;(b)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt;= &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt;= &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">== &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">!= &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;= &#160; &#160;(b)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;= &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;&amp; &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|| &#160; &#160;(b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,u</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u,u</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt;* &#160; (b)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">, &#160; &#160; (b)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt; &#160; (u</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">[] &#160; (b</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:158px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">() (</text><text styleclass="Normal" style="font-family:Consolas; font-size:8pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">(tupe)</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text><text styleclass="Normal" style="font-family:Consolas; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">,</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">(</text><text styleclass="Normal" style="font-family:Consolas; font-size:8pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">(n)</text><text styleclass="Normal" style="font-family:Consolas; font-size:6pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:135px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">new</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">new[]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">delete</text></para>
+        </td>
+        <td style="vertical-align:middle; width:143px; height:20px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">delete[]</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:79px; line-height:0.83;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:13pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">u- унарный, b- бинарный, </text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:13pt; text-decoration:none; vertical-align:super; color:#000000;" translate="true">p</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:13pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-префиксный или постфиксный, type – любой тип, &#160;n- любое количество параметров.</text></para>
+    <para style="margin-top:13px; margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-top:13px; margin-left:79px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#4f81bd;" translate="true">Таблица 2 Синтаксис объявления операторов</text></para>
+    <para style="margin-left:59px;"><table rowcount="42" colcount="10" style="width:1030px; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td colspan="6" style="vertical-align:middle; width:482px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Унарные операторы</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:529px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Бинарные операторы</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">X a;</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">объявление вне класса</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">объявление внутри класса</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type b;</text></para>
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">X a;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">объявление вне класса</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">объявление внутри класса</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td colspan="2" rowspan="2" style="vertical-align:middle; width:312px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">разный порядок (X,type) и (type,X) определяют разные операторы (a+b != b+a)</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; width:217px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">- (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">- ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">* (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">* ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">b+a</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ (type, X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Нельзя</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp; (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp; ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a+b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+ (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~ (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~ ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a-b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">- (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">- (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">!a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">! (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">! ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a*b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">* (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">* (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a++</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ (X,</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ (</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">);</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a/b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/ (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/ (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">++ ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a%b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">% (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">% (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a--</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- (X,</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- (</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">);</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a^b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^ (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^ (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">--a</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- (X);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-- ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&amp;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a|b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">| (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">| (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="6" style="vertical-align:middle; width:482px; background-color:#f2f2f2;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">В следующем операторе возвращаемым значением &#160;может быть &#160;только X*</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">нельзя (b=a тоже нельзя)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:47px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a-&gt;</text></para>
+        </td>
+        <td colspan="4" style="vertical-align:middle; width:227px; background-color:#f2f2f2;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">нельзя</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px; background-color:#f2f2f2;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">X* </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt; ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&lt;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="6" style="vertical-align:middle; width:482px; background-color:#ddd9c3;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Преобразование типа: объявляется без указания возвращаемого типа</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&gt;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="2" style="vertical-align:middle; width:66px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">(type)a</text></para>
+        </td>
+        <td colspan="3" style="vertical-align:middle; width:208px; background-color:#ddd9c3;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">нельзя</text></para>
+        </td>
+        <td style="vertical-align:middle; width:208px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> type ();</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a+=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">+= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="6" rowspan="2" style="vertical-align:middle; width:482px; background-color:#ffffff;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a-=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a*=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">*= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="6" style="vertical-align:middle; width:482px; background-color:#ddd9c3;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:9pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Оператор “()” с любым количеством параметров (и без параметров) любого типа</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a/=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">/= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="3" style="vertical-align:middle; width:85px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a(par,…);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:161px; background-color:#ddd9c3;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">нельзя</text></para>
+        </td>
+        <td colspan="2" style="vertical-align:middle; width:236px; background-color:#ddd9c3;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:9pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">() (type,...);</text></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a%=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">%= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">%= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td colspan="6" rowspan="20" style="width:482px;">
+          <para><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">операторы new, new[], delete и delete[]</text></para>
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_280" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">глобальные</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> и </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_281" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">для определенного класса</link></para>
+        </td>
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_280" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> </link></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a^=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">^= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&amp;=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a|=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&lt;&lt;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&gt;&gt;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&gt;&gt;=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt;= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt;= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&lt;&lt;=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt;= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt;= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a==b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">== (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">== (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a!=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">!= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">!= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&lt;=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&lt;= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&gt;=b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;= (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt;= (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a&amp;&amp;b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;&amp; (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&amp;&amp; (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a||b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|| (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">|| (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a-&gt;*b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt;* (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt;* (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a,b</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">, (X, type);</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">, (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">a[b]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">нельзя</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type </text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">[] (type);</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:19px; background-color:#404040;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:18pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:246px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:217px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">type – любой тип, &#160;X - пользовательский тип, &#160;тип в объявлении и возвращаемый тип не обязаны совпадать.</text></para>
+    <para style="margin-top:13px; margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">class</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> X &#160; &#160; &#160; &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Существует класс</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">{</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">public</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">:</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Объявление внутри класса операторной функции с 2мя операндами может выглядеть так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">void</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt; (</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">); &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Не забыть про определение &#160; &#160; &#160;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// &#160; где this - это левый операнд в скобочках указывается правый операнд (есть операторы исключения)</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Объявления внутри класса операторной функции с одним операндом &#160;может выглядеть так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">void</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~ (); </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Операндом является this</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// &#160; а в скобочках правый операнд любого типа (в случае бинарного оператора)</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// &#160; возвращаемое значение тоже может быть любым (есть операторы исключения)</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">};</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Объявления вне класса операторной функции с 2мя операндами &#160;может выглядеть так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">void</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&gt; (</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">int</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">, X); &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Не забыть про определение</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Где в скобочках в любом порядке могут быть указаны два операнда (в случае бинарного оператора),</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// &#160;один из которых пользовательский тип. В выражениях операнды нужно будет ставить в томже порядке.</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Объявления вне класса операторной функции с одним операндом &#160;может выглядеть так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">void</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~ (X); &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//это синоним объявления внутри класса void operator~ (); см. выше</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Dозвращаемое значение может быть любым &#160;за исключением для некоторых операторов см. таблицу 2</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Вне класса нельзя объявлять операторы &#160; -&gt; &#160; () &#160; = &#160; []</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">void</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> f() &#160; &#160;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">{ &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Вызывать операторную функцию можно сокращенно или полной записью</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; X a; &#160;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; ~a ; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Вызывать операторную функцию можно так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160; &#160; a.</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">operator</text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">~() ; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//Или так</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">}</text></para>
+    <para style="margin-left:79px;"><text styleclass="Normal" style="font-family:Consolas; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+    <para style="margin-top:13px; margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">//------------------------------ Разобраться </text></para>
+    <para styleclass="Normal" style="margin-top:13px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//void X::operator[] (int t);</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//int main()</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//{</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// X a;</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// a[1,2,3,4]; //Разобраться что </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">это за херь</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">разобрался </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">(смотри оператор , (запятая))</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">// return 0;</text></para>
+    <para styleclass="Normal" style="margin-top:12px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#008000;" translate="true">//}</text></para>
+    <para style="margin-top:12px; margin-left:79px;"><text style="font-family:&apos;Times New Roman&apos;; font-size:18pt; color:#000000;" translate="true">&#32;</text></para>
+    <para><line style="height:2px;" /></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

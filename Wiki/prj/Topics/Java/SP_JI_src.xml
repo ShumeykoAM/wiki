@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">src</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">src</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Папка содержит весь исходный код проекта, имеет иерархию в соответствии с пакетами.</text></para>
+  </body>
+</topic>

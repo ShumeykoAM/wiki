@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">native</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">native</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Java Native Interface (JNI) — стандартный механизм для запуска кода, под управлением виртуальной машины Java (JVM), который написан на языках С/С++ или Ассемблера, и скомпонован в виде динамических библиотек, позволяет не использовать статическое связывание. Это даёт возможность вызова функции С/С++ из программы на Java, и наоборот.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Модификатор native сигнализирует о том, что метод реализован в платформо-зависимом коде, часто на языке С.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Этот модификатор может быть применен только к методам, но не классам и переменным.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" style="color:#0000ff;" translate="true">class</text><text styleclass="Code Example" translate="true"> SomethingProcessor</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">{</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;</text><text styleclass="Code Example" style="color:#0000ff;" translate="true">public</text><text styleclass="Code Example" translate="true">&#32;</text><text styleclass="Code Example" style="color:#0000ff;" translate="true">native</text><text styleclass="Code Example" translate="true">&#32;</text><text styleclass="Code Example" style="color:#0000ff;" translate="true">void</text><text styleclass="Code Example" translate="true"> doSomethingNow();</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">}</text></para>
+  </body>
+</topic>

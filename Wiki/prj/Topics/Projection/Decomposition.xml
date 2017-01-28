@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Shumeiko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Декомпозиция</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Декомпозиция</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Функциональная </text><text styleclass="Normal" style="font-weight:bold;" translate="true">декомпозиция</text><text styleclass="Normal" translate="true"> это разбиение работы на более простые и мелкие подработы, в свою очередь получившиеся подработы можно декомпозировать еще на более мелкие подработы.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Декомпозиция осуществляется до тех пор, пока не будет достигнут нужный уровень подробности описания.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Shumeiko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Слияние моделей</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Слияние моделей</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Щелкаем правой кнопкой по той активности в которую хотим сделать слияние модели, то есть ту активность на которой делали расщипление, ту активность которая потом совпадет с активностью верхнего уровня присоединяемой модели.</text></para>
+    <para styleclass="Normal"><image src="MergeModel1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Жмем Merge Model и устанавливаем нужные опции.</text></para>
+    <para styleclass="Normal"><image src="MergeModel2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">После того как будет нажата кнопка Ok произойдет слияние.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Остальное интуитивно понятно.</text></para>
+  </body>
+</topic>

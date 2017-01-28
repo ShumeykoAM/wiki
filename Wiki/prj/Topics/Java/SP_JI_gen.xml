@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">gen</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">gen</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Папка содержит автогенерируемые и автомодифицируемые файлы проекта.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160;В частности R.java</text></para>
+  </body>
+</topic>

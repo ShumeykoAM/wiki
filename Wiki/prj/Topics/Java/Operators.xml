@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Операторы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Операторы</text></para>
+    </header>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:56px; tabstops:none;"><text styleclass="Font Style" style="font-family:&apos;Times New Roman&apos;; font-size:14pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Операторы Java можно применять только к примитивным типам и их объектным аналогам, а так же к String</text></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:56px; tabstops:none;"></para>
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:35px; tabstops:none;"><table rowcount="35" colcount="6" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">п-т</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">о-я</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">тип</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">выражение</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">комментарий</text></para>
+        </td>
+        <td style="vertical-align:middle; width:99px; background-color:#d9d9d9;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">порядок</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">()</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">obj</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">(expr)</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">указание приоритета, приведение типа</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; width:99px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">[]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+        </td>
+        <td style="vertical-align:middle; width:156px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">array[]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">индекс(ы) массива</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">.</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+        </td>
+        <td style="vertical-align:middle; width:156px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">object.member</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">обращение к полю, вызов метода, обращение к пакету</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="6" style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">~</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">whole</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">~expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовая инверсия</text></para>
+        </td>
+        <td rowspan="6" style="vertical-align:middle; width:99px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">!</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">!expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое отрицание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">++</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">++var или var++</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">инкремент (префиксный или постфиксный)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">--</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">--var или var--</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">декремент (префиксный или постфиксный)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">-</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">-expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">унарный минус</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">+</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">+expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">унарный плюс (ни чего не делает)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">*</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr * expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">умножение</text></para>
+        </td>
+        <td rowspan="21" style="vertical-align:middle; width:99px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">/</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 / expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">деление</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">%</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 % expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">остаток от деления (деление по модулю)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:29px; height:4px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; height:4px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">+</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px; height:4px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; height:4px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 + expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; height:4px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">сложение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">-</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 - expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">вычитание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&gt;&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">whole</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &gt;&gt; &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовый сдвиг вправо с учетом знака</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&gt;&gt;&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">whole</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &gt;&gt;&gt; expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовый сдвиг вправо без учета знака</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&lt;&lt;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">whole</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &lt;&lt; &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовый сдвиг влево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="4" style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">6</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&gt;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &gt; &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&gt;=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &gt;= expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&lt;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &lt; &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&lt;=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &lt;= expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">7</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">==</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 == expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">!=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 != expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">логическое сравнение</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">8</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&amp;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &amp; expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовое И</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">9</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">^</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 ^ expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовое исключающее ИЛИ</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">|</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 | expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ffffa3;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">побитовое ИЛИ</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&amp;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &amp; &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">длинное логическое И</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">&amp;&amp;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 &amp;&amp; expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">короткое логическое И</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">12</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">|</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 | &#160;expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">длинное логическое ИЛИ</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">||</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr1 || expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#d9f1ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">короткое логическое ИЛИ</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">13</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">?:</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">boolean ? obj : obj</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr ? expr1 : expr2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">если, то, иначе</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; width:99px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">14</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var = obj</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var = expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">присваивание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">15</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">op=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var op= primitive</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var op= expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">все бинарные операции с присваиванием (кроме || и &amp;&amp;)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">,</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr, expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">expr, expr</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">действия по порядку в цикле for или в обявлении переменн</text></para>
+        </td>
+        <td style="vertical-align:middle; width:99px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">слева направо</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="text-align:left; text-indent:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:30px; line-height:1.0; white-space:normal; page-break-inside:auto; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="A_normal"></para>
+  </body>
+</topic>

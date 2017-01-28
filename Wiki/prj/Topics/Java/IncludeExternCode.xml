@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Подключить внешний код</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Подключить внешний код</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В свойствах проекта  в Java Build Path -&gt; Source -&gt; Link source -&gt; указать папку .....\src\ </text></para>
+  </body>
+</topic>

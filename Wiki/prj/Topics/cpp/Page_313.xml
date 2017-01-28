@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Пользователи, база</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Пользователи, база</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Находим в программах &#160; &#160; &#160;MySQL Command Line Client</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">для создания базы данных испольняем &#160;такую команду</text></para>
+    <para style="margin-top:6px; margin-left:79px; background-color:#ffffff; white-space:nowrap;"><text styleclass="Normal" style="font-family:Courier; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mysql&gt; CREATE DATABASE DBName;</text></para>
+    <para style="margin-top:6px; margin-left:79px; background-color:#ffffff; white-space:nowrap;"><text styleclass="Normal" style="font-family:Courier; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160;имя базы без кавычек</text></para>
+    <para style="margin-top:6px; margin-left:79px; background-color:#ffffff; white-space:nowrap;"><text styleclass="Normal" style="font-family:Courier; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">для добавления пользователя исполняем такую команду</text></para>
+    <para style="margin-top:6px; margin-left:79px; background-color:#ffffff; white-space:nowrap;"><text styleclass="Normal" style="font-family:Courier; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">mysql&gt; GRANT ALL PRIVILEGES ON *.* TO monty@localhost</text></para>
+    <para style="margin-left:79px; background-color:#ffffff; white-space:nowrap;"><text styleclass="Normal" style="font-family:Courier; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> &#160; &#160;</text><text styleclass="Normal" style="font-family:Courier; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">-&gt; &#160; &#160; IDENTIFIED BY &apos;some_pass&apos; WITH GRANT OPTION</text><text styleclass="Normal" style="font-family:Courier; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">;</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; margin-left:79px; line-height:1.0; white-space:nowrap; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Courier; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">где monty - имя пользователя, а some_pass - пароль</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">here...</text></para>
+    <para><line style="height:1px; color:#999999;" /></para>
+    <para styleclass="Normal" style="margin-top:10px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2014 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

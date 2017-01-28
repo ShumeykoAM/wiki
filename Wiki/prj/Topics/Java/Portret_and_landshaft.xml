@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Портретный и ландшафтный дизайн</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Портретный и ландшафтный дизайн</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Что бы определеить альтернативный ресурс для ландшафтного режима необходимо создать файл с таким же именем ресурса в папке res/leyout-land.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">IDишники для представлений (компонентов) можно сделать такими же и те же обработчики оставить, так же и количество представлений можно оставить таким же. А расположение представлений сделать опимизированным для ландшафтного режима.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Можно конечно сделать другие обработчики или вообще другую конфигурацию представлений для ландшафтного режима.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Так же можно переопределять другие ресурсы, например строки для разных языков, картинки для разных экранов, и т.д.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Структура манифеста</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Структура манифеста</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Файл манифеста инкапсулирует всю архитектуру Android-приложения, его функциональные возможности и конфигурацию.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Элементы &lt;manifest&gt;, &lt;appiication&gt; и &lt;uses-sdk&gt; являются обязательными. Другие элементы используются по мере необходимости.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Элемент &lt;appiication&gt; является основным элементом манифеста и содержит множество дочерних элементов, определяющих структуру и работу приложения.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Все значения устанавливаются через атрибуты элементов.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="ManisestStruct.bmp" scale="82.97%" width="699" height="497" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

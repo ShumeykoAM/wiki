@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">&lt;permission&gt;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">&lt;permission&gt;</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Элемент &lt;permission&gt; объявляет разрешение, которое используется для ограничения доступа к определенным компонентам или функциональности данного приложения. В этой секции описываются права, которые должны запросить другие приложения для получения доступа к вашему приложению. Приложение может также защитить свои собственные компоненты (деятельности, службы, приемники широковещательных намерений и контент-провайдеры) разрешениями.</text></para>
+  </body>
+</topic>

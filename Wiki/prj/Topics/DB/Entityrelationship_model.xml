@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Entity–relationship model</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Модель сущность связь</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Здесь рассматриваются реляционные БД на примерах с использованием СУБД MySQL.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Демонстрируются возможности среды моделирования Ca ERwin Data Modeler.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">object</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">object</text></para>
+    </header>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Класс </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">object</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> яляется базовым для всех типов (в т.ч. и пользовательских).</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Если ссылка на объект класса </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">object </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">используется для обращение типу значения, то этот процесс называется </text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">упаковкой</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> .</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000; background-color:#ffff00;" translate="true">Распаковка</text><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> представляет собой процесс извлечения упакованного значения путем явного приведения к типу.</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Если распаковывать в несоответствующий тип то может произойти ошибка на этапе исполнения.</text></para>
+    <para></para>
+  </body>
+</topic>

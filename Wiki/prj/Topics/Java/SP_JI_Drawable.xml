@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">drawable-...</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">drawable-...</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Содержит подкаталоги с изображениями или дескрипторами изображений используемые программой.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Подпапки содержат одни и те же изображения но для разных размеров.</text></para>
+  </body>
+</topic>

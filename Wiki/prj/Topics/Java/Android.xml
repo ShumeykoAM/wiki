@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Андроид</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Андроид</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">В андроид приложениях существует четыре типа компонентов:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none; font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">деятельность (Activity);</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">служба (Service);</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">Приемник широковещательных намерений (Broadcast Receiver);</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">контент-провайдер (Content Provider).</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-family:'Times New Roman'; font-size:14pt;" translate="true">Возможно есть еще...</text></para>
+  </body>
+</topic>

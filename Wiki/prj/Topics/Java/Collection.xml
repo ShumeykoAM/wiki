@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">- Коллекции объектов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">- Коллекции объектов</text></para>
+    </header>
+    <para style="margin-left:35px; line-height:1.13;"><text styleclass="Normal" style="font-family:Calibri; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Все контейнеры могут хранить только ссылочные типы.</text></para>
+    <para style="margin-left:35px; line-height:1.13;"></para>
+    <para style="margin-left:35px; line-height:1.13;"><text styleclass="Normal" style="font-family:Calibri; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Ниже представлена диаграмма классов контейнеров:</text></para>
+    <para style="margin-left:35px; line-height:1.13;"></para>
+    <para style="margin-left:35px; line-height:1.13;"><image src="collections.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

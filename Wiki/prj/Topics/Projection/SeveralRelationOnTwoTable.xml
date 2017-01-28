@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Shumeiko" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Несколько связей между двумя таблицами</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Несколько связей между двумя таблицами</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Если необходимо создать несколько связей между двумя таблицами нужно в свойствах связи выбрать вкладку Rolename и задать там ей имя. При этом произойдет миграция ключа.</text></para>
+    <para styleclass="Normal"><image src="SeveralRelative1.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"><text styleclass="Image Caption" style="font-size:16pt; font-weight:normal;" translate="true">Первичный ключ после миграции может стать как частью первичного зависимой сущности, так и просто вторичным ключем.</text></para>
+    <para styleclass="Normal"><image src="SeveralRelative2.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

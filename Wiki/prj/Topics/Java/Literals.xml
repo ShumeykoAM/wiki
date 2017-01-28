@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Литералы</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Литералы</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Числовой литерал &#160;100 &#160; 34.65 &#160; 0x432fdc4 &#160; &#160;04324732 &#160;45f &#160;78L</text></para>
+    <para styleclass="Normal" style="margin-top:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Символ &apos;v&apos;</text></para>
+    <para styleclass="Normal" style="margin-top:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Строка &quot;Это строка&quot;</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Смотрите </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Types" styleclass="Normal" style="font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Типы данных</link></para>
+  </body>
+</topic>

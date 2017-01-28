@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">IDEF0</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">IDEF0</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В основе методологии лежат четыре основных понятия: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Activity_Box_Arrow" styleclass="Normal" translate="true">функциональный блок, дуга (стрелка)</link><text styleclass="Normal" translate="true">, декомпозиция, глоссарий.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">На рисунке ниже изображен образец диаграммы со всеми возможными ситуациями.</text></para>
+    <para styleclass="Normal"><image src="IDEF0.png" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

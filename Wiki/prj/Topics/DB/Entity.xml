@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Сущности</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Сущности</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Сущность</text><text styleclass="Normal" translate="true"> – это абстракция &#160;множества предметов или явлений реального мира.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Сущности обладают определенными свойствами – атрибутами. </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Атрибут</text><text styleclass="Normal" translate="true"> – это абстракция одной характеристики объекта или явления реального мира. Каждый атрибут должен иметь имя – существительное в единственном числе, и получать значение из некоторого множества допустимых значений.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">У каждой сущности должен быть выделен идентификатор, или первичный </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Keys" styleclass="Normal" style="font-weight:bold;" translate="true">ключ</link><text styleclass="Normal" translate="true">.</text></para>
+  </body>
+</topic>

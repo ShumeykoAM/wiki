@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Уровни моделирования</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Уровни моделирования</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">На этапе </text><text styleclass="Normal" style="font-weight:bold;" translate="true">инфологического</text><text styleclass="Normal" translate="true"> проектирования базы данных должна быть построена модель предметной области, не привязанная к конкретной СУБД, понятная не только разработчикам информационной системы, но и экономистам, менеджерам и другим специалистам.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Логический</text><text styleclass="Normal" translate="true"> уровень - соответствует инфологическому уровню и оперирует сущностями, атрибутами и связями именуемые на </text><text styleclass="Normal" style="font-weight:bold;" translate="true">естественном (русском) языке</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Физический</text><text styleclass="Normal" translate="true"> уровень - это отображение логической модели на модель данных конкретной СУБД.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Одной логической модели может соответствовать несколько физических моделей.</text></para>
+  </body>
+</topic>

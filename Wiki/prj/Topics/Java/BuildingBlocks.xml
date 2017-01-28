@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Строительные блоки</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Строительные блоки</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">В андроид приложениях существует четыре типа компонентов:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none; font-family:Symbol; font-size:14pt; color:#000000;">
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">деятельность (Activity) </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Activity" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#2d8adf;" translate="true">Activity</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">;</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">служба (Service) </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Service" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#2d8adf;" translate="true">Service</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">;</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">приемник широковещательных намерений (Broadcast Receiver) </text><link displaytype="text" defaultstyle="true" type="topiclink" href="BroadcastReceiver" styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#2d8adf;" translate="true">Intent</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">;</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:25px; tabstops:none;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">контент-провайдер (Content Provider) </text><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; vertical-align:baseline; color:#2d8adf;" translate="true">ContentProvider</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">.</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:14pt;" translate="true">Возможно есть еще.</text></para>
+  </body>
+</topic>

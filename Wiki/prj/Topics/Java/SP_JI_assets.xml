@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">assets</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">assets</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Произвольное собрание файлов и каталогов, которые не являются ресурсами.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../helpproject.xsd">
+  <title translate="true">Абстрактная фабрика</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Абстрактная фабрика</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Допустим у нас есть кроссплатформенное приложение и для него мы сделали 2 набора визуальных компонентов для ОС Windows и для ОС Linux.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Нам в принципе не надо знать в какой мы ОС на данный момент работаем, по этому в самом начале мы создаем объект фабрики в соответствии с текущей ОС, теперь можно создавать визуальные компоненты и использовать их не парясь в какой ос мы работаем, если нужно будет можно будет создать еще набор визуальных компонентов для еще одно ОС не затрагивая остальную реализацию программы.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">На рисунке ниже видно что получается своего рода таблица фабрик и объектов.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="AbstractFactory.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

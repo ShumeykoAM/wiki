@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">.idea</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">.idea</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Содержит файлы и папки необходимые самой JI она нам не интересна.</text></para>
+  </body>
+</topic>

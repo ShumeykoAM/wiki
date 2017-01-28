@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Дуги</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Дуги</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Стрелка - это некая физическая сущность или информация.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Часто возникает ситуация когда одной стрелкой обозначают несколько схожих или однородных между собой сущностей. Например разные работы порождают схожие или однородные данные или сущности, которые потом обрабатываются одинаково, для обозначения </text><text styleclass="Normal" style="font-weight:bold;" translate="true">обобщения</text><text styleclass="Normal" translate="true"> сущностей применяют </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Merge" styleclass="Normal" translate="true">слияние стрелок</link><text styleclass="Normal" translate="true">. В случае когда одни и теже данные или сущности необходимо обрабатывать внескольких активностях, речь идет о </text><text styleclass="Normal" style="font-weight:bold;" translate="true">конкретизации</text><text styleclass="Normal" translate="true"> сущностей, применяют </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Merge" styleclass="Normal" translate="true">разветвление стрелок</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Стрелки которые соединяющие активности (функциональные блоки) на одной диаграмме называются </text><text styleclass="Normal" style="font-weight:bold;" translate="true">внутренними</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">В IDEF0 существует 5 видов связей:</text></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:16pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Связь по входу</text><br/><image src="output_input.png" scale="100.00%" styleclass="Image Caption"></image></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Связь по управлению</text><br/><image src="output_control.png" scale="100.00%" styleclass="Image Caption"></image></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Обратная связь по входу</text><br/><image src="output_input_feetback.png" scale="100.00%" styleclass="Image Caption"></image></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Обратная связь по управлению</text><br/><image src="output_contr_feetback.png" scale="100.00%" styleclass="Image Caption"></image></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Связь выход-механизм</text><br/><image src="output_mechanism.png" scale="100.00%" styleclass="Image Caption"></image></li>
+    </list>
+  </body>
+</topic>

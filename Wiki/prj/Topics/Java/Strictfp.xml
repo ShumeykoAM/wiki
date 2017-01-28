@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">strictfp</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">strictfp</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#0000ff;" translate="true">strictfp</text><text styleclass="Normal" translate="true"> нужно для указания точности вычисления типов с плавающей точкой в соответствии со стандартом IEEE 754.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Применение модификатора </text><text styleclass="Normal" style="color:#0000ff;" translate="true">strictfp</text><text styleclass="Normal" translate="true"> к методу или классу гарантирует одинаковость вычислений с плавающей точкой на машинах с разными процессорами.</text></para>
+  </body>
+</topic>

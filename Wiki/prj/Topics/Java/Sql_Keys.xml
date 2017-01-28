@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Ключи</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Ключи</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Из за указанных ниже наблюдений </text><text styleclass="Normal" style="color:#ff0000;" translate="true">следует придерживаться</text><text styleclass="Normal" translate="true"> следующих правил:</text></para>
+    <list id="5" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:29px; tabstops:none; font-family:Symbol; font-size:14pt; color:#ff0000;">
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:29px; tabstops:none;"><text styleclass="Normal" translate="true">поле являющееся первичным нужну помечать </text><text styleclass="Normal" style="color:#ff0000;" translate="true">_id integer primary key</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">первичные ключ должен иметь имя </text><text styleclass="Normal" style="color:#ff0000;" translate="true">_id</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:29px; tabstops:none;"><text styleclass="Normal" translate="true">первичный ключ </text><text styleclass="Normal" style="font-weight:bold; font-style:italic;" translate="true">желательно</text><text styleclass="Normal" translate="true">&#32;</text><text styleclass="Normal" style="color:#ff0000;" translate="true">не должен быть составным</text><text styleclass="Normal" translate="true">, перестает работать автоинкремент, (это значит что связи могут быть только </text><text styleclass="Normal" style="color:#ff0000;" translate="true">неидентифицирующие</text><text styleclass="Normal" translate="true">)</text></li>
+      <li styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:29px; tabstops:none;"><text styleclass="Normal" translate="true">нельзя помечать первичный ключ </text><text styleclass="Normal" style="color:#ff0000;" translate="true">AUTOINCREMENT NOT NULL</text><text styleclass="Normal" translate="true">, перестает работать автоинкремент</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Внимание!!! Эксперименты показывают, что </text><text styleclass="Normal" style="font-weight:bold; font-style:italic; color:#800000;" translate="true">нельзя</text><text styleclass="Normal" translate="true"> использовать ключевое слово </text><text styleclass="Normal" style="color:#ff0000;" translate="true">AUTOINCREMENT </text><text styleclass="Normal" translate="true">и </text><text styleclass="Normal" style="color:#ff0000;" translate="true">NOT NULL &#160;для первичного ключа</text><text styleclass="Normal" translate="true">, как вместе так и по отдельности, перестает инкрементить поле, хотя если применять такой синтаксис &#160;&quot;_id integer primary key autoincrement&quot; то работает, на сколько я понял в документации написано что autoincrement применять не обязательно.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Внимание!!! Эксперименты показывают, что нежелательно использовать </text><text styleclass="Normal" style="color:#ff0000;" translate="true">составной первичный ключ</text><text styleclass="Normal" translate="true">, перестает работать инкрементация первого сегмента.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Внимание!!! синтаксис создания первичного ключа &quot;</text><text styleclass="Normal" style="color:#ff0000;" translate="true">PRIMARY KEY (_id)</text><text styleclass="Normal" translate="true">&quot; какой то глючный.</text></para>
+  </body>
+</topic>

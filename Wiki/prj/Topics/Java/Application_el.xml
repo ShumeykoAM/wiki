@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">&lt;application&gt;</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">&lt;application&gt;</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Элемент &lt;application&gt;— это важный элемент манифеста, содержащий описание компонентов приложения, доступных в пакете. Этот элемент содержит дочерние элементы, которые объявляют каждый из компонентов, входящих с состав приложения.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="application_el.bmp" scale="89.42%" width="584" height="837" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

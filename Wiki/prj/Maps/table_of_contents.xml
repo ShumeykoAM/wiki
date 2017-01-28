@@ -1,0 +1,1872 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="424754268112795" build="ALL" modified="2016-04-15T20:39:28.796Z" icon="11" href="main_topic">
+    <caption translate="true">Справка</caption>
+    <topicref type="topic" id="424755994613226" build="ALL" modified="2016-04-13T08:21:15.930Z" icon="0" href="Cpp_11">
+      <caption translate="true">Cpp_11</caption>
+      <topicref type="topic" id="420039878191716" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="1" href="Page_132">
+        <caption translate="true">STL стандартная библиотека шаблонов</caption>
+        <topicref type="topic" id="424886244450149" build="ALL" modified="2016-05-01T17:48:49.685Z" icon="0" href="Unique_ptr">
+          <caption translate="true">Интеллектуальные указатели</caption>
+        </topicref>
+        <topicref type="topic" id="420040701723635" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="1" href="Page_252">
+          <caption translate="true">контейнеры</caption>
+          <topicref type="topic" id="420038696610364" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_246">
+            <caption translate="true">vector</caption>
+          </topicref>
+          <topicref type="topic" id="420037779326234" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_247">
+            <caption translate="true">list</caption>
+          </topicref>
+          <topicref type="topic" id="420036530264157" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_248">
+            <caption translate="true">deque</caption>
+          </topicref>
+          <topicref type="topic" id="420036665212241" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_249">
+            <caption translate="true">stack</caption>
+          </topicref>
+          <topicref type="topic" id="420040212995245" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_250">
+            <caption translate="true">queue</caption>
+          </topicref>
+          <topicref type="topic" id="420037074999142" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_251">
+            <caption translate="true">priority_queue</caption>
+          </topicref>
+          <topicref type="topic" id="420036686508342" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_253">
+            <caption translate="true">map</caption>
+          </topicref>
+          <topicref type="topic" id="420040364856741" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_254">
+            <caption translate="true">multimap</caption>
+          </topicref>
+          <topicref type="topic" id="420038461821541" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_255">
+            <caption translate="true">set</caption>
+          </topicref>
+          <topicref type="topic" id="420038705689334" build="ALL" modified="2014-12-30T20:41:19.746Z" icon="11" href="Page_256">
+            <caption translate="true">multiset</caption>
+          </topicref>
+          <topicref type="topic" id="420040387019383" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_257">
+            <caption translate="true">bitset</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038359724596" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="1" href="Page_258">
+          <caption translate="true">Стоки</caption>
+          <topicref type="topic" id="420036580187262" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_259">
+            <caption translate="true">string</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039142761577" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="1" href="Page_262">
+          <caption translate="true">Ввод вывод</caption>
+          <topicref type="topic" id="420038837779992" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_230">
+            <caption translate="true">Файловые потоки</caption>
+          </topicref>
+          <topicref type="topic" id="420040690473360" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_209">
+            <caption translate="true">Ввод вывод в консоль</caption>
+          </topicref>
+          <topicref type="topic" id="420040317228065" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="1" href="Page_263">
+            <caption translate="true">Строковый ввод вывод sstream</caption>
+            <topicref type="topic" id="420038627589456" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_264">
+              <caption translate="true">Пример преобразования числа в строку</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038803310189" build="ALL" modified="2014-12-30T20:41:19.747Z" icon="11" href="Page_233">
+          <caption translate="true">Итераторы</caption>
+        </topicref>
+        <topicref type="topic" id="420039744454185" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_279">
+          <caption translate="true">stdlib и cstring, память и манимулирование данными</caption>
+        </topicref>
+        <topicref type="topic" id="420037127777196" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="1" href="Page_285">
+          <caption translate="true">Алгоритмы, патерны</caption>
+          <topicref type="topic" id="420038767656478" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="1" href="Page_296">
+            <caption translate="true">Немодифицирующие</caption>
+            <topicref type="topic" id="420039471645269" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_288">
+              <caption translate="true">count(),  count_if()  подсчитать</caption>
+            </topicref>
+            <topicref type="topic" id="420039461428974" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_289">
+              <caption translate="true">min_element(), max_element()</caption>
+            </topicref>
+            <topicref type="topic" id="420040408988516" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_290">
+              <caption translate="true">find(), find_if()  поиск</caption>
+            </topicref>
+            <topicref type="topic" id="420036686822301" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_291">
+              <caption translate="true">search_n() search(), find_end()</caption>
+            </topicref>
+            <topicref type="topic" id="420039200752929" build="ALL" modified="2014-12-30T20:41:19.748Z" icon="11" href="Page_292">
+              <caption translate="true">find_first_of ищем первый(послед) элем в контейн который есть в другом контейн</caption>
+            </topicref>
+            <topicref type="topic" id="420037095396852" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_293">
+              <caption translate="true">adjacent_find()  ищем подряд идущие одинак символы</caption>
+            </topicref>
+            <topicref type="topic" id="420039184194851" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_294">
+              <caption translate="true">equal(), mismatch(), эквивалентность и поиск различий</caption>
+            </topicref>
+            <topicref type="topic" id="420037444849440" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_295">
+              <caption translate="true">lexicographical_compare(), лексикографическое сравнение</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039869076446" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="1" href="Page_297">
+            <caption translate="true">Модифицирующие</caption>
+            <topicref type="topic" id="420039116932043" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_232">
+              <caption translate="true">Сортировка</caption>
+            </topicref>
+            <topicref type="topic" id="420036642613438" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_301">
+              <caption translate="true">copy(), copy_backward()  копирование с первого и с последнего элемента</caption>
+            </topicref>
+            <topicref type="topic" id="420039448741624" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_302">
+              <caption translate="true">transform() модификатор, объединитель</caption>
+            </topicref>
+            <topicref type="topic" id="420038184537466" build="ALL" modified="2014-12-30T20:41:19.749Z" icon="11" href="Page_303">
+              <caption translate="true">merge() слияние интервалов</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039435088242" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="1" href="Page_286">
+            <caption translate="true">for_each   (перебор)</caption>
+            <topicref type="topic" id="420037548724000" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="11" href="Page_287">
+              <caption translate="true">Вызов методов класса</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420037863524959" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="1" href="Page_300">
+            <caption translate="true">Патерны</caption>
+            <topicref type="topic" id="420039860752203" build="ALL" modified="2015-06-22T19:23:29.375Z" icon="11" href="Page_298">
+              <caption translate="true">Функциональные объекты - функторы</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420036566055890" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="11" href="Page_309">
+          <caption translate="true">Классификация символов</caption>
+        </topicref>
+        <topicref type="topic" id="420039152217661" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="11" href="Page_310">
+          <caption translate="true">Локализация</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="424734020136076" build="ALL" modified="2016-04-13T08:43:31.557Z" icon="2" href="class">
+        <caption translate="true">Классы</caption>
+      </topicref>
+      <topicref type="topic" id="424731926389947" build="ALL" modified="2016-04-13T08:40:53.067Z" icon="0" href="type_derivation">
+        <caption translate="true">Вывод типа</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424757318734598" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="1">
+      <caption translate="true">С/C++</caption>
+      <topicref type="topic" id="420038072064398" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="1" href="Page_18_2">
+        <caption translate="true">С и С++_2</caption>
+        <topicref type="topic" id="420036808406914" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="1" href="Page_2">
+          <caption translate="true">Типы данных и литералы</caption>
+          <topicref type="topic" id="420037807611851" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="1" href="Page_8_2">
+            <caption translate="true">Типы_2</caption>
+            <topicref type="topic" id="420040496967509" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="1" href="Page_85">
+              <caption translate="true">Интегральные типы bool char wchar_t int</caption>
+              <topicref type="topic" id="420036865702515" build="ALL" modified="2014-12-30T20:41:19.729Z" icon="11" href="Page_3_2">
+                <caption translate="true">bool_2</caption>
+              </topicref>
+              <topicref type="topic" id="42004556800054" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_4_2">
+                <caption translate="true">char wchar_t_2</caption>
+              </topicref>
+              <topicref type="topic" id="42003688147790" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_5_2">
+                <caption translate="true">int_2</caption>
+              </topicref>
+            </topicref>
+            <topicref type="topic" id="42003267663407" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_6_2">
+              <caption translate="true">с плавающей точкой_2</caption>
+            </topicref>
+            <topicref type="topic" id="42002390165022" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_45">
+              <caption translate="true">Модификаторы основных типов</caption>
+            </topicref>
+            <topicref type="topic" id="42005882446276" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_7_2">
+              <caption translate="true">void_2</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="42004499227131" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="1" href="Page_44">
+            <caption translate="true">Константы и литералы</caption>
+            <topicref type="topic" id="42005642097719" build="ALL" modified="2014-12-30T20:41:19.730Z" icon="11" href="Page_46">
+              <caption translate="true">Символьные константы</caption>
+            </topicref>
+            <topicref type="topic" id="420039386895313" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="11" href="Page_47">
+              <caption translate="true">Строковые константы</caption>
+            </topicref>
+            <topicref type="topic" id="420040639376027" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="11" href="Page_48">
+              <caption translate="true">Целочисленные и с плавающей точкой</caption>
+            </topicref>
+            <topicref type="topic" id="420040755140986" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="11" href="Page_49">
+              <caption translate="true">Шестнадцатиричные и восьмиричные</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038178765743" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="11" href="Page_9_2">
+            <caption translate="true">Объявления_2</caption>
+          </topicref>
+          <topicref type="topic" id="420038276280868" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="1" href="Page_86">
+            <caption translate="true">Область видимости имен</caption>
+            <topicref type="topic" id="420036864133595" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="11" href="Page_43">
+              <caption translate="true">Обособленный блок {.......}</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038667817327" build="ALL" modified="2014-12-30T20:41:19.731Z" icon="1" href="Page_90">
+            <caption translate="true">преобразования выражения из одного типа в другой</caption>
+            <topicref type="topic" id="420040087394033" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_92">
+              <caption translate="true">dynamic_cast</caption>
+            </topicref>
+            <topicref type="topic" id="420038205161915" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_91">
+              <caption translate="true">static_cast</caption>
+            </topicref>
+            <topicref type="topic" id="420037897647477" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_93">
+              <caption translate="true">reinterpret_cast</caption>
+            </topicref>
+            <topicref type="topic" id="420038405848754" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_94">
+              <caption translate="true">const_cast</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039066293769" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="1" href="Page_50">
+          <caption translate="true">Переменные и константы объявления</caption>
+          <topicref type="topic" id="420039950905987" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_51">
+            <caption translate="true">Локальные переменные</caption>
+          </topicref>
+          <topicref type="topic" id="420037329296616" build="ALL" modified="2014-12-30T20:41:19.732Z" icon="11" href="Page_52">
+            <caption translate="true">Формальные параметры</caption>
+          </topicref>
+          <topicref type="topic" id="420039436157933" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="11" href="Page_53">
+            <caption translate="true">Глобальные переменные</caption>
+          </topicref>
+          <topicref type="topic" id="420037247306576" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="11" href="Page_87">
+            <caption translate="true">Область видимости имен переменных</caption>
+          </topicref>
+          <topicref type="topic" id="420037337911796" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="1" href="Page_54">
+            <caption translate="true">Квалификаторы const и volatil</caption>
+            <topicref type="topic" id="420040663994387" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="11" href="Page_55">
+              <caption translate="true">const</caption>
+            </topicref>
+            <topicref type="topic" id="420036982443979" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="11" href="Page_56">
+              <caption translate="true">volatil</caption>
+            </topicref>
+            <topicref type="topic" id="420040047626089" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="11" href="Page_57">
+              <caption translate="true">совместно const и volatil</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038480475886" build="ALL" modified="2014-12-30T20:41:19.733Z" icon="1" href="Page_58">
+            <caption translate="true">Спецификаторы хранения</caption>
+            <topicref type="topic" id="420036508314593" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="11" href="Page_59">
+              <caption translate="true">extern</caption>
+            </topicref>
+            <topicref type="topic" id="420037185332109" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="1" href="Page_60">
+              <caption translate="true">static</caption>
+              <topicref type="topic" id="420039044607692" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="11" href="Page_61">
+                <caption translate="true">Локальные статические переменные</caption>
+              </topicref>
+              <topicref type="topic" id="420037455512605" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="11" href="Page_62">
+                <caption translate="true">Глобальные статические переменные</caption>
+              </topicref>
+            </topicref>
+            <topicref type="topic" id="420040251320135" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="11" href="Page_63">
+              <caption translate="true">register</caption>
+            </topicref>
+            <topicref type="topic" id="420037817603228" build="ALL" modified="2014-12-30T20:41:19.734Z" icon="11" href="Page_64">
+              <caption translate="true">auto</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420036536738190" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="11" href="Page_88">
+            <caption translate="true">Инициализация</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037151325613" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="1" href="Page_66">
+          <caption translate="true">Массивы и строки, динамическая память</caption>
+          <topicref type="topic" id="420040689312748" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="11" href="Page_67">
+            <caption translate="true">Размерные массивы и строки</caption>
+          </topicref>
+          <topicref type="topic" id="420038387541523" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="1" href="Page_68">
+            <caption translate="true">Динамическое распределение памяти</caption>
+            <topicref type="topic" id="420040711589550" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="11" href="Page_69">
+              <caption translate="true">Безразмерные массивы</caption>
+            </topicref>
+            <topicref type="topic" id="420040594918475" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="11" href="Page_70">
+              <caption translate="true">Функции  malloc() и free()</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420036958675683" build="ALL" modified="2014-12-30T20:41:19.735Z" icon="11" href="Page_71">
+            <caption translate="true">Указатели на массивы и массивы как параметры</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420036946355536" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="1" href="Page_72">
+          <caption translate="true">Указатели и ссылки</caption>
+          <topicref type="topic" id="420038537246285" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="1" href="Page_74">
+            <caption translate="true">Указатели на переменные и массивы</caption>
+            <topicref type="topic" id="420037826307321" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="11" href="Page_126">
+              <caption translate="true">Адресация с преобразованием типа</caption>
+            </topicref>
+            <topicref type="topic" id="420036782539970" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="11" href="Page_73">
+              <caption translate="true">Косвенная адресация</caption>
+            </topicref>
+            <topicref type="topic" id="420037959861449" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="11" href="Page_75">
+              <caption translate="true">Инициализация указателей</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420036977025320" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="11" href="Page_76">
+            <caption translate="true">Указатели на функции</caption>
+          </topicref>
+          <topicref type="topic" id="420037660302226" build="ALL" modified="2014-12-30T20:41:19.736Z" icon="11" href="Page_78">
+            <caption translate="true">Указатели на массивы, массивы как параметры</caption>
+          </topicref>
+          <topicref type="topic" id="420037531365998" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_77">
+            <caption translate="true">ссылки</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037486009657" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="1" href="Page_21">
+          <caption translate="true">Ключевые слова C++</caption>
+          <topicref type="topic" id="420036637795887" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_10_2">
+            <caption translate="true">enum - перечисления_2</caption>
+          </topicref>
+          <topicref type="topic" id="420039069096294" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_11_2">
+            <caption translate="true">typedef_2</caption>
+          </topicref>
+          <topicref type="topic" id="420038339569097" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_265">
+            <caption translate="true">typeid</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040018915481" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="1" href="Page_278">
+          <caption translate="true">Операторы</caption>
+          <topicref type="topic" id="420039997619863" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="1" href="Page_28">
+            <caption translate="true">Специальные</caption>
+            <topicref type="topic" id="420040621714054" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_29">
+              <caption translate="true">Взятие адреса и разыменование</caption>
+            </topicref>
+            <topicref type="topic" id="420039793617449" build="ALL" modified="2014-12-30T20:41:19.737Z" icon="11" href="Page_30">
+              <caption translate="true">Определение размера (sizeof)</caption>
+            </topicref>
+            <topicref type="topic" id="420037250021044" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_31">
+              <caption translate="true">Оператор последовательного вычисления</caption>
+            </topicref>
+            <topicref type="topic" id="420040744267865" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_32">
+              <caption translate="true">Доступ к члену структуры, класса (напрямую и через ссылку)</caption>
+            </topicref>
+            <topicref type="topic" id="420038548752868" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_25">
+              <caption translate="true">Явное преобразование типов</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038222627514" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="1" href="Page_34">
+            <caption translate="true">Условные операторы</caption>
+            <topicref type="topic" id="420037429444848" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_35">
+              <caption translate="true">Операторы if и switch</caption>
+            </topicref>
+            <topicref type="topic" id="420037094884403" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_36">
+              <caption translate="true">Тернарный оператор ?:</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039671053676" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="1" href="Page_37">
+            <caption translate="true">Операторы циклов</caption>
+            <topicref type="topic" id="420040267525000" build="ALL" modified="2014-12-30T20:41:19.738Z" icon="11" href="Page_38">
+              <caption translate="true">Цикл for</caption>
+            </topicref>
+            <topicref type="topic" id="420039609804696" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_39">
+              <caption translate="true">Цикл  while  и  do while</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039380010759" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="1" href="Page_40">
+            <caption translate="true">Операторы переходов</caption>
+            <topicref type="topic" id="420037078619946" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_41">
+              <caption translate="true">goto</caption>
+            </topicref>
+            <topicref type="topic" id="420040088045504" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_42">
+              <caption translate="true">return</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039277321077" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="1" href="Page_266">
+            <caption translate="true">Выделение памяти</caption>
+            <topicref type="topic" id="420037205580597" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_267">
+              <caption translate="true">new и исключения</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420036740936774" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_23">
+            <caption translate="true">Оператор присваивания</caption>
+          </topicref>
+          <topicref type="topic" id="420036808513807" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_24">
+            <caption translate="true">Арифметические</caption>
+          </topicref>
+          <topicref type="topic" id="420039209065626" build="ALL" modified="2014-12-30T20:41:19.739Z" icon="11" href="Page_26">
+            <caption translate="true">Сравнения и логические</caption>
+          </topicref>
+          <topicref type="topic" id="420038363343854" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_27">
+            <caption translate="true">Побитовые</caption>
+          </topicref>
+          <topicref type="topic" id="420039833436339" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_22">
+            <caption translate="true">Операторы</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039012895264" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="1" href="Page_79">
+          <caption translate="true">Функции</caption>
+          <topicref type="topic" id="420040000888775" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_80">
+            <caption translate="true">Общий вид функции</caption>
+          </topicref>
+          <topicref type="topic" id="420039051614349" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_81">
+            <caption translate="true">Область видимости функции</caption>
+          </topicref>
+          <topicref type="topic" id="420037159893617" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_122">
+            <caption translate="true">Переменное число параметров</caption>
+          </topicref>
+          <topicref type="topic" id="420039896653020" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_123">
+            <caption translate="true">Inline</caption>
+          </topicref>
+          <topicref type="topic" id="420036753002343" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_142">
+            <caption translate="true">перегрузка функций</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="421780065438368" build="ALL" modified="2015-06-22T19:00:22.358Z" icon="0" href="Lyambda_2">
+          <caption translate="true">Лямбда функции_2</caption>
+          <topicref type="topic" id="421780004751230" build="ALL" modified="2015-06-22T19:03:37.177Z" icon="0" href="var_equating_lyambda">
+            <caption translate="true">Переменная = лямбда функция</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037281523837" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="1" href="Page_238">
+          <caption translate="true">Структуры</caption>
+          <topicref type="topic" id="420038231536852" build="ALL" modified="2014-12-30T20:41:19.740Z" icon="11" href="Page_239">
+            <caption translate="true">Инициализация структур</caption>
+          </topicref>
+          <topicref type="topic" id="420038063938352" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_242">
+            <caption translate="true">Безымянные структуры</caption>
+          </topicref>
+          <topicref type="topic" id="420040528935258" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_260">
+            <caption translate="true">Выравнивание структур</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040652728430" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="1" href="Page_243">
+          <caption translate="true">union объединения</caption>
+          <topicref type="topic" id="420037232416054" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_244">
+            <caption translate="true">безымянные объединения</caption>
+          </topicref>
+          <topicref type="topic" id="420039108353061" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_245">
+            <caption translate="true">Смешаное объединение</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037517906895" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="1" href="Page_136">
+          <caption translate="true">Классы</caption>
+          <topicref type="topic" id="420037709425301" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="1" href="Page_152">
+            <caption translate="true">Понятия</caption>
+            <topicref type="topic" id="420038539394874" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_155">
+              <caption translate="true">класс</caption>
+            </topicref>
+            <topicref type="topic" id="420040346471704" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_154">
+              <caption translate="true">абстрактный класс</caption>
+            </topicref>
+            <topicref type="topic" id="420038579717055" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_160">
+              <caption translate="true">singleton одиночка</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420037491932126" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_172">
+            <caption translate="true">перегрузка функций членов</caption>
+          </topicref>
+          <topicref type="topic" id="420037119981704" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_141">
+            <caption translate="true">class и struct</caption>
+          </topicref>
+          <topicref type="topic" id="420037239785954" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_137">
+            <caption translate="true">private</caption>
+          </topicref>
+          <topicref type="topic" id="420039375422325" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_138">
+            <caption translate="true">public</caption>
+          </topicref>
+          <topicref type="topic" id="420039503222954" build="ALL" modified="2014-12-30T20:41:19.741Z" icon="11" href="Page_143">
+            <caption translate="true">protected</caption>
+          </topicref>
+          <topicref type="topic" id="420039635114640" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="1" href="Page_144">
+            <caption translate="true">friend</caption>
+            <topicref type="topic" id="420038567093170" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_185">
+              <caption translate="true">Функции и операторы</caption>
+            </topicref>
+            <topicref type="topic" id="420040702585159" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_186">
+              <caption translate="true">Функции члены классов и классы</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038302443395" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="1" href="Page_146">
+            <caption translate="true">static</caption>
+            <topicref type="topic" id="420036896898305" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_157">
+              <caption translate="true">статические члены класса</caption>
+            </topicref>
+            <topicref type="topic" id="420036906476695" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_151">
+              <caption translate="true">статическая переменная в функцие-члене</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039498059650" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_162">
+            <caption translate="true">const  функция-член</caption>
+          </topicref>
+          <topicref type="topic" id="420038016630801" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_145">
+            <caption translate="true">mutable</caption>
+          </topicref>
+          <topicref type="topic" id="420040397225875" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_149">
+            <caption translate="true">this и ссылка на себя</caption>
+          </topicref>
+          <topicref type="topic" id="420038188116106" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="1" href="Page_147">
+            <caption translate="true">конструктор</caption>
+            <topicref type="topic" id="420037339081062" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_173">
+              <caption translate="true">Инициализация свойств класса</caption>
+            </topicref>
+            <topicref type="topic" id="420037704889487" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_174">
+              <caption translate="true">Виртуальный конструктор</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420039629156570" build="ALL" modified="2014-12-30T20:41:19.742Z" icon="11" href="Page_163">
+            <caption translate="true">оператор = и конструктор по умолчанию</caption>
+          </topicref>
+          <topicref type="topic" id="420036663942418" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="1" href="Page_148">
+            <caption translate="true">деструктор</caption>
+            <topicref type="topic" id="420039528556052" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="11" href="Page_175">
+              <caption translate="true">Виртуальный деструктор</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038081660368" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="1" href="Page_167">
+            <caption translate="true">Массив объектов</caption>
+            <topicref type="topic" id="420039213314734" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="11" href="Page_168">
+              <caption translate="true">Без конструктора по умолчанию</caption>
+            </topicref>
+            <topicref type="topic" id="420039327180425" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="11" href="Page_169">
+              <caption translate="true">С конструктором по умолчанию</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038435025090" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="11" href="Page_170">
+            <caption translate="true">Необходимая инициализация и объекты в качестве членов</caption>
+          </topicref>
+          <topicref type="topic" id="420039010103208" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="1" href="Page_156">
+            <caption translate="true">virtual</caption>
+            <topicref type="topic" id="420040729233828" build="ALL" modified="2014-12-30T20:41:19.743Z" icon="11" href="Page_13_2">
+              <caption translate="true">Виртуальные функции_2</caption>
+            </topicref>
+            <topicref type="topic" id="420038836155223" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_189">
+              <caption translate="true">Абстрактные классы</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420038853376267" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_150">
+            <caption translate="true">explicit</caption>
+          </topicref>
+          <topicref type="topic" id="420037164517919" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_165">
+            <caption translate="true">property</caption>
+          </topicref>
+          <topicref type="topic" id="420036920613620" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="1" href="Page_153">
+            <caption translate="true">наследование</caption>
+            <topicref type="topic" id="420037040065057" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_187">
+              <caption translate="true">Public protected и privete наследование</caption>
+            </topicref>
+            <topicref type="topic" id="420040134357986" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_188">
+              <caption translate="true">Множественное наследование</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420040596457233" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_164">
+            <caption translate="true">иерархии классов</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040087976662" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="1" href="Page_133">
+          <caption translate="true">Шаблоны template</caption>
+          <topicref type="topic" id="420037393415878" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_190">
+            <caption translate="true">Шаблон класса</caption>
+          </topicref>
+          <topicref type="topic" id="420037198910121" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_261">
+            <caption translate="true">Определение в .cpp возможно</caption>
+          </topicref>
+          <topicref type="topic" id="420039798916938" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_191">
+            <caption translate="true">Шаблон функции</caption>
+          </topicref>
+          <topicref type="topic" id="420037422129336" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_192">
+            <caption translate="true">Инстанцирование</caption>
+          </topicref>
+          <topicref type="topic" id="420037049811333" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_193">
+            <caption translate="true">Перегрузка шаблонов функций</caption>
+          </topicref>
+          <topicref type="topic" id="420038445699945" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_194">
+            <caption translate="true">Параметры шаблона по умолчанию</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040407112196" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="1" href="Page_134">
+          <caption translate="true">Перегрузка операторов</caption>
+          <topicref type="topic" id="420038059364997" build="ALL" modified="2014-12-30T20:41:19.744Z" icon="11" href="Page_280">
+            <caption translate="true">Глобальные new delete new[] delete[]</caption>
+          </topicref>
+          <topicref type="topic" id="420038074748625" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_281">
+            <caption translate="true">new delete в классе</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038926462264" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="1" href="Page_166">
+          <caption translate="true">Исключения</caption>
+          <topicref type="topic" id="420038409784588" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_204">
+            <caption translate="true">Управление ресурсами</caption>
+          </topicref>
+          <topicref type="topic" id="420039315606966" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_205">
+            <caption translate="true">Вложенные обработчики</caption>
+          </topicref>
+          <topicref type="topic" id="420037604394533" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_206">
+            <caption translate="true">Тип исключения</caption>
+          </topicref>
+          <topicref type="topic" id="420039853383063" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_207">
+            <caption translate="true">Повторная генерация исключения</caption>
+          </topicref>
+          <topicref type="topic" id="420037299333954" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_184">
+            <caption translate="true">SEH исключения</caption>
+          </topicref>
+          <topicref type="topic" id="420040170301737" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_227">
+            <caption translate="true">Исключения функций</caption>
+          </topicref>
+          <topicref type="topic" id="420039819744161" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_234">
+            <caption translate="true">Конструктор и исключение</caption>
+          </topicref>
+          <topicref type="topic" id="420040071285363" build="ALL" modified="2014-12-30T20:41:19.745Z" icon="11" href="Page_235">
+            <caption translate="true">Деструктор и исключение</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040009824832" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="11" href="Page_304">
+          <caption translate="true">BOOST</caption>
+        </topicref>
+        <topicref type="topic" id="420038635888719" build="ALL" modified="2014-12-30T20:41:19.750Z" icon="1" href="Page_96">
+          <caption translate="true">Полезное</caption>
+          <topicref type="topic" id="420040583792620" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="1" href="Page_105">
+            <caption translate="true">Ввод вывод в консоли</caption>
+            <topicref type="topic" id="420038381942281" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_108">
+              <caption translate="true">Кириллица в консоли</caption>
+            </topicref>
+            <topicref type="topic" id="420038033778557" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_97">
+              <caption translate="true">printf()</caption>
+            </topicref>
+            <topicref type="topic" id="420040311531536" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_100">
+              <caption translate="true">scanf()</caption>
+            </topicref>
+            <topicref type="topic" id="420036693775792" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_98">
+              <caption translate="true">gets()</caption>
+            </topicref>
+            <topicref type="topic" id="420038963871472" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_117">
+              <caption translate="true">управляющие симольные константы</caption>
+            </topicref>
+            <topicref type="topic" id="420040391349084" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_124">
+              <caption translate="true">_getws()</caption>
+            </topicref>
+            <topicref type="topic" id="420038270424870" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_125">
+              <caption translate="true">Рисуем в консоли</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420040664619387" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="1" href="Page_104">
+            <caption translate="true">Работа с файлами</caption>
+            <topicref type="topic" id="420039061129568" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_101">
+              <caption translate="true">fopen()</caption>
+            </topicref>
+            <topicref type="topic" id="420038992857883" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_102">
+              <caption translate="true">fclose()</caption>
+            </topicref>
+            <topicref type="topic" id="420036686399437" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_103">
+              <caption translate="true">fprintf()</caption>
+            </topicref>
+            <topicref type="topic" id="420040192009319" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_107">
+              <caption translate="true">fscanf()</caption>
+            </topicref>
+            <topicref type="topic" id="420037587363477" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_106">
+              <caption translate="true">fgets()</caption>
+            </topicref>
+            <topicref type="topic" id="420038408288602" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_112">
+              <caption translate="true">fread()</caption>
+            </topicref>
+            <topicref type="topic" id="420039514456077" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_113">
+              <caption translate="true">fwrite()</caption>
+            </topicref>
+            <topicref type="topic" id="420039398957900" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_114">
+              <caption translate="true">fseek()</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420037688950155" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="1" href="Page_109">
+            <caption translate="true">Динамич ПАМЯТЬ</caption>
+            <topicref type="topic" id="420040333616178" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_110">
+              <caption translate="true">malloc() и free()</caption>
+            </topicref>
+            <topicref type="topic" id="420037014901932" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_115">
+              <caption translate="true">calloc</caption>
+            </topicref>
+            <topicref type="topic" id="420037711552987" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_116">
+              <caption translate="true">realloc</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420037225497231" build="ALL" modified="2014-12-30T20:41:19.751Z" icon="11" href="Page_99">
+            <caption translate="true">system()</caption>
+          </topicref>
+          <topicref type="topic" id="420037188666076" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="1" href="Page_118">
+            <caption translate="true">Случайное число</caption>
+            <topicref type="topic" id="420038888534223" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_111">
+              <caption translate="true">rand() - случайное число</caption>
+            </topicref>
+            <topicref type="topic" id="420038121534735" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_119">
+              <caption translate="true">srand() - полностью случайное</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420037447937903" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="1" href="Page_120">
+            <caption translate="true">Время дата</caption>
+            <topicref type="topic" id="420039807952117" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_121">
+              <caption translate="true">time</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420040352007388" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_240">
+            <caption translate="true">Маппирование файлов</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039223114247" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_299">
+          <caption translate="true">Патерны</caption>
+        </topicref>
+        <topicref type="topic" id="420040549487363" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_306">
+          <caption translate="true">#Препроцессор</caption>
+        </topicref>
+        <topicref type="topic" id="421657696612649" build="ALL" modified="2015-06-10T15:13:40.244Z" icon="0" href="Cpp11">
+          <caption translate="true">C++11</caption>
+          <topicref type="topic" id="421655657554689" build="ALL" modified="2015-06-10T15:17:24.303Z" icon="0" href="Add_Key_Words">
+            <caption translate="true">add Key Words override final default delete</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420040161958214" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_135">
+        <caption translate="true">Принципы ООП</caption>
+      </topicref>
+      <topicref type="topic" id="420039277851994" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="1" href="Page_307">
+        <caption translate="true">API</caption>
+        <topicref type="topic" id="420040708612622" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="1" href="Page_179">
+          <caption translate="true">Некоторые API функции</caption>
+          <topicref type="topic" id="420038154022455" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_180">
+            <caption translate="true">GetTickCount</caption>
+          </topicref>
+          <topicref type="topic" id="420037739454147" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_181">
+            <caption translate="true">GetDC</caption>
+          </topicref>
+          <topicref type="topic" id="420037802480297" build="ALL" modified="2014-12-30T20:41:19.752Z" icon="11" href="Page_182">
+            <caption translate="true">Sleep</caption>
+          </topicref>
+          <topicref type="topic" id="420037417479329" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_183">
+            <caption translate="true">SetTimer</caption>
+          </topicref>
+          <topicref type="topic" id="420040465880033" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_228">
+            <caption translate="true">HBRUSH CreateDIBPatternBrushPt</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037245034293" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_19">
+          <caption translate="true">Окна на API</caption>
+          <topicref type="topic" id="420039117620928" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_20">
+            <caption translate="true">Создание окна</caption>
+          </topicref>
+          <topicref type="topic" id="420037077980911" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_229">
+            <caption translate="true">Дочернее вверх Z-порядка</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039131180548" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_308">
+          <caption translate="true">Реестр windows</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420038503989641" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_177">
+        <caption translate="true">GDI</caption>
+        <topicref type="topic" id="420040036130495" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_127">
+          <caption translate="true">GDI</caption>
+          <topicref type="topic" id="420037638826619" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_128">
+            <caption translate="true">Функции</caption>
+            <topicref type="topic" id="420040365930223" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_129">
+              <caption translate="true">GetStockObject()</caption>
+            </topicref>
+            <topicref type="topic" id="420037032425904" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_130">
+              <caption translate="true">CreatePen()</caption>
+            </topicref>
+            <topicref type="topic" id="420039031335366" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_131">
+              <caption translate="true">SelectObject()</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038801979468" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_178">
+          <caption translate="true">GDI+</caption>
+          <topicref type="topic" id="420037717255413" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_231">
+            <caption translate="true">ClearType текст</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420037293252234" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="1" href="Page_14_2">
+        <caption translate="true">Редактор кода VC++ 2010_2</caption>
+        <topicref type="topic" id="420039595290123" build="ALL" modified="2014-12-30T20:41:19.753Z" icon="11" href="Page_16_2">
+          <caption translate="true">#IFDEF условная компиляция_2</caption>
+        </topicref>
+        <topicref type="topic" id="420039626390554" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_17_2">
+          <caption translate="true">#define - замещение #undef_2</caption>
+        </topicref>
+        <topicref type="topic" id="420040585566589" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_95">
+          <caption translate="true">при компиляции много ошибок</caption>
+        </topicref>
+        <topicref type="topic" id="420040321038656" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="1" href="Page_196">
+          <caption translate="true">Pragma Directives</caption>
+          <topicref type="topic" id="420037700952171" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_195">
+            <caption translate="true">pragma comment (lib)</caption>
+          </topicref>
+          <topicref type="topic" id="420040711826218" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_15_2">
+            <caption translate="true">region Сворачиваемые регионы кода_2</caption>
+          </topicref>
+          <topicref type="topic" id="420036895408701" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_268">
+            <caption translate="true">#pragma pack(push, 1)</caption>
+          </topicref>
+          <topicref type="topic" id="420039871451553" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_274">
+            <caption translate="true">отключить предупреждения компилятора</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420040303913752" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="1" href="Page_197">
+          <caption translate="true">lib - статическая библиотека</caption>
+          <topicref type="topic" id="420040232329777" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_198">
+            <caption translate="true">Создание</caption>
+          </topicref>
+          <topicref type="topic" id="420040687903352" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_199">
+            <caption translate="true">Использование</caption>
+          </topicref>
+          <topicref type="topic" id="420036951155290" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_200">
+            <caption translate="true">Использование через #pragma comment</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039100510234" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="1" href="Page_201">
+          <caption translate="true">dll - динамическая библиотека</caption>
+          <topicref type="topic" id="420037892323230" build="ALL" modified="2014-12-30T20:41:19.754Z" icon="11" href="Page_202">
+            <caption translate="true">Создание dll</caption>
+          </topicref>
+          <topicref type="topic" id="420036917863684" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_203">
+            <caption translate="true">using</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037551718182" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_269">
+          <caption translate="true">Тип проекта Unicode и не unicode</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420039777228486" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="1" href="Page_236">
+        <caption translate="true">DirectX</caption>
+        <topicref type="topic" id="420039012680344" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_237">
+          <caption translate="true">Установка DirectX SDK и настройка VS</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420040042431078" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="1" href="Page_270">
+        <caption translate="true">Сокеты</caption>
+        <topicref type="topic" id="420038979808405" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_271">
+          <caption translate="true">Подключение заголовочного файла</caption>
+        </topicref>
+        <topicref type="topic" id="420038730796617" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_282">
+          <caption translate="true">инициализация и деинициализация</caption>
+        </topicref>
+        <topicref type="topic" id="420038860095486" build="ALL" modified="2014-12-30T20:41:19.755Z" icon="11" href="Page_283">
+          <caption translate="true">Пример сервер</caption>
+        </topicref>
+        <topicref type="topic" id="42005292630407" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="11" href="Page_284">
+          <caption translate="true">пример клиент</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42004604241756" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="1" href="Page_272">
+        <caption translate="true">Driver</caption>
+        <topicref type="topic" id="42003648914942" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="11" href="Page_273">
+          <caption translate="true">Запуск службы</caption>
+        </topicref>
+        <topicref type="topic" id="42003662548999" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="11" href="Page_276">
+          <caption translate="true">Отладка ядра</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42002776168253" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="11" href="Page_275">
+        <caption translate="true">Создание проекта для всего</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424756236509677" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="2" href="Page_211">
+      <caption translate="true">Data Base</caption>
+      <topicref type="topic" id="42004497307815" build="ALL" modified="2016-04-15T17:04:00.081Z" icon="1">
+        <caption translate="true">MySQL</caption>
+        <topicref type="topic" id="42002921241841" build="ALL" modified="2014-12-30T20:41:19.756Z" icon="11" href="Page_225">
+          <caption translate="true">Понятие бызы данных</caption>
+        </topicref>
+        <topicref type="topic" id="420037780660592" build="ALL" modified="2014-12-30T20:41:19.757Z" icon="11" href="Page_213">
+          <caption translate="true">Using Access</caption>
+        </topicref>
+        <topicref type="topic" id="420037189118806" build="ALL" modified="2014-12-30T20:41:19.757Z" icon="11" href="Page_212">
+          <caption translate="true">Термины</caption>
+        </topicref>
+        <topicref type="topic" id="420038303033177" build="ALL" modified="2014-12-30T20:41:19.757Z" icon="1" href="Page_311">
+          <caption translate="true">MySQL</caption>
+          <topicref type="topic" id="420037000463639" build="ALL" modified="2014-12-30T20:41:19.757Z" icon="11" href="Page_312">
+            <caption translate="true">Установка, настройка</caption>
+          </topicref>
+          <topicref type="topic" id="420039972907640" build="ALL" modified="2014-12-30T20:41:19.757Z" icon="11" href="Page_313">
+            <caption translate="true">Пользователи, база</caption>
+          </topicref>
+          <topicref type="topic" id="420038663573695" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="Page_314">
+            <caption translate="true">пример присоединения к бд</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038961530483" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="Page_219">
+          <caption translate="true">Синтаксис</caption>
+        </topicref>
+        <topicref type="topic" id="420039240704722" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="Page_218">
+          <caption translate="true">Выборка данных</caption>
+        </topicref>
+        <topicref type="topic" id="420039480688431" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="Page_226">
+          <caption translate="true">Фильтрация данных</caption>
+        </topicref>
+        <topicref type="topic" id="420039705531509" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="1" href="Page_220">
+          <caption translate="true">Сортировка выбранных данных</caption>
+          <topicref type="topic" id="420039495460961" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="Page_222">
+            <caption translate="true">Направление сортировки</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420038930419743" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="2" href="SQL_Server">
+        <caption translate="true">SQL Server</caption>
+        <topicref type="topic" id="420040134267690" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="C_Sharp">
+          <caption translate="true">C#</caption>
+        </topicref>
+        <topicref type="topic" id="420038013278799" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="1" href="SELECT">
+          <caption translate="true">SELECT</caption>
+          <topicref type="topic" id="420037403145035" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="FROM">
+            <caption translate="true">FROM - откуда</caption>
+          </topicref>
+          <topicref type="topic" id="420038272151687" build="ALL" modified="2014-12-30T20:41:19.758Z" icon="11" href="WHERE">
+            <caption translate="true">WHERE - условие</caption>
+          </topicref>
+          <topicref type="topic" id="420036684357723" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="1" href="GROUP_BY">
+            <caption translate="true">GROUP BY</caption>
+            <topicref type="topic" id="420040153090692" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="11" href="HAVING">
+              <caption translate="true">HAVING</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="420040452283905" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="11" href="COUNT">
+            <caption translate="true">COUNT</caption>
+          </topicref>
+          <topicref type="topic" id="420037459798739" build="ALL" modified="2016-04-15T17:04:25.434Z" icon="11" href="SUM">
+            <caption translate="true">SUM</caption>
+          </topicref>
+          <topicref type="topic" id="420037835690200" build="ALL" modified="2016-04-15T17:04:38.729Z" icon="11" href="AVG">
+            <caption translate="true">AVG</caption>
+          </topicref>
+          <topicref type="topic" id="420039486202581" build="ALL" modified="2016-04-15T17:05:08.491Z" icon="11" href="MIN">
+            <caption translate="true">MIN</caption>
+          </topicref>
+          <topicref type="topic" id="420038776138572" build="ALL" modified="2016-04-15T17:05:16.259Z" icon="11" href="MAX">
+            <caption translate="true">MAX</caption>
+          </topicref>
+          <topicref type="topic" id="420038402887907" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="11" href="DISTINCT_ALL">
+            <caption translate="true">DISTINCT и ALL</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039389412094" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="11" href="INSERT">
+          <caption translate="true">INSERT</caption>
+        </topicref>
+        <topicref type="topic" id="420037231945072" build="ALL" modified="2014-12-30T20:41:19.759Z" icon="11" href="UPDATE">
+          <caption translate="true">UPDATE</caption>
+        </topicref>
+        <topicref type="topic" id="420040394153643" build="ALL" modified="2014-12-30T20:41:19.760Z" icon="11" href="DELETE">
+          <caption translate="true">DELETE</caption>
+        </topicref>
+        <topicref type="topic" id="420037208251262" build="ALL" modified="2014-12-30T20:41:19.760Z" icon="1" href="JOIN_2">
+          <caption translate="true">JOIN_2</caption>
+          <topicref type="topic" id="420037089963452" build="ALL" modified="2014-12-30T20:41:19.760Z" icon="11" href="INNER_JOIN">
+            <caption translate="true">INNER JOIN</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039227824223" build="ALL" modified="2016-04-15T17:05:29.892Z" icon="2">
+          <caption translate="true">SQL_Menagment</caption>
+          <topicref type="topic" id="420039479337518" build="ALL" modified="2014-12-30T20:41:19.760Z" icon="11" href="AutoIncrementKey">
+            <caption translate="true">Автоинкрементный ключ</caption>
+          </topicref>
+          <topicref type="topic" id="420039505470513" build="ALL" modified="2014-12-30T20:41:19.760Z" icon="11" href="DataGridView">
+            <caption translate="true">DataGridView</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="427310384676807" build="ALL" modified="2016-12-26T22:13:51.414Z" icon="0" href="SQL_">
+        <caption translate="true">SQL</caption>
+        <topicref type="topic" id="426957306872721" build="ALL" modified="2016-11-21T20:24:06.513Z" icon="0" href="select_data">
+          <caption translate="true">Выборка данных</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424756828364026" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="2" href="Page_18">
+      <caption translate="true">C#</caption>
+      <topicref type="topic" id="420037082134319" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="1" href="KeyWords">
+        <caption translate="true">Ключевые слова</caption>
+        <topicref type="topic" id="420037187180324" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="11" href="New">
+          <caption translate="true">new</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420038170173146" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="11" href="Identif">
+        <caption translate="true">Идентификаторы</caption>
+      </topicref>
+      <topicref type="topic" id="420037224430765" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="1" href="TypesData">
+        <caption translate="true">Типы данных</caption>
+        <topicref type="topic" id="420037996153297" build="ALL" modified="2014-12-30T20:52:57.262Z" icon="11" href="TransformType">
+          <caption translate="true">Преобразование типов</caption>
+        </topicref>
+        <topicref type="topic" id="420040820751347" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Nullable">
+          <caption translate="true">Nullable типы</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420036901037871" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="1" href="String">
+        <caption translate="true">Строки</caption>
+        <topicref type="topic" id="420037552106942" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="StringBuilder">
+          <caption translate="true">Редактируемые строки StringBuilder</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420038022149264" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="1" href="Page_3">
+        <caption translate="true">Операторы</caption>
+        <topicref type="topic" id="420039987958727" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_4">
+          <caption translate="true">Арифметические</caption>
+        </topicref>
+        <topicref type="topic" id="420036942834672" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_5">
+          <caption translate="true">Логические и операторы отношения</caption>
+        </topicref>
+        <topicref type="topic" id="420038859242977" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_6">
+          <caption translate="true">Оператор присваивания и составные операторы присваивания</caption>
+        </topicref>
+        <topicref type="topic" id="420038230140736" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_7">
+          <caption translate="true">Побитовые операторы</caption>
+        </topicref>
+        <topicref type="topic" id="420039161818224" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_8">
+          <caption translate="true">Оператор  ? :</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420036961973483" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="1" href="Page_9">
+        <caption translate="true">Инструкции управления</caption>
+        <topicref type="topic" id="420039218778983" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_10">
+          <caption translate="true">if else</caption>
+        </topicref>
+        <topicref type="topic" id="420040148707367" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_11">
+          <caption translate="true">switch case break default</caption>
+        </topicref>
+        <topicref type="topic" id="420038756852791" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_12">
+          <caption translate="true">for break continue</caption>
+        </topicref>
+        <topicref type="topic" id="420039603548763" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_13">
+          <caption translate="true">while do break continue</caption>
+        </topicref>
+        <topicref type="topic" id="420037934557035" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_14">
+          <caption translate="true">foreach break continue</caption>
+        </topicref>
+        <topicref type="topic" id="420039182477537" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_15">
+          <caption translate="true">return</caption>
+        </topicref>
+        <topicref type="topic" id="420040511197655" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="Page_16">
+          <caption translate="true">goto</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420040783607297" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="1" href="Arrays_2">
+        <caption translate="true">Массивы_2</caption>
+        <topicref type="topic" id="420038468116761" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="OneDimentionalArray">
+          <caption translate="true">Одномерные массивы</caption>
+        </topicref>
+        <topicref type="topic" id="420036610714833" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="MyltyDimensionalArray">
+          <caption translate="true">Многомерные массивы</caption>
+        </topicref>
+        <topicref type="topic" id="420038882384262" build="ALL" modified="2014-12-30T20:52:57.263Z" icon="11" href="SteppedArray">
+          <caption translate="true">Ступенчатый массив</caption>
+        </topicref>
+        <topicref type="topic" id="420038295939652" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="LengthArr">
+          <caption translate="true">Length</caption>
+        </topicref>
+        <topicref type="topic" id="420036581225755" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="ImplicitArray">
+          <caption translate="true">Неявно типизированный массив</caption>
+        </topicref>
+        <topicref type="topic" id="420037709354714" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Foreach">
+          <caption translate="true">foreach перебор</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420037544478142" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="1" href="Page_17">
+        <caption translate="true">Классы</caption>
+        <topicref type="topic" id="420037264868972" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="CreateObjectOfClass">
+          <caption translate="true">Создаем объекты</caption>
+        </topicref>
+        <topicref type="topic" id="420037570982232" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="DefoultValue">
+          <caption translate="true">Присваивание и значение по умолчанию;</caption>
+        </topicref>
+        <topicref type="topic" id="420040199107924" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="1" href="Methods">
+          <caption translate="true">Методы параметры возврат из метода</caption>
+          <topicref type="topic" id="420037193315824" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Refparmtransfer">
+            <caption translate="true">ref передача ссылочных типов</caption>
+          </topicref>
+          <topicref type="topic" id="420039482318455" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Out">
+            <caption translate="true">out</caption>
+          </topicref>
+          <topicref type="topic" id="420038991625868" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="ReladMethods">
+            <caption translate="true">Перегрузка методов</caption>
+          </topicref>
+          <topicref type="topic" id="420038288957432" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Params">
+            <caption translate="true">params переменное число аргументов</caption>
+          </topicref>
+          <topicref type="topic" id="420036983052555" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Return">
+            <caption translate="true">return</caption>
+          </topicref>
+          <topicref type="topic" id="420038926727456" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="NamedArgs">
+            <caption translate="true">Именованые аргументы</caption>
+          </topicref>
+          <topicref type="topic" id="420037303772227" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Main">
+            <caption translate="true">Main()</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038821450104" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="1" href="Konstruktor">
+          <caption translate="true">Конструктор</caption>
+          <topicref type="topic" id="420040612477724" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="ReloadConstruktor">
+            <caption translate="true">Вызов конструктора по средством this</caption>
+          </topicref>
+          <topicref type="topic" id="420039567203671" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Static_конструктор">
+            <caption translate="true">static конструктор</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038316015947" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Destructor">
+          <caption translate="true">Деструктор сборка мусора</caption>
+        </topicref>
+        <topicref type="topic" id="420040526647380" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="This">
+          <caption translate="true">this</caption>
+        </topicref>
+        <topicref type="topic" id="420039786310775" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="ModifersAccess">
+          <caption translate="true">Модификаторы доступа</caption>
+        </topicref>
+        <topicref type="topic" id="420038212097551" build="ALL" modified="2014-12-30T20:52:57.264Z" icon="11" href="Inicialisators">
+          <caption translate="true">Инициализаторы объектов</caption>
+        </topicref>
+        <topicref type="topic" id="420037884708954" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Static_2">
+          <caption translate="true">static_2</caption>
+          <topicref type="topic" id="420037335165366" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Static_class">
+            <caption translate="true">static класс (singlton)</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420039312912047" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="OverloadOperators">
+          <caption translate="true">Перегрузка операторов</caption>
+          <topicref type="topic" id="420040215851075" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="ReloadOperators">
+            <caption translate="true">Перегрузка операторов</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038125620151" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Indexator">
+          <caption translate="true">Индексаторы</caption>
+        </topicref>
+        <topicref type="topic" id="420036817082352" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Property">
+          <caption translate="true">Свойства</caption>
+          <topicref type="topic" id="420039161142083" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Auto_property">
+            <caption translate="true">Автоматические свойства</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037283983040" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Inheritance_2">
+          <caption translate="true">Наследование_2</caption>
+          <topicref type="topic" id="420038664978654" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Virtual_abstract_class">
+            <caption translate="true">Виртуализация и ссылки на базовый класс</caption>
+          </topicref>
+          <topicref type="topic" id="420038729577382" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Inheritance_ban">
+            <caption translate="true">Запрет наследования</caption>
+          </topicref>
+          <topicref type="topic" id="420039956816540" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Object">
+            <caption translate="true">object</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420039250967134" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Interface_2">
+        <caption translate="true">Интерфейсы_2</caption>
+        <topicref type="topic" id="420039999364245" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Inrerf_property">
+          <caption translate="true">Свойства</caption>
+        </topicref>
+        <topicref type="topic" id="420036651573453" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Interfase_indexator">
+          <caption translate="true">Индексаторы</caption>
+        </topicref>
+        <topicref type="topic" id="420039591791675" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="2" href="Inheritance_Interface">
+          <caption translate="true">Наследование интерфейсов</caption>
+          <topicref type="topic" id="420037798473761" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="HideNameInterface">
+            <caption translate="true">Сокрытие имен при наследовании</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420039989042466" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Structure">
+        <caption translate="true">Структуры</caption>
+      </topicref>
+      <topicref type="topic" id="420036740119276" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Enumerator">
+        <caption translate="true">Перечисления</caption>
+      </topicref>
+      <topicref type="topic" id="420040304112693" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Exception_2">
+        <caption translate="true">Исключения_2</caption>
+        <topicref type="topic" id="420039657572354" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Overflow_type">
+          <caption translate="true">Переполнение типа</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420039208505701" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="1" href="Delegat_static">
+        <caption translate="true">Делегаты события</caption>
+        <topicref type="topic" id="420039415121091" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Delegat_obj">
+          <caption translate="true">Делегаты методов объектов</caption>
+        </topicref>
+        <topicref type="topic" id="420040532085817" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Group_address">
+          <caption translate="true">Групповая адресация, пример</caption>
+        </topicref>
+        <topicref type="topic" id="420038368633361" build="ALL" modified="2014-12-30T20:52:57.265Z" icon="11" href="Kovar_kontrvar">
+          <caption translate="true">Ковариантность, контрвариантность</caption>
+        </topicref>
+        <topicref type="topic" id="420040366530540" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="AnonimusMethod">
+          <caption translate="true">Анонимные методы</caption>
+          <topicref type="topic" id="420039684724454" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Without_local_var">
+            <caption translate="true">Внешняя переменная анонимного метода</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420037673491603" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Lyambda">
+          <caption translate="true">Лямбда выражения</caption>
+        </topicref>
+        <topicref type="topic" id="420040197609516" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="Event">
+          <caption translate="true">События</caption>
+          <topicref type="topic" id="420038664873244" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Add_remove">
+            <caption translate="true">add remove акцессоры</caption>
+          </topicref>
+          <topicref type="topic" id="420037256776335" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="EventHandler">
+            <caption translate="true">EventHandler встроенный</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420040453885000" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="Namespace">
+        <caption translate="true">Пространства имен</caption>
+        <topicref type="topic" id="420038795343064" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Using">
+          <caption translate="true">using</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420036981490777" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Preprocessor">
+        <caption translate="true">Препроцессор</caption>
+      </topicref>
+      <topicref type="topic" id="420039705734750" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Internal">
+        <caption translate="true">Сборки internal</caption>
+      </topicref>
+      <topicref type="topic" id="420036698074348" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="Dinamic_cast">
+        <caption translate="true">Динамическая идентификация типов, рефлексия и атрибуты</caption>
+        <topicref type="topic" id="420040427001196" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Is">
+          <caption translate="true">is проверка типа</caption>
+        </topicref>
+        <topicref type="topic" id="420036963433525" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="As">
+          <caption translate="true">as</caption>
+        </topicref>
+        <topicref type="topic" id="420038589099463" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Typeof">
+          <caption translate="true">typeof</caption>
+        </topicref>
+        <topicref type="topic" id="420036625621666" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Reflection">
+          <caption translate="true">Рефлексия</caption>
+        </topicref>
+        <topicref type="topic" id="420039098500421" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Attributes">
+          <caption translate="true">Атрибуты</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420040847014459" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="Commons">
+        <caption translate="true">Обобщения</caption>
+        <topicref type="topic" id="420036978534054" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Confine_type">
+          <caption translate="true">Ограниченные типы</caption>
+        </topicref>
+        <topicref type="topic" id="420037500826267" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="ValueObjTDefault">
+          <caption translate="true">Значение по умолчанию объекта переданного типа</caption>
+        </topicref>
+        <topicref type="topic" id="420040437104126" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="CommonInheritance">
+          <caption translate="true">Наследование</caption>
+        </topicref>
+        <topicref type="topic" id="420040558675731" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="CompareObjTransmitType">
+          <caption translate="true">Сравнение объектов переданного типа</caption>
+        </topicref>
+        <topicref type="topic" id="420038114462341" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="1" href="CommonKovarKontrvar">
+          <caption translate="true">Ковариантность и контрвариантность</caption>
+          <topicref type="topic" id="420036999308637" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="Kovar_Interf">
+            <caption translate="true">обобщенных интерфейсов</caption>
+          </topicref>
+          <topicref type="topic" id="420038541603890" build="ALL" modified="2014-12-30T20:52:57.267Z" icon="11" href="CommKovarDelegat">
+            <caption translate="true">обобщенных делегатов</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420038798201626" build="ALL" modified="2014-12-30T20:52:57.267Z" icon="11" href="Commonogranicheniya">
+          <caption translate="true">Ограничения присущие обобщениям</caption>
+        </topicref>
+        <topicref type="topic" id="424754958661975" build="ALL" modified="2016-04-15T13:37:11.821Z" icon="2" href="Common_method_delegat_interface">
+          <caption translate="true">Обобщ методы делегаты интерфейсы</caption>
+          <topicref type="topic" id="420037443101461" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="CommonMethods">
+            <caption translate="true">Обобщенные методы</caption>
+          </topicref>
+          <topicref type="topic" id="420038511824926" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="CommonDelegat">
+            <caption translate="true">Обобщенные делегаты</caption>
+          </topicref>
+          <topicref type="topic" id="420039387252450" build="ALL" modified="2014-12-30T20:52:57.266Z" icon="11" href="CommonInterface">
+            <caption translate="true">Обобщенные интерфейсы</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424753601493284" build="ALL" modified="2016-04-15T13:09:07.414Z" icon="0" href="CASE">
+      <caption translate="true">Проектирование</caption>
+      <topicref type="topic" id="42249350730173" build="ALL" modified="2015-09-01T16:39:28.606Z" icon="0" href="IDEF0">
+        <caption translate="true">IDEF0</caption>
+        <topicref type="topic" id="422486427438033" build="ALL" modified="2015-09-08T13:29:54.781Z" icon="0" href="Activity_Box_Arrow">
+          <caption translate="true">Функциональный блок.</caption>
+        </topicref>
+        <topicref type="topic" id="422554076564175" build="ALL" modified="2015-09-08T13:28:22.669Z" icon="0" href="Arrow">
+          <caption translate="true">Дуги</caption>
+          <topicref type="topic" id="422557543525926" build="ALL" modified="2015-09-08T20:15:58.696Z" icon="0" href="Merge">
+            <caption translate="true">Слияние и разветвление стрелок</caption>
+          </topicref>
+          <topicref type="topic" id="422544390718739" build="ALL" modified="2015-09-07T14:16:28.053Z" icon="0" href="Tunneling">
+            <caption translate="true">Туннелирование</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422486200596615" build="ALL" modified="2015-09-01T17:32:58.739Z" icon="0" href="Decomposition">
+          <caption translate="true">Декомпозиция</caption>
+        </topicref>
+        <topicref type="topic" id="422488161170027" build="ALL" modified="2015-09-01T17:33:24.760Z" icon="0" href="Glossary">
+          <caption translate="true">Глоссарий</caption>
+        </topicref>
+        <topicref type="topic" id="422656105533232" build="ALL" modified="2015-09-18T16:08:13.829Z" icon="0" href="ForkAndMergeModel">
+          <caption translate="true">Расщепление и слияние моделей в PB_Modeler</caption>
+          <topicref type="topic" id="42265408033630" build="ALL" modified="2015-09-18T16:23:09.586Z" icon="0" href="SplitModel">
+            <caption translate="true">Расщепление моделей</caption>
+          </topicref>
+          <topicref type="topic" id="422656202213369" build="ALL" modified="2015-09-18T16:24:09.342Z" icon="0" href="MergeModel">
+            <caption translate="true">Слияние моделей</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422488873098703" build="ALL" modified="2015-09-01T16:39:38.726Z" icon="0" href="DFD">
+        <caption translate="true">DFD</caption>
+      </topicref>
+      <topicref type="topic" id="422658161264989" build="ALL" modified="2015-09-18T16:51:40.572Z" icon="0" href="Entityrelationship_model">
+        <caption translate="true">Entity–relationship model</caption>
+        <topicref type="topic" id="422656032355485" build="ALL" modified="2015-09-19T20:50:25.837Z" icon="11" href="SeveralRelationOnTwoTable">
+          <caption translate="true">Несколько связей между двумя таблицами</caption>
+        </topicref>
+        <topicref type="topic" id="422666838685826" build="ALL" modified="2015-09-19T20:59:31.383Z" icon="11" href="ModelingLevel">
+          <caption translate="true">Уровни моделирования</caption>
+        </topicref>
+        <topicref type="topic" id="422669099501734" build="ALL" modified="2015-09-19T21:07:12.820Z" icon="0" href="Entity">
+          <caption translate="true">Сущности и атрибуты</caption>
+          <topicref type="topic" id="422670576819690" build="ALL" modified="2015-09-19T21:10:23.058Z" icon="0" href="Keys">
+            <caption translate="true">Ключи</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="422668286836521" build="ALL" modified="2015-09-19T21:06:55.444Z" icon="0" href="Relation">
+          <caption translate="true">Связи</caption>
+        </topicref>
+        <topicref type="topic" id="422666730720881" build="ALL" modified="2015-09-19T21:14:59.182Z" icon="0" href="Normal_forms">
+          <caption translate="true">Нормальные формы</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="422485192465382" build="ALL" modified="2015-09-01T16:39:56.889Z" icon="0" href="UML">
+        <caption translate="true">UML</caption>
+        <topicref type="topic" id="425183971244849" build="ALL" modified="2016-05-28T10:13:49.034Z" icon="0" href="Class_diagram">
+          <caption translate="true">Class diagram</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="424770234848260" build="ALL" modified="2016-04-16T23:55:06.032Z" icon="2" href="Patterns">
+        <caption translate="true">Паттерны</caption>
+        <topicref type="topic" id="41495950586" build="ALL" modified="2016-04-16T23:55:40.368Z" icon="0" href="FactoryMethod">
+          <caption translate="true">Фабричный метод</caption>
+        </topicref>
+        <topicref type="topic" id="424770058406508" build="ALL" modified="2016-04-17T00:31:18.569Z" icon="0" href="AbstractFactory">
+          <caption translate="true">Абстрактная фабрика</caption>
+        </topicref>
+        <topicref type="topic" id="42479476440425" build="ALL" modified="2016-04-19T10:32:29.432Z" icon="0" href="Builder">
+          <caption translate="true">Builder</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="425618889233608" build="ALL" modified="2016-07-11T22:02:57.615Z" icon="0" href="UP">
+        <caption translate="true">UP</caption>
+        <topicref type="topic" id="425618009068010" build="ALL" modified="2016-07-11T22:03:10.744Z" icon="0" href="UP_Structure_UP">
+          <caption translate="true">Структура UP</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424753238066707" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="2">
+      <caption translate="true">JAVA</caption>
+      <topicref type="topic" id="420017250361815" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Key_words">
+        <caption translate="true">Ключевые слова</caption>
+      </topicref>
+      <topicref type="topic" id="420019297188260" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="1" href="Types">
+        <caption translate="true">Типы данных</caption>
+        <topicref type="topic" id="420015904321270" build="ALL" modified="2016-03-26T20:53:31.097Z" icon="11" href="-__">
+          <caption translate="true">-  Строки</caption>
+        </topicref>
+        <topicref type="topic" id="420016751336022" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Strictfp">
+          <caption translate="true">strictfp</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420017993902720" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Idenify">
+        <caption translate="true">Идентификаторы</caption>
+      </topicref>
+      <topicref type="topic" id="420017139116099" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Literals">
+        <caption translate="true">Литералы</caption>
+      </topicref>
+      <topicref type="topic" id="420018048264694" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Varables">
+        <caption translate="true">Переменные и область видимости</caption>
+      </topicref>
+      <topicref type="topic" id="420017382153594" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="1" href="Package">
+        <caption translate="true">Пакеты и модификаторы доступа</caption>
+        <topicref type="topic" id="420018625908751" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Struct_java_src">
+          <caption translate="true">Cтруктура java исходника</caption>
+          <topicref type="topic" id="3742799854" build="ALL" modified="2017-01-21T20:26:07.872Z" icon="0" href="Static_import">
+            <caption translate="true">static import</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420017021768913" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Modifers_access">
+          <caption translate="true">Модификаторы доступа</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420019158791392" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="1" href="Arrays">
+        <caption translate="true">Массивы</caption>
+        <topicref type="topic" id="420016770808734" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="OneDArray">
+          <caption translate="true">Одномерные</caption>
+        </topicref>
+        <topicref type="topic" id="420018109799701" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Initarr">
+          <caption translate="true">Инициализаторы массивов</caption>
+        </topicref>
+        <topicref type="topic" id="420016368376651" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Multyarray">
+          <caption translate="true">Многомерные и ступенчатые массивы</caption>
+        </topicref>
+        <topicref type="topic" id="420018015165036" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Array_objacts">
+          <caption translate="true">Массивы объектов</caption>
+        </topicref>
+        <topicref type="topic" id="420016959075042" build="ALL" modified="2017-01-22T10:32:49.483Z" icon="11" href="Array_and_parametriz">
+          <caption translate="true">Массивы и параметризация</caption>
+        </topicref>
+        <topicref type="topic" id="420019713162830" build="ALL" modified="2017-01-22T10:33:02.510Z" icon="1" href="Arr_sort">
+          <caption translate="true">Сортировка</caption>
+          <topicref type="topic" id="420018900848942" build="ALL" modified="2014-12-28T18:33:52.874Z" icon="11" href="Comparable">
+            <caption translate="true">Comparable</caption>
+          </topicref>
+          <topicref type="topic" id="420015993210492" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Comparator">
+            <caption translate="true">Comparator</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016242166886" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Arrays_class_for_array">
+          <caption translate="true">Быстрый поиск элемента</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420016940843398" build="ALL" modified="2017-01-22T10:29:31.243Z" icon="11" href="Operators">
+        <caption translate="true">Операторы</caption>
+      </topicref>
+      <topicref type="topic" id="420015681330632" build="ALL" modified="2016-03-26T20:51:38.582Z" icon="1" href="___">
+        <caption translate="true">Инструкции управления ходом выполнения</caption>
+        <topicref type="topic" id="420018409444499" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Goto">
+          <caption translate="true">goto метки, циклы, именованые блоки</caption>
+        </topicref>
+        <topicref type="topic" id="420018947569713" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Switch">
+          <caption translate="true">switch case break default</caption>
+        </topicref>
+        <topicref type="topic" id="420019217934152" build="ALL" modified="2017-01-22T10:08:07.727Z" icon="11" href="For_continue_break">
+          <caption translate="true">for continue break</caption>
+        </topicref>
+        <topicref type="topic" id="420015863203427" build="ALL" modified="2017-01-22T10:09:01.165Z" icon="11" href="While_continue_break">
+          <caption translate="true">while do continue break</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420019302634101" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="1" href="Classes">
+        <caption translate="true">Классы</caption>
+        <topicref type="topic" id="420017953556934" build="ALL" modified="2016-03-26T20:52:59.345Z" icon="11">
+          <caption translate="true">-    new и this</caption>
+        </topicref>
+        <topicref type="topic" id="420015916045009" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Class_field">
+          <caption translate="true">Поля</caption>
+        </topicref>
+        <topicref type="topic" id="420017141505401" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="1" href="Class_methods">
+          <caption translate="true">Методы</caption>
+          <topicref type="topic" id="420015851901066" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Count_parm">
+            <caption translate="true">Переменное число аргументов</caption>
+          </topicref>
+          <topicref type="topic" id="424758781281177" build="ALL" modified="2016-04-15T21:40:14.521Z" icon="0" href="Native">
+            <caption translate="true">native</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016906074284" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Static">
+          <caption translate="true">static</caption>
+          <topicref type="topic" id="427568778666007" build="ALL" modified="2017-01-21T20:38:23.470Z" icon="0" href="Static_polymorphism">
+            <caption translate="true">static и полиморфизм</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420017614895333" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Construct">
+          <caption translate="true">Конструктор</caption>
+          <topicref type="topic" id="420018533093197" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Class_init">
+            <caption translate="true">Инициализация</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016929128399" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Finalize">
+          <caption translate="true">Финализатор</caption>
+        </topicref>
+        <topicref type="topic" id="420018167566555" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="1" href="Inheritance">
+          <caption translate="true">Наследование</caption>
+          <topicref type="topic" id="420018731405036" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Polimorfizm">
+            <caption translate="true">Полиморфизм</caption>
+          </topicref>
+          <topicref type="topic" id="420016861673023" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Override">
+            <caption translate="true">@Override переопределение методов</caption>
+          </topicref>
+          <topicref type="topic" id="420018406701678" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Base_class_init">
+            <caption translate="true">Инициализация базового класса</caption>
+          </topicref>
+          <topicref type="topic" id="420017983778686" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Call_polimorf_method_iz_construct">
+            <caption translate="true">Вызов полиморфного метода из конструктора</caption>
+          </topicref>
+          <topicref type="topic" id="420019880660295" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Kovariantnost_return">
+            <caption translate="true">Ковариантность возвращаемого типа</caption>
+          </topicref>
+          <topicref type="topic" id="420019233747741" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Abstract">
+            <caption translate="true">Абстрактные классы и методы</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420017395171702" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="1" href="Final">
+          <caption translate="true">final</caption>
+          <topicref type="topic" id="420018338105864" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Final_const">
+            <caption translate="true">Конст поля и локальные константы</caption>
+          </topicref>
+          <topicref type="topic" id="420017098220950" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Final_arguments">
+            <caption translate="true">Константные аргументы</caption>
+          </topicref>
+          <topicref type="topic" id="420017940839340" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Final_method">
+            <caption translate="true">Неизменный метод</caption>
+          </topicref>
+          <topicref type="topic" id="420018938835268" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Final_class">
+            <caption translate="true">Неизменный класс</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016275915456" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="1" href="Into_class">
+          <caption translate="true">Внутренние классы</caption>
+          <topicref type="topic" id="420018718160308" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="This_new">
+            <caption translate="true">this и new</caption>
+          </topicref>
+          <topicref type="topic" id="420018582865167" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Inheritance_inner_class">
+            <caption translate="true">Наследование внутренних классов</caption>
+          </topicref>
+          <topicref type="topic" id="420017891264563" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Full_hide_realiz">
+            <caption translate="true">Полное сокрытие реализации</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016764221032" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="1" href="In_block_Classes">
+          <caption translate="true">Внутриблочные классы</caption>
+          <topicref type="topic" id="420016071069063" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Anonim_class">
+            <caption translate="true">Анонимные классы</caption>
+          </topicref>
+          <topicref type="topic" id="420017913880422" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Final_params_access">
+            <caption translate="true">final параметры доступны</caption>
+          </topicref>
+          <topicref type="topic" id="420016333813980" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Access_anonim_k_outer_class">
+            <caption translate="true">Доступ к внешним классам</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420018453859798" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="1" href="Interface">
+        <caption translate="true">Интерфейсы</caption>
+        <topicref type="topic" id="420018373986021" build="ALL" modified="2014-12-28T18:33:52.875Z" icon="11" href="Interface_inheritance_interface">
+          <caption translate="true">Интерфейс наследует интерфейс</caption>
+        </topicref>
+        <topicref type="topic" id="420017640810814" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Innerc_interface">
+          <caption translate="true">Вложенные интерфейсы</caption>
+        </topicref>
+        <topicref type="topic" id="420017980820501" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Inerface_conflict_name_methods">
+          <caption translate="true">Конфликты имен методов интерфейсов</caption>
+        </topicref>
+        <topicref type="topic" id="420017808803268" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Inerface_conflict_name_field">
+          <caption translate="true">Конфликты имен полей интерфейсов</caption>
+        </topicref>
+        <topicref type="topic" id="420017324876165" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Namespace_interface">
+          <caption translate="true">Пространство имен интерфейса</caption>
+        </topicref>
+        <topicref type="topic" id="427566512324674" build="ALL" modified="2017-01-21T20:17:24.686Z" icon="0" href="Default_methods">
+          <caption translate="true">default методы</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420018297823382" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="1" href="Parapetrizaciya">
+        <caption translate="true">Параметризация (шаблоны)</caption>
+        <topicref type="topic" id="420018932421877" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Return_several">
+          <caption translate="true">Как вернуть несколько значений ?</caption>
+        </topicref>
+        <topicref type="topic" id="420017744178444" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Paramized_interface">
+          <caption translate="true">Параметризация интерфейсов</caption>
+        </topicref>
+        <topicref type="topic" id="420018171878441" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="11" href="Parametriz_methods">
+          <caption translate="true">Параметризация методов</caption>
+          <topicref type="topic" id="427574552914400" build="ALL" modified="2017-01-22T10:45:30.647Z" icon="0" href="Count_t_parm">
+            <caption translate="true">Переменное число аргументов</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420015679109230" build="ALL" modified="2016-03-26T20:53:56.577Z" icon="11" href="-___">
+          <caption translate="true">- параметризованные анонимные классы</caption>
+        </topicref>
+        <topicref type="topic" id="420016402094151" build="ALL" modified="2014-12-28T18:33:52.876Z" icon="1" href="Params_limitation">
+          <caption translate="true">Ограничения</caption>
+          <topicref type="topic" id="42000564920558" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Limit_type_params">
+            <caption translate="true">Ограничения типа параметра</caption>
+          </topicref>
+          <topicref type="topic" id="42000568065917" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Width_lim_par_params">
+            <caption translate="true">Расширение ограничений при наследовании</caption>
+          </topicref>
+          <topicref type="topic" id="42001121567655" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="1" href="Metasymbols_parametize">
+            <caption translate="true">Метасимволы &lt;? extends Type&gt;</caption>
+            <topicref type="topic" id="42002000831850" build="ALL" modified="2016-03-26T20:54:26.234Z" icon="11" href="__super_T">
+              <caption translate="true">&lt;? super T&gt;</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="427574209393830" build="ALL" modified="2017-01-22T10:48:04.078Z" icon="0" href="enum">
+        <caption translate="true">Перечисления</caption>
+        <topicref type="topic" id="427573441190751" build="ALL" modified="2017-01-22T10:51:24.911Z" icon="0" href="methods_of_constants">
+          <caption translate="true">Методы констант</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="41999765015465" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="1" href="Collection">
+        <caption translate="true">-  Коллекции объектов</caption>
+        <topicref type="topic" id="42003611280905" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Collection_Sort">
+          <caption translate="true">Сортировка</caption>
+        </topicref>
+        <topicref type="topic" id="42003484275444" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="ArrayList__">
+          <caption translate="true">ArrayList&lt;&gt;</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42002096760932" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="1" href="Exception">
+        <caption translate="true">Исключения и их обработка</caption>
+        <topicref type="topic" id="42002227679394" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Except">
+          <caption translate="true">Исключения</caption>
+        </topicref>
+        <topicref type="topic" id="41999939498363" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Specific_exception">
+          <caption translate="true">Спецификации исключений</caption>
+        </topicref>
+        <topicref type="topic" id="42001304224603" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Loggong_exception">
+          <caption translate="true">Логирование исключений</caption>
+        </topicref>
+        <topicref type="topic" id="42003222843375" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Catch_All">
+          <caption translate="true">Перехват всех исключений</caption>
+        </topicref>
+        <topicref type="topic" id="42000590192488" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="SecondThrown">
+          <caption translate="true">Повторное возбуждение исключения</caption>
+        </topicref>
+        <topicref type="topic" id="42003687599486" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="1" href="Finally_and_return">
+          <caption translate="true">finally, finally и return</caption>
+          <topicref type="topic" id="42000761214770" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Lost_exception">
+            <caption translate="true">Потеря исключения в finally</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="42002097875160" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Restriction_exception">
+          <caption translate="true">Ограничения при наследовании</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42000278504369" build="ALL" modified="2017-01-22T10:58:35.602Z" icon="1" href="Type_info">
+        <caption translate="true">Информация о типах</caption>
+        <topicref type="topic" id="42003424441920" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Literals_class">
+          <caption translate="true">Литералы class</caption>
+        </topicref>
+        <topicref type="topic" id="42003131679919" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Parametriz_ref_Class">
+          <caption translate="true">Параметризованные ссылки на Class</caption>
+        </topicref>
+        <topicref type="topic" id="42002074947765" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Instanseof">
+          <caption translate="true">instanseof проверка перед преобразованием типа</caption>
+        </topicref>
+        <topicref type="topic" id="41999627664917" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Register_facktory">
+          <caption translate="true">Регистрация фабрик</caption>
+        </topicref>
+        <topicref type="topic" id="42001116867144" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Reflaction">
+          <caption translate="true">Рефлексия - динамическая инфа о типах</caption>
+        </topicref>
+        <topicref type="topic" id="427573964066718" build="ALL" modified="2017-01-22T11:03:52.949Z" icon="0" href="annotation_example">
+          <caption translate="true">Примеры</caption>
+          <topicref type="topic" id="42316662280" build="ALL" modified="2017-01-22T11:05:23.280Z" icon="0" href="info_about_all_methods_of_class">
+            <caption translate="true">Инфо обо всех методах класса</caption>
+          </topicref>
+          <topicref type="topic" id="427574494326384" build="ALL" modified="2017-01-22T11:09:03.579Z" icon="0" href="Inherieted_realisation_ierarche">
+            <caption translate="true">Иерархия наследования и реализации</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="427574916485401" build="ALL" modified="2017-01-23T20:07:13.984Z" icon="0" href="Annotation">
+        <caption translate="true">Аннотации</caption>
+        <topicref type="topic" id="427587263759410" build="ALL" modified="2017-01-23T20:58:59.664Z" icon="0" href="Apt">
+          <caption translate="true">apt</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420016132761764" build="ALL" modified="2016-03-26T20:54:45.794Z" icon="11" href="-___2">
+        <caption translate="true">-  Ввод вывод</caption>
+      </topicref>
+      <topicref type="topic" id="420016416904709" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="1" href="MyltyThread">
+        <caption translate="true">Многопоточность</caption>
+        <topicref type="topic" id="420018020373631" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Thread">
+          <caption translate="true">Thread</caption>
+        </topicref>
+        <topicref type="topic" id="420019025882959" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="PuleThreads">
+          <caption translate="true">Пулы потоков</caption>
+        </topicref>
+        <topicref type="topic" id="420016637705905" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Return_value_thread">
+          <caption translate="true">Возврат значений из задач</caption>
+        </topicref>
+        <topicref type="topic" id="420018391491381" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Thread_exceptin">
+          <caption translate="true">Потоки и исключения</caption>
+        </topicref>
+        <topicref type="topic" id="420017326676408" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Sleep">
+          <caption translate="true">sleep</caption>
+        </topicref>
+        <topicref type="topic" id="420015675212958" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Proirutety_thread">
+          <caption translate="true">Приоритет потока</caption>
+        </topicref>
+        <topicref type="topic" id="420017694464204" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Daemon">
+          <caption translate="true">Демон</caption>
+        </topicref>
+        <topicref type="topic" id="420017951956690" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="1" href="Join">
+          <caption translate="true">Присоединение к потоку</caption>
+          <topicref type="topic" id="420019773955008" build="ALL" modified="2014-12-28T18:33:52.878Z" icon="11" href="Stop_wait">
+            <caption translate="true">Прекратить ожидание</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="420016666509972" build="ALL" modified="2016-03-26T20:58:05.957Z" icon="1" href="Topic_2">
+          <caption translate="true">Конкурентный доступ_2</caption>
+          <topicref type="topic" id="420018647597659" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Synchronized">
+            <caption translate="true">synchronized синхронизация доступа</caption>
+          </topicref>
+          <topicref type="topic" id="420019831160590" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Volatile">
+            <caption translate="true">volatile</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420018947097332" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Sovet_">
+        <caption translate="true">Чьи то советы на каждый день</caption>
+      </topicref>
+      <topicref type="topic" id="424758036195125" build="ALL" modified="2016-04-15T19:55:36.682Z" icon="2" href="Debug">
+        <caption translate="true">Отладка</caption>
+        <topicref type="topic" id="424757853294914" build="ALL" modified="2016-04-15T19:56:07.708Z" icon="0" href="Assert">
+          <caption translate="true">assert</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="424759585719874" build="ALL" modified="2016-04-15T21:27:56.525Z" icon="2" href="Serializable">
+        <caption translate="true">Сериализация объектов</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424756320869791" build="ALL" modified="2014-12-28T19:39:40.337Z" icon="1" href="Android">
+      <caption translate="true">Андроид</caption>
+      <topicref type="topic" id="42181588422397" build="ALL" modified="2015-06-27T14:04:48.464Z" icon="0" href="StructJIProject">
+        <caption translate="true">Струтура проекта JI</caption>
+        <topicref type="topic" id="421823908753258" build="ALL" modified="2015-06-27T14:10:35.598Z" icon="0" href="SP_JI_idea">
+          <caption translate="true">.idea</caption>
+        </topicref>
+        <topicref type="topic" id="421824117358552" build="ALL" modified="2015-06-27T14:12:29.578Z" icon="0" href="SP_JI_assets">
+          <caption translate="true">assets</caption>
+        </topicref>
+        <topicref type="topic" id="42182075649784" build="ALL" modified="2015-06-27T14:12:56.218Z" icon="0" href="SP_JI_assets_bin">
+          <caption translate="true">bin</caption>
+        </topicref>
+        <topicref type="topic" id="421824505613954" build="ALL" modified="2015-06-27T14:13:50.402Z" icon="0" href="SP_JI_gen">
+          <caption translate="true">gen</caption>
+          <topicref type="topic" id="421824978490160" build="ALL" modified="2015-06-27T14:35:21.285Z" icon="0" href="SP_JI_R_java">
+            <caption translate="true">R.java</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="421824605932026" build="ALL" modified="2015-06-27T14:14:14.210Z" icon="0" href="SP_JI_libs">
+          <caption translate="true">libs</caption>
+        </topicref>
+        <topicref type="topic" id="421825833921061" build="ALL" modified="2015-06-27T14:15:25.511Z" icon="0" href="SP_JI_out">
+          <caption translate="true">out</caption>
+        </topicref>
+        <topicref type="topic" id="421825654695760" build="ALL" modified="2015-06-27T14:15:42.040Z" icon="0" href="SP_JI_res">
+          <caption translate="true">res</caption>
+          <topicref type="topic" id="421827610910500" build="ALL" modified="2015-06-27T14:39:37.824Z" icon="0" href="SP_JI_Drawable">
+            <caption translate="true">drawable-...</caption>
+          </topicref>
+          <topicref type="topic" id="421824789297353" build="ALL" modified="2015-06-27T14:40:10.709Z" icon="0" href="SP_JI_layout">
+            <caption translate="true">layout</caption>
+          </topicref>
+          <topicref type="topic" id="421825456357605" build="ALL" modified="2015-06-27T14:40:25.948Z" icon="0" href="SP_JI_values">
+            <caption translate="true">values</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="421825875480104" build="ALL" modified="2015-06-27T14:17:14.727Z" icon="0" href="SP_JI_src">
+          <caption translate="true">src</caption>
+        </topicref>
+        <topicref type="topic" id="420020379502096" build="ALL" modified="2014-12-28T20:46:04.971Z" icon="0" href="AndroidManifest">
+          <caption translate="true">AndroidManifest.xml</caption>
+          <topicref type="topic" id="420019466687003" build="ALL" modified="2014-12-28T21:05:12.603Z" icon="11" href="StructureManifest">
+            <caption translate="true">Структура манифеста</caption>
+          </topicref>
+          <topicref type="topic" id="420020541283727" build="ALL" modified="2014-12-28T21:56:08.958Z" icon="0" href="Manifest_el">
+            <caption translate="true">&lt;manifest&gt;</caption>
+          </topicref>
+          <topicref type="topic" id="420018829969479" build="ALL" modified="2014-12-28T22:10:41.467Z" icon="0" href="Permission_el">
+            <caption translate="true">&lt;permission&gt;</caption>
+          </topicref>
+          <topicref type="topic" id="42000861631654" build="ALL" modified="2014-12-28T22:15:45.626Z" icon="0" href="Uses_permission_el">
+            <caption translate="true">&lt;uses-permission&gt;</caption>
+          </topicref>
+          <topicref type="topic" id="42000559622203" build="ALL" modified="2014-12-28T22:21:30.395Z" icon="0" href="Application_el">
+            <caption translate="true">&lt;application&gt;</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="421827518414667" build="ALL" modified="2015-06-27T14:22:06.808Z" icon="0" href="SP_JI_Name">
+          <caption translate="true">name.iml</caption>
+        </topicref>
+        <topicref type="topic" id="421827829018935" build="ALL" modified="2015-06-27T14:23:24.168Z" icon="0" href="SP_JI_Local_propeties">
+          <caption translate="true">local.propeties</caption>
+        </topicref>
+        <topicref type="topic" id="421825619262178" build="ALL" modified="2015-06-27T14:23:53.327Z" icon="0" href="SP_JI_Projectl_propeties">
+          <caption translate="true">projectl.propeties</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="42183218308297" build="ALL" modified="2015-06-27T19:11:27.553Z" icon="0" href="UserInterface">
+        <caption translate="true">Пользовательский интерфейс</caption>
+        <topicref type="topic" id="421828531314719" build="ALL" modified="2015-06-27T19:46:35.918Z" icon="0" href="TypeComponovok">
+          <caption translate="true">Типы компоновок</caption>
+        </topicref>
+        <topicref type="topic" id="421848262036398" build="ALL" modified="2015-06-30T00:14:54.840Z" icon="0" href="Portret_and_landshaft">
+          <caption translate="true">Портретный и ландшафтный дизайн</caption>
+        </topicref>
+        <topicref type="topic" id="422397295159455" build="ALL" modified="2015-08-23T12:59:26.849Z" icon="0" href="Second_Activity">
+          <caption translate="true">Вторая активность</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420018824326442" build="ALL" modified="2014-12-28T19:40:53.653Z" icon="1" href="BuildingBlocks">
+        <caption translate="true">Компоненты Андроид</caption>
+        <topicref type="topic" id="420016444413721" build="ALL" modified="2014-12-28T19:26:58.428Z" icon="0" href="Activity">
+          <caption translate="true">Деятельность</caption>
+        </topicref>
+        <topicref type="topic" id="420017321386123" build="ALL" modified="2014-12-28T19:46:08.533Z" icon="0" href="Service">
+          <caption translate="true">Службы</caption>
+        </topicref>
+        <topicref type="topic" id="420018955501340" build="ALL" modified="2014-12-28T19:49:59.277Z" icon="0" href="BroadcastReceiver">
+          <caption translate="true">Приемник широковещательных намерений</caption>
+        </topicref>
+        <topicref type="topic" id="42312383674468" build="ALL" modified="2015-11-04T12:19:47.629Z" icon="0" href="Exchange_date_between_application">
+          <caption translate="true">Обмен данными между приложениями</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="420015827370482" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Arhitech_android">
+        <caption translate="true">Архитектура андроид</caption>
+      </topicref>
+      <topicref type="topic" id="420016097930374" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Live_Circle">
+        <caption translate="true">Жизненный цикл</caption>
+      </topicref>
+      <topicref type="topic" id="420019627152614" build="ALL" modified="2014-12-28T18:33:52.879Z" icon="11" href="Security_and_protectability">
+        <caption translate="true">Безопасность и зищищенность</caption>
+      </topicref>
+      <topicref type="topic" id="420041218052810" build="ALL" modified="2014-12-30T23:16:04.957Z" icon="0" href="OpenGL_ES">
+        <caption translate="true">OpenGL_ES</caption>
+        <topicref type="topic" id="420079010073963" build="ALL" modified="2015-01-03T21:02:49.420Z" icon="0" href="glFuncions_and_methods">
+          <caption translate="true">Функции и методы</caption>
+          <topicref type="topic" id="420078630542424" build="ALL" modified="2015-01-03T21:21:01.701Z" icon="0" href="GlClearColor">
+            <caption translate="true">glClearColor</caption>
+          </topicref>
+          <topicref type="topic" id="420078652494908" build="ALL" modified="2015-01-03T21:20:49.077Z" icon="0" href="GlClear">
+            <caption translate="true">glClear</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="423055452637487" build="ALL" modified="2015-10-28T17:09:35.364Z" icon="0" href="SQLite">
+        <caption translate="true">SQLite</caption>
+        <topicref type="topic" id="423143251548124" build="ALL" modified="2015-11-06T10:04:59.527Z" icon="0" href="Sqlite_DataTypes">
+          <caption translate="true">Типы данных SQLite и Java</caption>
+          <topicref type="topic" id="42315182662642" build="ALL" modified="2015-11-06T10:05:40.366Z" icon="0" href="sqlite_datetime">
+            <caption translate="true">Работа с датой и временем</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="423088498449425" build="ALL" modified="2015-10-31T22:03:47.556Z" icon="0" href="Sql_Keys">
+          <caption translate="true">Ключи</caption>
+          <topicref type="topic" id="423105467382939" build="ALL" modified="2015-11-02T17:02:11.326Z" icon="0" href="SQL_keys_Exemple">
+            <caption translate="true">Пример создания</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="423059047070544" build="ALL" modified="2015-10-28T17:11:28.791Z" icon="0" href="Referential_integrity">
+          <caption translate="true">Ссылочная целостность</caption>
+        </topicref>
+        <topicref type="topic" id="423058461971577" build="ALL" modified="2015-10-28T17:47:51.568Z" icon="0" href="UTF_8_and_another">
+          <caption translate="true">UTF-8 и другие</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="427075618287415" build="ALL" modified="2016-12-03T08:33:13.741Z" icon="0" href="windowSoftInputMode">
+        <caption translate="true">Экранная клавиатура</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424754179561934" build="ALL" modified="2015-01-11T23:11:34.714Z" icon="0" href="IntelliJ_IDEA">
+      <caption translate="true">IntelliJ_IDEA</caption>
+      <topicref type="topic" id="420160947140063" build="ALL" modified="2016-03-26T20:55:40.874Z" icon="0" href="____">
+        <caption translate="true">Добавить вешний модуль с кодом</caption>
+      </topicref>
+      <topicref type="topic" id="420261142912341" build="ALL" modified="2015-01-21T22:52:57.089Z" icon="0" href="Create_jar">
+        <caption translate="true">Создание jar</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="424753881681367" build="ALL" modified="2015-01-09T19:40:04.066Z" icon="0" href="Eclipse">
+      <caption translate="true">Eclpse</caption>
+      <topicref type="topic" id="420136649719817" build="ALL" modified="2015-01-09T19:40:59.637Z" icon="0" href="IncludeExternCode">
+        <caption translate="true">Подключить внешний код</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="425462705933258" build="ALL" modified="2016-06-25T08:32:51.974Z" icon="0" href="Scala">
+      <caption translate="true">Scala</caption>
+      <topicref type="topic" id="42544524799770" build="ALL" modified="2016-06-25T08:34:29.809Z" icon="0" href="scala_key_word">
+        <caption translate="true">Ключевые слова</caption>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

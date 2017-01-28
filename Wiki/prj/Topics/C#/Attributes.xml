@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Атрибуты</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Атрибуты</text></para>
+    </header>
+    <para styleclass="Normal" style="line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">позволяют описать метажанные</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#ff0000;" translate="true">НАДО РАЗБИРАТЬСЯ ЧТО ЭТО ЗА ХЕРЬ</text></para>
+  </body>
+</topic>

@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Операторы</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">Операторы</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; vertical-align:baseline; color:#000000;" translate="true">Ниже приведена таблица приоритетов всех (ну или почти всех) операторов</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; vertical-align:baseline; color:#000000;" translate="true">чем ниже цифра тем ниже приоритет</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#008000;" translate="true">//---------------------------------------------------------------</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#000000;" translate="true">Унарным орератором называют оператор имеющий один операнд</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#000000;" translate="true">пример -х</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#000000;" translate="true">Бинарный оператор имеет 2 операнда</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#000000;" translate="true">пример х-у</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#000000;" translate="true">Тернарный оператор имеет 3 параметра</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; margin-left:101px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Consolas; vertical-align:baseline; color:#008000;" translate="true">//---------------------------------------------------------------</text></para>
+    <para styleclass="Normal"><line style="height:1px; color:#999999;" /></para>
+    <para style="margin-top:10px; margin-left:80px;"><table rowcount="61" colcount="4" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:18px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:6pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Приоритет</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; height:18px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:8pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Оператор</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px; height:18px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Описание</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:18px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Направление</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="7" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_86" styleclass="Normal" style="font-family:&apos;Arial Black&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">::</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Разрешение видимости</text></para>
+        </td>
+        <td rowspan="7" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_67" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">[ ]</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Квадратные скобки для массивов</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_25" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">( )</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Круглые скобки - высший приоритет, явное преобразование типов, итд</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_32" styleclass="Normal" style="font-family:&apos;Arial Black&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">.</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Обращение к члену объекта через ссылку</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_32" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">-&gt;</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Обращение к члену объекта через указатель</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Arial Black&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">.*</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Обращение к члену объекта через ссылку по указателю на член</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">-&gt;*</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Обращение к члену объекта через указатель по указателю на член</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; height:5px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">====</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">===============================================</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">============</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">15</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">++</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Постфиксный инкремент &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">x = 10; &#160;y = x++; // у = 10 &#160;х = 11</text></para>
+        </td>
+        <td rowspan="2" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">--</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Постфиксный декремент</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; height:5px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">====</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">===============================================</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">============</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="15" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">14</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">++</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Префиксный инкремент &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">x = 10; &#160;y = ++x; // у = 11 &#160;х = 11</text></para>
+        </td>
+        <td rowspan="15" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">--</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Префиксный декремент</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_30" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">sizeof</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Получение размера; &#160; </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">тип size_t sizeof(r)дл переменн; sizeof(int) дл типа;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">C-cast</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Приведение типа через C-cast</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">~</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарная инверсия &#160; &#160;(</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">была 1 стал 0, был 0 стала 1. Побитово.)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">!</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Логическое «не»</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">-</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Унарный минус &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">умножает операнд на -1 ( x = 3 ;то -x = -3)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">+</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Унарный плюс &#160; &#160; &#160;возвращает тот же самый объект</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_29" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&amp;</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Получение адреса &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">m = &amp;c; в m адрес операнда c (m – является указателем)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_73" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">*</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Разыменование </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">q = *m; в q знач объекта на который указывает указатель m</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_69" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">new</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Создание динамического объекта</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">new[ ]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Создание динамического массива объектов</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_69" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">delete</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Удаление динамического объекта</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">delete[ ]</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Удаление динамического массива объектов</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">implicit cast</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Неявное приведение типа</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; height:5px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">====</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">===============================================</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">============</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="3" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">13</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">*</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Умножение</text></para>
+        </td>
+        <td rowspan="3" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">/</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Деление</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">%</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Остаток от деления </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">возвращает остаток от целочисленного деления</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px; height:5px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">====</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">===============================================</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px; height:5px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">============</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">12</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">+</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сложение</text></para>
+        </td>
+        <td rowspan="15" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_24" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">-</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Вычитание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">11</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt;</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сдвиг вправо </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">(00011000 &gt;&gt; 2 = 00000110) Знак числа сохраняется</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt; </link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сдвиг влево </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">(00011000 &gt;&gt; 2 = 01100000) Знак числа сохраняется</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="4" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">10</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&lt;</link><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Меньше</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&lt;=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Меньше или равно</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&gt; </link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Больше</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&gt;=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Больше или равно</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="2" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">9</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">==</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Равно</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">!=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Не равно</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">8</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&amp;</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «и» &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">(результат 1 только тогда, когда оба операнда 1) Побитово.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">7</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">^</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «или исключающее» </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">(Рез 1, когда один из операндов 1 а другой 0)</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">6</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_27" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">|</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «или» </text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">(результат 1 тогда, когда один или оба операнда 1 Побитово</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&amp;&amp;</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Логическое «и»</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">4</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_26" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">||</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Логическое «или»</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">3</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">?</text><text styleclass="Normal" style="font-family:&apos;Arial Black&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">:</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Условие &#160; &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">int y = 2&gt;5 ? 34 : 56; В результате у = 56 т.к. 2 не больше 5</text></para>
+        </td>
+        <td rowspan="13" style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Справа налево</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td rowspan="12" style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">2</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_23" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Присваивание</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_23" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">*=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Умножение с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_23" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">/=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Деление с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">%</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Деление по модулю с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_23" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">+=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сложение с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_23" styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">-=</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Вычитание с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&gt;&gt;=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сдвиг вправо с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&lt;&lt;=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Сдвиг влево с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&amp;</text><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «и» с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">^=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «исключающее или» с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">|=</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Бинарное «или» с присваиванием</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-size:11pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">throw</text></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Генерация исключения</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:36px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">1</text></para>
+        </td>
+        <td style="vertical-align:middle; width:66px;">
+          <para style="text-align:center;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_31" styleclass="Normal" style="font-family:&apos;Arial Black&apos;; font-size:11pt; font-weight:bold; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">,</link></para>
+        </td>
+        <td style="vertical-align:middle; width:520px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Запятая &#160;</text><text styleclass="Normal" style="font-family:Consolas; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">x = (y = 3, z = 2, y + z);//снач у=3, потом z=2, а потом х=5</text></para>
+        </td>
+        <td style="vertical-align:middle; width:141px;">
+          <para><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">Слева направо</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-bottom:13px; margin-left:79px; line-height:1.36;"><text styleclass="Normal" style="font-family:&apos;Times New Roman&apos;; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+    <para styleclass="Normal"><line style="height:2px; color:#000000;" /></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

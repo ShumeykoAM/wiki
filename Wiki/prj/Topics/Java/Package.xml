@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Пакеты и модификаторы доступа</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Пакеты и модификаторы доступа</text></para>
+    </header>
+    <para style="text-indent:38px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Правильный выбор имени корневого пакета очень важен для избегания конфликта имен. Лучше всего для имени корневого пакета подходит личный домен разработчика, например: домен разработчика выглядит следующим образом ISuperDeveloper.ru, тогда имя корневого пакета будет выглядеть как ru.isuperdeveloper.name_project . Имена пакетов пишутся исключительно маленькими буквами (мои эксперименты показали что кириллица тоже поддерживается, как раз для тех у кого домен тоже на кириллице, но лучше не рисковать и использовать латиницу).</text></para>
+    <para style="text-indent:38px; margin-top:13px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Программа на java устроена следующим образом. Организована структура пакетов – это подобие иерархии папок. Один пакет может содержать другие пакеты и java исходники.</text></para>
+    <para style="text-indent:38px; margin-top:13px; line-height:1.47;"><image src="package.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para style="text-indent:38px; margin-top:13px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Java исходник может состоять из одного public класса с таким же названием как и java файл и других вспомогательных классов. Этот public класс можно использовать вне текущего пакета при помощи ключевого слова import или указания полного имени класса.</text></para>
+    <para style="text-indent:38px; margin-top:13px; line-height:1.47;"><text styleclass="Normal" style="font-family:Consolas; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Внутри public класса так же могут быть public классы, которые можно использовать вне пакета, но для этого он должен быть static или через инстанцирование основного public класса.</text></para>
+    <para style="text-indent:38px; margin-top:13px; margin-bottom:13px;"><text style="font-family:Arial; font-size:11pt; color:#000000;" translate="true"> </text></para>
+  </body>
+</topic>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">UTF-8 и другие</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">UTF-8 и другие</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Что бы узнать кодировку заданную в бд нужно сделать запрос </text><text styleclass="Normal" style="color:#ff0000;" translate="true">PRAGMA encoding;</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Как показал эксперимент по умолчанию кодировка </text><text styleclass="Normal" style="color:#ff0000;" translate="true">UTF-8</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">При создании базы нужно сделать запрос</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#ff0000;" translate="true">PRAGMA encoding = &quot;UTF-8&quot;;</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Затем все создаваемые таблицы будут с указанной кодировкой.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Заменить кодировку для уже созданной базы </text><text styleclass="Normal" style="color:#ff0000;" translate="true">НЕЛЬЗЯ</text><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="color:#800080;" translate="true">ВСЁ ВЫШЕНАПИСАННОЕ НАДО ПРОВЕРИТЬ, ЕЩЕ НЕ ПРОБОВАЛ, ПРИ СОЗДАНИИ БД В АНДРОИД Я ТАК ПОДОЗРЕВАЮ НАДО ВЫЗВАТЬ ЗАПРОС УКАЗЫВАЮЩИЙ КОДИРОВКУ ПЕРЕД СОЗДАНИЕМ ПЕРВОЙ ТАБЛИЦЫ</text><text styleclass="Normal" style="color:#00ffff;" translate="true">.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Потоки и исключения</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Потоки и исключения</text></para>
+    </header>
+    <para styleclass="Normal" style="margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Все исключения должны обрабатываться внутри потока, исключения не могут пробразываться из потока в поток.</text></para>
+  </body>
+</topic>

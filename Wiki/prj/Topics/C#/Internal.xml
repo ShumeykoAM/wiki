@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Сборки internal</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Сборки internal</text></para>
+    </header>
+    <para style="line-height:1.47;"><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">internal</text></para>
+    <para style="margin-top:13px; line-height:1.47;"><text styleclass="Normal" style="font-family:Calibri; font-size:14pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Классы, члены классов, структуры, члены структур, интерфейсы, перечисления помеченные как, internal не видны вне сборок.</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+  </body>
+</topic>

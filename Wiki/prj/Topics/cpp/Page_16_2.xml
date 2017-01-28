@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">#IFDEF условная компиляция_2</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">#IFDEF условная компиляция</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:9pt; font-weight:bold; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">CROC</text><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">, одно из применений - кроссплатформенный компилинг. представь, что у тебя код отличается 5 десятками строк под два разных контроллера. как будешь делать? вести параллельно две копии практически одинакового кода? будет головная боль с синхронизацией... А так: делаешь, например:</text></para>
+    <para style="margin-left:79px;"><table rowcount="2" colcount="1" style="width:894px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-size:9pt; font-weight:bold; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">код C++</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para style="margin-left:1px;"><table rowcount="1" colcount="2" style="width:856px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:14px; background-color:#e1eed1;">
+                <para style="text-align:right;"><table rowcount="1" colcount="1" style="width:14px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">1:</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+              <td style="width:829px; background-color:#f6f6f6;">
+                <para><table rowcount="1" colcount="1" style="width:829px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><anchor id="codeCellcpp_lmMjBm" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#define </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">MK1560</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">и потом в коде делаешь вилку не на if, которые будут компилироваться и влиять на итоговый размер, а #ifndef:</text></para>
+    <para style="margin-left:79px;"><table rowcount="2" colcount="1" style="width:894px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-size:9pt; font-weight:bold; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">код C++</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para style="margin-left:1px;"><table rowcount="1" colcount="2" style="width:856px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:14px; background-color:#e1eed1;">
+                <para style="text-align:right;"><table rowcount="6" colcount="1" style="width:14px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">1:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><anchor id="codeCellcpp_2NGE1N" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">2:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">3:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">4:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">5:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">6:</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+              <td style="width:829px; background-color:#f6f6f6;">
+                <para><table rowcount="6" colcount="1" style="width:829px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#ifdef </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">MK1560</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">int </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">i;</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#endif</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#ifdef </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">MK1565</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">char </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">i;</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#endif</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">В конечном итоге для компилирования под некую МК1565 надо будет только сменить строку &quot;#define MK1560&quot; на &quot;#define MK1565&quot; и приложение будет скомилировано уже под МК1565. И при любом режиме компилироваться будет только то, что необходимо. В исполняемом коде - ни одного линего байта.</text></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">Однако, при таком подходе надо следить, чтоб не было противоречивых объявлений: в приведенном примере</text></para>
+    <para style="margin-left:79px;"><table rowcount="2" colcount="1" style="width:894px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-size:9pt; font-weight:bold; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">код C++</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para style="margin-left:1px;"><table rowcount="1" colcount="2" style="width:856px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:14px; background-color:#e1eed1;">
+                <para style="text-align:right;"><table rowcount="3" colcount="1" style="width:14px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">1:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><anchor id="codeCellcpp_WJhZjc" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">2:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">3:</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+              <td style="width:829px; background-color:#f6f6f6;">
+                <para><table rowcount="3" colcount="1" style="width:829px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#define </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">MK1560</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">...</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#define </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">MK1565</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">могут сделать программу полностью неработоспособной.</text></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">Второй вариант использования: для дебагинга. Сделать так, что некоторые строки будут компилироваться, только если определение есть. Убрал определение - код дебага не компилируется даже. Удобно.</text></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">Третий вариант, который видел, но сам не использовал - предотвращение #include&apos;инга модуля несколько раз: сделать так в самом модуле &quot;#define my_module_1&quot;, а так в программе:</text></para>
+    <para style="margin-left:79px;"><table rowcount="2" colcount="1" style="width:894px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:30%;">
+          <para><text styleclass="Normal" style="font-family:Verdana; font-size:9pt; font-weight:bold; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">код C++</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para style="margin-left:1px;"><table rowcount="1" colcount="2" style="width:856px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:1px; border-color:#a0a0a0; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+            <tr style="vertical-align:top">
+              <td style="width:14px; background-color:#e1eed1;">
+                <para style="text-align:right;"><table rowcount="3" colcount="1" style="width:14px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">1:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><anchor id="codeCellcpp_MmUwYj" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">2:</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:14px; height:16px;">
+                      <para style="text-align:right;"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">3:</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+              <td style="width:829px; background-color:#f6f6f6;">
+                <para><table rowcount="3" colcount="1" style="width:829px; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#ifdef </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">my_module_1</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#include </text><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#000000; background-color:#ffffff;" translate="true">&lt;mymod&gt;</text></para>
+                    </td>
+                  </tr>
+                  <tr style="vertical-align:top">
+                    <td style="vertical-align:middle; width:829px; height:16px;">
+                      <para><text styleclass="Normal" style="font-family:&apos;Courier New&apos;; font-size:9pt; vertical-align:baseline; color:#0000ff; background-color:#ffffff;" translate="true">#endif</text></para>
+                    </td>
+                  </tr>
+                </table></para>
+              </td>
+            </tr>
+          </table></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.73; page-break-after:auto; tabstops:none;"><text style="font-family:Verdana; font-size:9pt; color:#000000; background-color:#ffffff;" translate="true">И модуль будет вкомпилен только разово. Правда, об этом слышал на лекции по BС++ 3.0, наверняка современные компиляторы предотвращают такую ситуацию... </text></para>
+    <para styleclass="Normal"><line style="height:1px; color:#999999;" /></para>
+    <para styleclass="Normal" style="margin-top:10px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

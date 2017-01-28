@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Безопасность и зищищенность</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Безопасность и зищищенность</text></para>
+    </header>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Приложение работают в своем процессе. Из одного процесса нельзя обратиться к памяти другого процесса.</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Так же нельзя использовать файлы созданные другим приложением.</text></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Кроме того доступ к критическим операциям ограничен и доступ к ним нужно запрашивать в файле AndroidManifest.</text></para>
+  </body>
+</topic>

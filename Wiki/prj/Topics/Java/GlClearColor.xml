@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">glClearColor</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">glClearColor</text></para>
+    </header>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">void glClearColor( red, green, blue, alpha );</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">//Устанавливает цвет очистки экрана (он будет применен при очистке экрана)</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">//OpenGL запомнит его пока мы его снова не изменим</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Code Example"></para>
+  </body>
+</topic>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">malloc() и free()</title>
+  <body>
+    <header>
+      <para style="margin-bottom:2px; margin-left:4px;"><anchor id="hdr" styleclass="Heading1"></anchor><text style="font-family:Verdana; font-size:10pt; font-weight:bold; color:#000000;" translate="true">malloc() и free()</text></para>
+    </header>
+    <para><table rowcount="1" colcount="1" style="width:100%; cell-padding:1px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:0px; border-style:none; background-color:#99ccff; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle;">
+          <para><anchor id="hdr" style="font-family:Arial; font-size:10pt; color:#000000;"></anchor><text style="font-family:Verdana; font-size:8pt; font-style:italic; color:#000000;" translate="true">C++ Бъерн Страуструп</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"></para>
+    <para styleclass="Normal" style="margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_70" styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">malloc() и free()</link><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> ссылка</text></para>
+    <para styleclass="Normal" style="margin-top:6px; margin-left:79px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Ссылка в интернете </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://lord-n.narod.ru/download/books/walla/programming/Spr_po_C/17/malloc.htm" styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">malloc</link><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">() ___ </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://lord-n.narod.ru/download/books/walla/programming/Spr_po_C/17/free.htm" styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">free</link><text styleclass="Normal" style="font-family:Verdana; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">()</text></para>
+    <para><line style="height:1px; color:#999999;" /></para>
+    <para styleclass="Normal" style="margin-top:10px; margin-bottom:6px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true"> Copyright ©2011 </text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#0000ff;" translate="true">C++</text><text styleclass="Normal" style="font-family:Verdana; font-size:8pt; font-style:italic; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">. All Rights Reserved.</text></para>
+  </body>
+</topic>

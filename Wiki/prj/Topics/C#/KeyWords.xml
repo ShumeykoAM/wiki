@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="helpproject.xsd">
+  <title translate="true">Ключевые слова</title>
+  <body>
+    <header>
+      <para styleclass="Heading1" style="margin-top:32px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Heading1" style="font-family:Cambria; text-decoration:none; vertical-align:baseline; color:#365f91;" translate="true">Ключевые слова</text></para>
+    </header>
+    <para style="margin-top:13px;"><text styleclass="Normal" style="font-family:Calibri; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#4f81bd;" translate="true">Таблица 1 Зарезервированные ключевые слова</text></para>
+    <para style="margin-left:1px;"><table rowcount="16" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">abstract</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">as</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">base</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">bool</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">break</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">byte</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">case</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">catch</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">char</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">checked</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Page_17" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">class</link></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">const</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">continue</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">decimal</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">default</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">delegate</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">do</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">double</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">else</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">enum</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">event</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">explicit</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">extern</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">false</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">finally</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">fixed</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">float</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">for</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Foreach" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">foreach</link></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">goto</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">if</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">implicit</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">in</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">int</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">interface</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">internal</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">is</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">lock</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">long</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">namespace</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="New" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">new</link></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">null</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">object</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">operator</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Out" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">out</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">override</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">params</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">private</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">protected</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">public</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">readonly</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Refparmtransfer" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">ref</link></para>
+        </td>
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Methods" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">return</link></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">sbyte</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><link displaytype="text" defaultstyle="true" type="topiclink" href="Inheritance_ban" styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">sealed</link><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">short</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">sizeof</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">stackalloc</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">static</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">string</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">struct</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">switch</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">this</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">throw</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">true</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">try</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">typeof</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">uint</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">ulong</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">unchecked</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">unsafe</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">ushort</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">using</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">virtual</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">volatile</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">void</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">while</text></para>
+        </td>
+        <td style="width:128px;">
+        </td>
+        <td style="width:128px;">
+        </td>
+        <td style="width:128px;">
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-top:13px;"><text styleclass="Normal" style="font-family:Calibri; font-weight:bold; text-decoration:none; vertical-align:baseline; color:#4f81bd;" translate="true">Таблица 2 Контекстные ключевые слова</text></para>
+    <para style="margin-left:1px;"><table rowcount="4" colcount="5" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#a0a0a0; border-style:raised-color; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">add</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">dynamic</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">from</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">get</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">global</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">group</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">into</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">join</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">let</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">orderby</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">partial</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">remove</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">select</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">set</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">value</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">var</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">where</text></para>
+        </td>
+        <td style="width:128px;">
+          <para><text styleclass="Normal" style="font-family:Consolas; font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">yield</text></para>
+        </td>
+        <td style="width:128px;">
+        </td>
+        <td style="width:128px;">
+        </td>
+      </tr>
+    </table></para>
+    <para style="margin-top:13px; line-height:1.20;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Примечание</text></para>
+    <para style="margin-top:13px; line-height:1.20;"><text styleclass="Normal" style="font-family:Calibri; font-size:12pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">Ключевые слова можно использовать только как ключевые слова,когда как контекстно зависимые слова являются ключевыми только в определенном контексте, контекстно зависимые слова можно использовать в своих целях, но этого лучше не делать.</text></para>
+    <para styleclass="Normal" style="margin-top:14px; margin-bottom:14px; line-height:1.0; page-break-after:auto; tabstops:none;"><text styleclass="Normal" style="font-size:11pt; text-decoration:none; vertical-align:baseline; color:#000000;" translate="true">&#32;</text></para>
+  </body>
+</topic>

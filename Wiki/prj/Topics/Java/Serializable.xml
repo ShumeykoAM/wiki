@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../helpproject.xsd">
+  <title translate="true">Сериализация объектов</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Сериализация объектов</text></para>
+    </header>
+    <para styleclass="Normal"></para>
+    <para><text styleclass="Normal" style="font-family:Consolas; font-size:16pt; vertical-align:baseline; color:#0000ff;" translate="true">transient</text><text styleclass="Normal" translate="true"> нужно помечать поля класса которые не нужно или которые не могут быть сериализованы, других случаев использования вроде нет.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Kot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Типы компоновок</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Типы компоновок</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Ниже перечислены основные типы компоновок</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">AbsoluteLayout (не рекомендуется использовать) - в ней все дочерние элементы привязаны жестко по координатам.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">FrameLayout - предназначен для отображения одного элемента, который распологается в левом вернем углу.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160;Можно напихать конечно много элементов но все они расположатся в левом верхнем углу, последний прорисовываемый будет верхним.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">LinearLayout - располагает все элементы друг за другом в одном направлении, вертикально или горизонтально,</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160; в зависимости от атрибута android:orientation= &#160; &quot;horizontal&quot; или &quot;vertical&quot;.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">GridLayout</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">RelativeLayout - (относительная компоновка) позволяет дочерним объектам определять свою позицию относительно родительского объекта или относительно соседних дочерних элементов по идентификатору элемента.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">TableLayout - позиционирует свои дочерние элементы в строки и столбцы. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160;TableLayout не отображает линии обрамления для их строк, столбцов или ячеек. Кроме того, &#160;TableLayout может иметь строки с разным количеством ячеек.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160;При формировании компоновки таблицы некоторые ячейки при необходимости можно оставлять пустыми.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true"> &#160;При создании компоновки для строк используются объекты TableRow.</text></para>
+  </body>
+</topic>
