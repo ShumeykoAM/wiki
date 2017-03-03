@@ -1617,8 +1617,11 @@
         <topicref type="topic" id="42002097875160" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Restriction_exception">
           <caption translate="true">Ограничения при наследовании</caption>
         </topicref>
-        <topicref type="topic" id="427969321926417" build="ALL" modified="2017-03-02T22:08:48.164Z" icon="0" href="Release_resources">
+        <topicref type="topic" id="427969321926417" build="ALL" modified="2017-03-03T18:29:14.408Z" icon="11" href="Release_resources">
           <caption translate="true">Освобождение ресурсов</caption>
+        </topicref>
+        <topicref type="topic" id="427975570032101" build="ALL" modified="2017-03-03T18:29:28.401Z" icon="11" href="Multi_catch">
+          <caption translate="true">Перехват списка исключений</caption>
         </topicref>
       </topicref>
       <topicref type="topic" id="42000278504369" build="ALL" modified="2017-01-22T10:58:35.602Z" icon="1" href="Type_info">
