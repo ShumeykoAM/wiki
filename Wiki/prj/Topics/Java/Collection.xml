@@ -6,10 +6,14 @@
     <header>
       <para styleclass="Heading1"><text styleclass="Heading1" translate="true">- Коллекции объектов</text></para>
     </header>
-    <para style="margin-left:35px; line-height:1.13;"><text styleclass="Normal" style="font-family:Calibri; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Все контейнеры могут хранить только ссылочные типы.</text></para>
-    <para style="margin-left:35px; line-height:1.13;"></para>
-    <para style="margin-left:35px; line-height:1.13;"><text styleclass="Normal" style="font-family:Calibri; font-size:11pt; vertical-align:baseline; color:#000000;" translate="true">Ниже представлена диаграмма классов контейнеров:</text></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Все контейнеры могут хранить только ссылочные типы.</text></para>
+    <para styleclass="A_normal"></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Ниже представлена диаграмма классов контейнеров:</text></para>
     <para style="margin-left:35px; line-height:1.13;"></para>
     <para style="margin-left:35px; line-height:1.13;"><image src="collections.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Есть возможность получить синхронизированную коллекцию с помощью статических методов synchronizedMap и synchronizedList класса Collections.</text></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true"> &#160;Map m = Collections.synchronizedMap(new HashMap());</text></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true"> &#160;List l = Collections.synchronizedList(new ArrayList());</text></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Коллекции HashTable, Vector, Satck уже синхронизированы, вместо них рекомендуется использовать HashMap, ArrayList и ArrayDeque соответственно.</text></para>
   </body>
 </topic>
