@@ -15,5 +15,6 @@
     <para styleclass="A_normal"><text styleclass="A_normal" translate="true"> &#160;Map m = Collections.synchronizedMap(new HashMap());</text></para>
     <para styleclass="A_normal"><text styleclass="A_normal" translate="true"> &#160;List l = Collections.synchronizedList(new ArrayList());</text></para>
     <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Коллекции HashTable, Vector, Satck уже синхронизированы, вместо них рекомендуется использовать HashMap, ArrayList и ArrayDeque соответственно.</text></para>
+    <para styleclass="A_normal"><text styleclass="A_normal" translate="true">Есть и другие коллекции.</text></para>
   </body>
 </topic>

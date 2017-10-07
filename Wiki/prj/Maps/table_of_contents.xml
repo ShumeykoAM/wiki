@@ -1568,12 +1568,9 @@
           <topicref type="topic" id="42000568065917" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="11" href="Width_lim_par_params">
             <caption translate="true">Расширение ограничений при наследовании</caption>
           </topicref>
-          <topicref type="topic" id="42001121567655" build="ALL" modified="2014-12-28T18:33:52.877Z" icon="1" href="Metasymbols_parametize">
-            <caption translate="true">Метасимволы &lt;? extends Type&gt;</caption>
-            <topicref type="topic" id="42002000831850" build="ALL" modified="2016-03-26T20:54:26.234Z" icon="11" href="__super_T">
-              <caption translate="true">&lt;? super T&gt;</caption>
-            </topicref>
-          </topicref>
+        </topicref>
+        <topicref type="topic" id="42001121567655" build="ALL" modified="2017-10-07T19:27:17.424Z" icon="11" href="Metasymbols_parametize">
+          <caption translate="true">&lt;? super T&gt; и &lt;? extends T&gt;</caption>
         </topicref>
       </topicref>
       <topicref type="topic" id="427574209393830" build="ALL" modified="2017-01-22T10:48:04.078Z" icon="0" href="enum">
