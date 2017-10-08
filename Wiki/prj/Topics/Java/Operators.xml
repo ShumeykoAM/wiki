@@ -8,7 +8,7 @@
     </header>
     <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:56px; tabstops:none;"><text styleclass="Font Style" style="font-family:&apos;Times New Roman&apos;; font-size:14pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">Операторы Java можно применять только к примитивным типам и их объектным аналогам, а так же к String</text></para>
     <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:56px; tabstops:none;"></para>
-    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:35px; tabstops:none;"><table rowcount="35" colcount="6" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+    <para styleclass="Normal" style="text-indent:0px; margin-right:0px; margin-left:35px; tabstops:none;"><table rowcount="37" colcount="6" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#000000; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
       <tr style="vertical-align:top">
         <td style="vertical-align:middle; width:29px; background-color:#d9d9d9;">
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">п-т</text></para>
@@ -117,10 +117,10 @@
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
         </td>
         <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
-          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">++var или var++</text></para>
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">++var</text></para>
         </td>
         <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
-          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">инкремент (префиксный или постфиксный)</text></para>
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">префиксный инкремент</text></para>
         </td>
       </tr>
       <tr style="vertical-align:top">
@@ -131,10 +131,10 @@
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
         </td>
         <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
-          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">--var или var--</text></para>
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">--var</text></para>
         </td>
         <td style="vertical-align:middle; width:392px; background-color:#ffa3ff;">
-          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">декремент (префиксный или постфиксный)</text></para>
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">префиксный декремент</text></para>
         </td>
       </tr>
       <tr style="vertical-align:top">
@@ -508,7 +508,7 @@
         <td style="vertical-align:middle; width:392px;">
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">если, то, иначе</text></para>
         </td>
-        <td rowspan="3" style="vertical-align:middle; width:99px; background-color:#e2f2e7;">
+        <td rowspan="5" style="vertical-align:middle; background-color:#e2f2e7;">
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">справа налево</text></para>
         </td>
       </tr>
@@ -547,8 +547,39 @@
         </td>
       </tr>
       <tr style="vertical-align:top">
-        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+        <td rowspan="2" style="vertical-align:middle; background-color:#e2f2e7;">
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">16</text></para>
+        </td>
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">++</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var++</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ff80ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">постфиксный инкремент</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:26px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">--</text></para>
+        </td>
+        <td style="vertical-align:middle; width:147px;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">number</text></para>
+        </td>
+        <td style="vertical-align:middle; width:156px; background-color:#e2f2e7;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">var--</text></para>
+        </td>
+        <td style="vertical-align:middle; width:392px; background-color:#ff80ff;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">постфиксный декремент</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="vertical-align:middle; width:29px; background-color:#f4e9e8;">
+          <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">17</text></para>
         </td>
         <td style="vertical-align:middle; width:26px;">
           <para styleclass="Normal"><text styleclass="Font Style" style="font-family:Consolas; font-size:10pt; font-weight:normal; font-style:normal; text-decoration:none; text-transform:none; vertical-align:baseline; color:#000000; background-color:transparent; letter-spacing:normal; letter-scaling:100%;" translate="true">,</text></para>
