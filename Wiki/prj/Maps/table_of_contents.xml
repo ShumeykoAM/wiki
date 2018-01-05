@@ -1708,6 +1708,15 @@
       <topicref type="topic" id="424759585719874" build="ALL" modified="2016-04-15T21:27:56.525Z" icon="2" href="Serializable">
         <caption translate="true">Сериализация объектов</caption>
       </topicref>
+      <topicref type="topic" id="431057977375071" build="ALL" modified="2018-01-05T21:08:38.666Z" icon="0" href="Java_Lyambda">
+        <caption translate="true">Лямбда выражения</caption>
+        <topicref type="topic" id="43105120897393" build="ALL" modified="2018-01-05T21:20:48.811Z" icon="0" href="assignmentJavaLambda">
+          <caption translate="true">Присваивание лямбда выражения</caption>
+        </topicref>
+        <topicref type="topic" id="431056999201848" build="ALL" modified="2018-01-05T22:27:32.085Z" icon="0" href="captureVariablesJavaLambda">
+          <caption translate="true">Захват переменных из объемлящей области</caption>
+        </topicref>
+      </topicref>
     </topicref>
     <topicref type="topic" id="424756320869791" build="ALL" modified="2014-12-28T19:39:40.337Z" icon="1" href="Android">
       <caption translate="true">Андроид</caption>
