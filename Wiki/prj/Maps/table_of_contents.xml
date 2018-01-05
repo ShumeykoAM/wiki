@@ -1716,6 +1716,9 @@
         <topicref type="topic" id="431056999201848" build="ALL" modified="2018-01-05T22:27:32.085Z" icon="0" href="captureVariablesJavaLambda">
           <caption translate="true">Захват переменных из объемлящей области</caption>
         </topicref>
+        <topicref type="topic" id="431057488469373" build="ALL" modified="2018-01-05T23:01:00.773Z" icon="0" href="FunctionalInterfaceJava">
+          <caption translate="true">@FunctionalInterface</caption>
+        </topicref>
       </topicref>
     </topicref>
     <topicref type="topic" id="424756320869791" build="ALL" modified="2014-12-28T19:39:40.337Z" icon="1" href="Android">
