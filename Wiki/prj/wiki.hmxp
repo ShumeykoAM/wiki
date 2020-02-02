@@ -16,6 +16,19 @@
           </export-task>
         </export-tasks>
       </export-task-group>
+      <export-task-group name="Recent Publishes">
+        <export-tasks>
+          <export-task name="Publish as CHM" format="CHM">
+            <task-config-group name="settings">
+              <task-config-value name="outputfile">..\wiki.chm</task-config-value>
+              <task-config-value name="skin">C:\Program Files (x86)\EC Software\HelpAndManual6\Templates\HTML Skins\Integrated IFrames with Header - Blue.hmskin</task-config-value>
+              <task-config-value name="deletetemp">1</task-config-value>
+              <task-config-value name="make0include">CHM</task-config-value>
+              <task-config-value name="make0status">*</task-config-value>
+            </task-config-group>
+          </export-task>
+        </export-tasks>
+      </export-task-group>
     </export-task-groups>
     <helpwindows>
       <helpwindow name="Main" left="-1" top="-1" width="-1" height="-1">
